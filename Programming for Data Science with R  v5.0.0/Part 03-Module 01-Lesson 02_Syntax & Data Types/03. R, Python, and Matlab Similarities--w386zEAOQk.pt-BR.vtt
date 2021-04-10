@@ -1,0 +1,62 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.322 --> 00:00:04.009
+Existem três linguagens populares
+de análise de dados interativos:
+
+00:00:04.042 --> 00:00:05.817
+R, Matlab e Python.
+
+00:00:05.850 --> 00:00:09.424
+A decisão de qual linguagem
+utilizar deve ser tomada
+
+00:00:09.457 --> 00:00:11.640
+a partir da tarefa
+realizada.
+
+00:00:11.673 --> 00:00:15.600
+As três linguagens rodam
+em um shell interativo
+
+00:00:15.633 --> 00:00:18.304
+ou em uma interface gráfica
+de usuário.
+
+00:00:18.337 --> 00:00:21.592
+Elas enfatizam o armazenamento
+e a manipulação de dados
+
+00:00:21.625 --> 00:00:24.945
+como arrays multidimensionais,
+o que é muito útil
+
+00:00:24.978 --> 00:00:26.800
+para análise de dados.
+
+00:00:26.833 --> 00:00:30.055
+As três disponibilizam
+muitos pacotes
+
+00:00:30.088 --> 00:00:33.607
+que estendem a funcionalidade
+original da linguagem.
+
+00:00:33.640 --> 00:00:39.593
+As três linguagens são tipicamente
+mais lentas do que C, C++ e Fortran,
+
+00:00:39.626 --> 00:00:43.879
+embora existam técnicas
+para acelerar as coisas.
+
+00:00:43.912 --> 00:00:46.791
+As três linguagens
+podem fazer interface
+
+00:00:46.824 --> 00:00:51.448
+com o código C++ nativo
+a fim de acelerar gargalos.
+

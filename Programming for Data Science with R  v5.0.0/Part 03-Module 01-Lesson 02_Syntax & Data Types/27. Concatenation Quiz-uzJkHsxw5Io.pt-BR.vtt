@@ -1,0 +1,16 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.033 --> 00:00:04.167
+Temos a função "rbind" aplicada
+a dois vetores.
+
+00:00:04.467 --> 00:00:09.334
+A "rbind" concatena
+os dois vetores como fileiras.
+
+00:00:09.367 --> 00:00:11.968
+A letra R quer dizer "row"
+ou "rowbind".
+

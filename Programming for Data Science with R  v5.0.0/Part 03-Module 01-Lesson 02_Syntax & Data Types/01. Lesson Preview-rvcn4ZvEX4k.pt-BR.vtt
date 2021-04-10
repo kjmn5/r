@@ -1,0 +1,101 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.033 --> 00:00:02.868
+A linguagem de programação R
+é uma ferramenta útil
+
+00:00:02.901 --> 00:00:04.734
+para cientistas de dados.
+
+00:00:04.767 --> 00:00:07.367
+Grande parte da produção
+de códigos é escrita
+
+00:00:07.400 --> 00:00:10.400
+em linguagens
+como C++ e Java,
+
+00:00:10.434 --> 00:00:12.534
+que você já deve conhecer.
+
+00:00:12.567 --> 00:00:15.267
+Usar essas linguagens
+para a análise de dados
+
+00:00:15.300 --> 00:00:19.501
+e visualização
+não é muito eficaz.
+
+00:00:19.534 --> 00:00:22.100
+O R é mais adequado
+para esses casos,
+
+00:00:22.133 --> 00:00:24.501
+pois é mais rápido
+para desenvolver códigos
+
+00:00:24.534 --> 00:00:26.200
+e testá-los.
+
+00:00:26.434 --> 00:00:29.701
+Mas, em muitos casos,
+engenheiros e cientistas
+
+00:00:29.734 --> 00:00:33.467
+precisam combinar a linguagem R
+com uma linguagem de produção,
+
+00:00:33.501 --> 00:00:36.000
+como a C++ e a Java.
+
+00:00:36.300 --> 00:00:39.133
+Vamos começar
+como uma descrição do R,
+
+00:00:39.167 --> 00:00:42.367
+como está relacionado
+a outras linguagens
+
+00:00:42.400 --> 00:00:45.067
+e descrever
+sua sintaxe básica.
+
+00:00:45.534 --> 00:00:50.334
+Depois vamos aprender
+características da linguagem.
+
+00:00:50.367 --> 00:00:52.400
+No fim você vai ser capaz
+
+00:00:52.434 --> 00:00:55.801
+de escrever programas R
+razoavelmente eficazes.
+
+00:00:56.567 --> 00:01:00.167
+Também vamos falar
+das questões de escalabilidade
+
+00:01:00.200 --> 00:01:03.334
+relacionadas ao R
+e como lidar com elas.
+
+00:01:04.467 --> 00:01:07.868
+A aula é dividida
+em quatro seções.
+
+00:01:08.334 --> 00:01:10.767
+Conhecendo o R,
+
+00:01:10.801 --> 00:01:12.834
+tipos de dados no R,
+
+00:01:12.868 --> 00:01:15.767
+fluxo de controle
+e funções no R
+
+00:01:15.801 --> 00:01:17.901
+e escalabilidade e interfaces
+no R.
+

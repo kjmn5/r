@@ -1,0 +1,77 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.670 --> 00:00:03.170
+In the first row,
+
+00:00:03.170 --> 00:00:09.030
+we try to create a vector that
+has multiple repeated values.
+
+00:00:09.030 --> 00:00:12.999
+In this case we want to have
+the value 3.2 repeated ten times.
+
+00:00:14.070 --> 00:00:17.600
+The first argument being
+the value we want to repeat and
+
+00:00:17.600 --> 00:00:20.680
+the second argument being how
+many times we want to repeat it.
+
+00:00:20.680 --> 00:00:24.200
+In this case we assign it
+to the argument times so
+
+00:00:24.200 --> 00:00:26.330
+the function knows how to interpret it.
+
+00:00:26.330 --> 00:00:31.196
+We see here that the outcome
+is a vector of ten values 3.2.
+
+00:00:31.196 --> 00:00:36.740
+In the second row, we try to create
+a vector that spans numbers between
+
+00:00:36.740 --> 00:00:43.090
+zero and one, with increments of
+0.1 in between consecutive numbers.
+
+00:00:43.090 --> 00:00:49.560
+The outcome is a vector of value 0.0,
+0.1, 0.2, and so on until 1.0.
+
+00:00:49.560 --> 00:00:54.407
+The third line achieves the same
+goal as the second line, but
+
+00:00:54.407 --> 00:00:59.637
+instead of calling the function
+seq with an increment argument,
+
+00:00:59.637 --> 00:01:04.200
+we call the function with
+an argument specifying how many
+
+00:01:04.200 --> 00:01:07.266
+values we want the vector to contain.
+
+00:01:07.266 --> 00:01:12.076
+In this case we basically say we
+want 11 values between zero and
+
+00:01:12.076 --> 00:01:16.860
+one that are equally spaced and
+we get the same vector.
+
+00:01:16.860 --> 00:01:23.860
+Creating such sequences of values that
+span to extreme values is very important
+
+00:01:23.860 --> 00:01:28.950
+in order to create grids that can be
+used to graph data and functions.
+

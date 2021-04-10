@@ -1,0 +1,66 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.210 --> 00:00:03.850
+In this quiz,
+we will work with this array right here,
+
+00:00:03.850 --> 00:00:08.570
+the array we created in the previous
+quiz of values of 1 to 20,
+
+00:00:08.570 --> 00:00:11.900
+sorted in an array of sizes 4 by 5.
+
+00:00:11.900 --> 00:00:16.690
+If we want to access a specific
+element in the array, we can do
+
+00:00:16.690 --> 00:00:22.240
+that using square brackets, just
+like we access elements of a vector.
+
+00:00:22.240 --> 00:00:24.980
+But because we have,
+in this case, two dimensions,
+
+00:00:24.980 --> 00:00:27.897
+we need to separate the two
+indices with a comma.
+
+00:00:29.050 --> 00:00:31.930
+The first index correspond
+to the row index.
+
+00:00:31.930 --> 00:00:33.730
+And the second one is the column index.
+
+00:00:34.970 --> 00:00:38.850
+If we leave either the row or
+the column index out,
+
+00:00:38.850 --> 00:00:44.745
+that corresponds to taking all
+possible values within that dimension.
+
+00:00:44.745 --> 00:00:51.815
+So in this case,
+if we write x [2,] we left
+
+00:00:51.815 --> 00:00:56.950
+the column dimension unspecified and
+the row dimension being 2.
+
+00:00:56.950 --> 00:01:00.000
+As a result,
+we'll get the entire second row.
+
+00:01:01.120 --> 00:01:07.110
+In the quiz, please look at
+the commands listed here and here and
+
+00:01:07.110 --> 00:01:11.730
+fill in the tables with the values that
+result from running these commands.
+

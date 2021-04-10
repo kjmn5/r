@@ -1,0 +1,94 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:01.377 --> 00:00:03.009
+Na primeira fileira,
+
+00:00:03.043 --> 00:00:08.791
+tentamos criar um vetor
+com múltiplos valores repetidos.
+
+00:00:08.825 --> 00:00:13.586
+Neste caso, queremos que o valor 3.2
+seja repetido dez vezes,
+
+00:00:13.935 --> 00:00:17.525
+sendo o primeiro argumento
+o valor que queremos repetir
+
+00:00:17.559 --> 00:00:20.726
+e o segundo argumento, quantas vezes
+queremos que se repita.
+
+00:00:20.760 --> 00:00:23.804
+Neste caso, vamos designá-lo
+ao argumento "times",
+
+00:00:23.838 --> 00:00:26.208
+para que a função saiba
+como interpretá-lo.
+
+00:00:26.242 --> 00:00:31.219
+Vemos aqui que o resultado
+é um vetor de dez valores 3.2.
+
+00:00:31.551 --> 00:00:34.668
+Na segunda fileira,
+tentamos criar um vetor
+
+00:00:34.702 --> 00:00:38.195
+que abrange números
+entre zero e um,
+
+00:00:38.229 --> 00:00:42.489
+com incremento de 0.1
+entre os números consecutivos.
+
+00:00:42.928 --> 00:00:47.676
+O resultado é um vetor de valores
+0.0, 0.1, 0.2, e por aí vai,
+
+00:00:47.710 --> 00:00:49.493
+até chegar a 1.0.
+
+00:00:49.995 --> 00:00:54.524
+A terceira fileira alcança
+o mesmo objetivo que a segunda,
+
+00:00:54.558 --> 00:00:58.936
+mas em vez de chamar
+a função "seq"
+
+00:00:58.970 --> 00:01:00.781
+com um argumento
+incremental,
+
+00:01:00.815 --> 00:01:05.730
+chamamos a função com um argumento
+especificando quantos valores
+
+00:01:05.764 --> 00:01:07.706
+queremos
+que o vetor contenha.
+
+00:01:07.740 --> 00:01:12.978
+Neste caso, basicamente dizemos
+que queremos 11 valores entre 0 e 1
+
+00:01:13.012 --> 00:01:16.533
+que sejam espaçados igualmente.
+Então, obtemos o mesmo vetor.
+
+00:01:16.567 --> 00:01:22.557
+Criar sequências de valores
+que abranjam valores extremos
+
+00:01:22.591 --> 00:01:25.581
+é muito importante
+para criar grades
+
+00:01:25.615 --> 00:01:29.256
+que possam ser usadas para fazer
+gráficos de dados e funções.
+

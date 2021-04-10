@@ -1,0 +1,18 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.120 --> 00:00:03.520
+In this quiz, we will manipulate arrays.
+
+00:00:03.520 --> 00:00:06.643
+Given the following array
+in the top right corner,
+
+00:00:06.643 --> 00:00:09.843
+determine the outcomes of
+the following commands.
+
+00:00:09.843 --> 00:00:15.490
+2 * y + 1, y % * % y.
+

@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.350 --> 00:00:04.930
+The R programming language is
+a useful tool for data scientists.
+
+00:00:04.930 --> 00:00:09.740
+Most production code in industry is
+written in languages such as C++ and
+
+00:00:09.740 --> 00:00:11.740
+Java that you may already know.
+
+00:00:12.825 --> 00:00:14.325
+Using these languages for
+
+00:00:14.325 --> 00:00:18.835
+data analysis and visualization
+is usually not very effective.
+
+00:00:19.835 --> 00:00:24.535
+R is much better suited in these cases
+as it is fast to develop code in it and
+
+00:00:24.535 --> 00:00:25.569
+experiment with it.
+
+00:00:26.650 --> 00:00:31.970
+But in many cases, engineers and
+scientists need a combination of R and
+
+00:00:31.970 --> 00:00:35.060
+a fast production language like C++ and
+Java.
+
+00:00:35.060 --> 00:00:39.310
+We will start with a brief
+description of R and
+
+00:00:39.310 --> 00:00:44.570
+how it is related to other languages,
+and then describe its basic syntax.
+
+00:00:45.860 --> 00:00:50.510
+As the lesson progresses, we will learn
+additional features of the language
+
+00:00:50.510 --> 00:00:55.100
+until at the end you will be able to
+write reasonably effective R programs.
+
+00:00:56.840 --> 00:01:01.990
+We will also spend some time going over
+scalability issues related to R and
+
+00:01:01.990 --> 00:01:04.009
+how to handle them.
+
+00:01:04.009 --> 00:01:07.409
+The lesson is divided
+into four sections.
+
+00:01:08.650 --> 00:01:11.000
+Getting started with R.
+
+00:01:11.000 --> 00:01:13.010
+Data types in R.
+
+00:01:13.010 --> 00:01:14.950
+Control flow and functions in R.
+
+00:01:15.980 --> 00:01:18.180
+And scalability and interfaces in R.
+

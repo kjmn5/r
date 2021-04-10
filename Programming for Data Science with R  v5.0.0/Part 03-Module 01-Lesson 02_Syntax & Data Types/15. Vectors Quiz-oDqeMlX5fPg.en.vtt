@@ -1,0 +1,56 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.720 --> 00:00:06.290
+In the first row, we have the c
+function which stands for concatenate.
+
+00:00:06.290 --> 00:00:11.904
+What it does, it takes its argument,
+in this case 4,3,3,4,3,1 and
+
+00:00:11.904 --> 00:00:17.880
+creates a vector of values 4,3,3,4,3,1
+and assign it to the variable x.
+
+00:00:18.940 --> 00:00:22.194
+In the second row,
+we wish to get the length of a vector or
+
+00:00:22.194 --> 00:00:24.780
+an array using the length function.
+
+00:00:24.780 --> 00:00:29.330
+Since the vector has six values,
+the outcome of the command would be six.
+
+00:00:30.540 --> 00:00:35.104
+The third row shows an example
+where we create the vector of
+
+00:00:35.104 --> 00:00:37.726
+logical variables of length 4.
+
+00:00:37.726 --> 00:00:42.553
+We see here that the vector is
+assigned false default value
+
+00:00:42.553 --> 00:00:45.517
+to all the logical variables in it.
+
+00:00:45.517 --> 00:00:49.460
+And that is because false is
+the default value of the logical type.
+
+00:00:49.460 --> 00:00:53.460
+In the last example,
+we create a numeric vector of length 3.
+
+00:00:53.460 --> 00:00:54.612
+The outcome is 0,
+
+00:00:54.612 --> 00:00:58.935
+0, 0 again, because the default
+value of the numeric type is 0.
+

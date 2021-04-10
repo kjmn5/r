@@ -1,0 +1,66 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.070 --> 00:00:05.290
+In this case, we have the array,
+x, with a row index, -1,
+
+00:00:05.290 --> 00:00:08.990
+and an unspecified column index.
+
+00:00:10.200 --> 00:00:15.350
+The negative row index actually
+corresponds to take all rows except for
+
+00:00:15.350 --> 00:00:16.730
+the specified row.
+
+00:00:16.730 --> 00:00:22.040
+So -1 will correspond to all
+rows except for the first row.
+
+00:00:22.040 --> 00:00:26.710
+Since we left the column unspecified,
+this corresponds to all the columns.
+
+00:00:26.710 --> 00:00:31.700
+The result being, we'll get a new array
+which corresponds to the old array,
+
+00:00:31.700 --> 00:00:36.660
+specifically, the second, the third,
+and the fourth rows of the old array.
+
+00:00:36.660 --> 00:00:40.890
+In this case,
+we refer to the array, x, but
+
+00:00:40.890 --> 00:00:46.140
+instead of referring to the array, x,
+with one pair or row column indices,
+
+00:00:46.140 --> 00:00:50.910
+we refer to the array, x, with a vector
+of rows and a vector of columns,
+
+00:00:50.910 --> 00:00:55.810
+specifically vector (1,2) of rows and
+(1,2) of columns.
+
+00:00:55.810 --> 00:01:00.620
+Remember the function c concatenates
+the values inside of it and
+
+00:01:00.620 --> 00:01:03.700
+returns a vector with
+the corresponding values.
+
+00:01:03.700 --> 00:01:09.000
+In this case, we'll create a new array,
+y, that is extracted from the old array,
+
+00:01:09.000 --> 00:01:12.570
+x, specifically the first two rows and
+the first two columns.
+

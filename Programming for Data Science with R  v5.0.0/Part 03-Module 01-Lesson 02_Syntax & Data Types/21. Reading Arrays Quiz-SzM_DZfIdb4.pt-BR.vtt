@@ -1,0 +1,85 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.033 --> 00:00:03.675
+Neste teste, trabalharemos
+com esta matriz aqui.
+
+00:00:03.709 --> 00:00:08.190
+É a matriz que criamos no teste
+anterior, de valores de 1 a 20,
+
+00:00:08.224 --> 00:00:11.884
+ordenado numa matriz
+de tamanho 4 por 5.
+
+00:00:11.918 --> 00:00:16.057
+Se quisermos acessar
+um elemento específico na matriz,
+
+00:00:16.091 --> 00:00:18.635
+podemos fazer isso
+usando colchetes,
+
+00:00:18.669 --> 00:00:21.780
+igual a como fazemos para acessar
+elementos de um vetor.
+
+00:00:22.105 --> 00:00:24.811
+Como neste caso
+temos duas dimensões,
+
+00:00:24.845 --> 00:00:28.269
+precisamos separar
+os dois índices com uma vírgula.
+
+00:00:28.819 --> 00:00:31.770
+O primeiro índice corresponde
+ao índice da fileira
+
+00:00:31.804 --> 00:00:34.189
+e o segundo,
+ao índice da coluna.
+
+00:00:34.692 --> 00:00:38.657
+Se deixarmos de fora
+o índice da fileira ou da coluna,
+
+00:00:38.691 --> 00:00:42.706
+isso corresponderá a pegar
+todos os valores possíveis
+
+00:00:42.740 --> 00:00:44.589
+dentro daquela dimensão.
+
+00:00:44.623 --> 00:00:46.219
+Nesse caso,
+
+00:00:46.253 --> 00:00:50.969
+se escrevermos X[2,],
+
+00:00:51.003 --> 00:00:54.794
+deixamos a coluna de dimensão
+sem especificação
+
+00:00:54.828 --> 00:00:57.070
+e a dimensão da fileira
+sendo 2.
+
+00:00:57.104 --> 00:01:00.578
+Como resultado disso,
+obteremos a segunda fileira inteira.
+
+00:01:00.920 --> 00:01:06.659
+No teste, veja os comandos
+listados aqui e aqui
+
+00:01:06.693 --> 00:01:10.073
+e complete as tabelas
+com os valores dos resultados
+
+00:01:10.107 --> 00:01:12.079
+obtidos ao rodar
+esses comandos.
+

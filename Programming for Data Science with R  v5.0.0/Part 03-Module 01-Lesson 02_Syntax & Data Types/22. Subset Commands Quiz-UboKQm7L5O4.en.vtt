@@ -1,0 +1,94 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.290 --> 00:00:04.280
+In the first row, we need to start
+by remembering from the previous
+
+00:00:04.280 --> 00:00:07.970
+quiz what happened when we typed
+w less than or equal to 0.5.
+
+00:00:07.970 --> 00:00:14.000
+When we type that, we get a vector
+of logical values, true or false
+
+00:00:14.000 --> 00:00:19.250
+with the first six values being true and
+the last five values being false.
+
+00:00:19.250 --> 00:00:24.270
+We pass that vector of logical
+values inside square brackets.
+
+00:00:24.270 --> 00:00:29.570
+And the vector w, what happens
+is that we get the indices of w
+
+00:00:29.570 --> 00:00:34.530
+corresponding to locations where
+we have logical values true.
+
+00:00:34.530 --> 00:00:40.360
+since the vector w less than or equal
+to 0.5 have the first six values true,
+
+00:00:40.360 --> 00:00:45.950
+the first six indices will be
+retrieved and will get the vector 0.0,
+
+00:00:45.950 --> 00:00:50.086
+0.1, 0.2, 0.3, 0.4, 0.5.
+
+00:00:50.086 --> 00:00:53.570
+In the second row,
+
+00:00:53.570 --> 00:00:58.960
+we get the first outcome as the first
+row using slightly different syntax.
+
+00:00:58.960 --> 00:01:03.160
+We use the command subset and
+we pass the vector w
+
+00:01:03.160 --> 00:01:07.740
+holding the value 00.1.2
+all the way to 1.
+
+00:01:07.740 --> 00:01:12.560
+And then we pass another vector of
+logical values containing true or false.
+
+00:01:12.560 --> 00:01:16.210
+The function extracts
+the elements of w corresponding
+
+00:01:16.210 --> 00:01:20.490
+to the positions where the second
+logical vector has true values.
+
+00:01:20.490 --> 00:01:26.770
+In the third row we assign the value
+0 to a subset of the vector w.
+
+00:01:26.770 --> 00:01:31.400
+The subset of the vector w is defined
+by the condition w less than or
+
+00:01:31.400 --> 00:01:37.120
+equal to 0.5, which corresponds to
+the first six values being true.
+
+00:01:37.120 --> 00:01:42.300
+Therefore, the extracted first six
+values will be assigned the value 0,
+
+00:01:42.300 --> 00:01:45.200
+and the value of the vector
+after this command
+
+00:01:45.200 --> 00:01:50.160
+will be the same as the original vector
+w with the first six values zeroed out.
+

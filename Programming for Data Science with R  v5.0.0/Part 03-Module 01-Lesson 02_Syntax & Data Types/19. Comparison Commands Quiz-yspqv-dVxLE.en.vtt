@@ -1,0 +1,84 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.640 --> 00:00:05.708
+In the first case, we have w  00:00:10,781
+What happens,
+is that r compares the logical
+
+00:00:10.781 --> 00:00:15.510
+test whether the value is  00:00:18,370
+To each one of the values in the vector.
+
+00:00:18.370 --> 00:00:23.270
+Now remember the vector is 0,
+0.1, 0.2, 0.3, all the way to 1.
+
+00:00:23.270 --> 00:00:27.620
+And when you run this logical test on
+each value of the function, you get at
+
+00:00:27.620 --> 00:00:33.260
+the beginning values are all true, where
+the vector elements are smaller than or
+
+00:00:33.260 --> 00:00:38.710
+equal to 0.5 and later on they become
+false as the values get larger.
+
+00:00:39.810 --> 00:00:44.950
+The second row, takes the result of the
+first row which is a vector of true and
+
+00:00:44.950 --> 00:00:48.190
+false values and calls the function any.
+
+00:00:49.270 --> 00:00:53.570
+The function any returns true, if any of
+
+00:00:53.570 --> 00:00:59.290
+the logical values in the vector
+is true, returns true as well.
+
+00:00:59.290 --> 00:01:04.337
+In this case, some of the elements
+of the value w  00:01:10,020
+in this line are true, therefore the
+function any will return true as well.
+
+00:01:11.450 --> 00:01:14.780
+In the third row,
+we check whether all the values and
+
+00:01:14.780 --> 00:01:17.550
+the logical vector are false.
+
+00:01:17.550 --> 00:01:23.050
+Since the vector w less than or equal to
+zero point five is partially true and
+
+00:01:23.050 --> 00:01:27.370
+partially false, the outcome
+of this command will be false.
+
+00:01:27.370 --> 00:01:31.090
+The last row, extracts the indices
+
+00:01:31.090 --> 00:01:34.160
+of the logical vector in which
+the logical value is true.
+
+00:01:35.220 --> 00:01:41.890
+Remember again, the value of
+the vector w  00:01:46,850
+The first six values are true and
+the last five values are false.
+
+00:01:46.850 --> 00:01:51.240
+Therefore, the function which
+will return indices 123456 which
+
+00:01:51.240 --> 00:01:58.950
+are the indices of the vector w 
+

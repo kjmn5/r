@@ -1,0 +1,52 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.530 --> 00:00:04.820
+There are three popular languages for
+interactive data analysis, R, Matlab,
+
+00:00:04.820 --> 00:00:06.150
+and Python.
+
+00:00:06.150 --> 00:00:11.810
+Our decision of which language to use
+should be based on the task we're doing.
+
+00:00:11.810 --> 00:00:15.580
+All three languages run inside
+an interactive shell or
+
+00:00:15.580 --> 00:00:17.120
+a graphical user interface.
+
+00:00:18.430 --> 00:00:22.730
+They all emphasize storing and
+manipulating data as multidimensional
+
+00:00:22.730 --> 00:00:26.900
+arrays, which is very useful for
+data analysis.
+
+00:00:26.900 --> 00:00:31.510
+All three have many packages
+available that extend the original
+
+00:00:31.510 --> 00:00:33.820
+functionality of the language.
+
+00:00:33.820 --> 00:00:38.270
+All three languages are typically
+slower than C, C++, and Fortran,
+
+00:00:38.270 --> 00:00:44.070
+though there are several techniques
+that can help speed up things.
+
+00:00:44.070 --> 00:00:49.660
+All three languages can interface
+with native C++ code for
+
+00:00:49.660 --> 00:00:51.227
+speeding up bottle necks.
+

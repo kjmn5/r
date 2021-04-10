@@ -1,0 +1,15 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:04.810
+We have the function rbind
+applied to two vectors.
+
+00:00:04.810 --> 00:00:09.700
+Rbind concatenate
+the two vectors as rows.
+
+00:00:09.700 --> 00:00:12.090
+R stands for row or rowbind.
+

@@ -1,0 +1,51 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.033 --> 00:00:02.100
+No primeiro comando,
+
+00:00:02.133 --> 00:00:07.400
+temos o operador %*%
+entre dois vetores.
+
+00:00:07.734 --> 00:00:11.267
+Corresponde ao operador
+de produto interno
+
+00:00:11.300 --> 00:00:13.300
+entre dois vetores.
+
+00:00:13.501 --> 00:00:16.567
+O operador de produto interno
+multiplica
+
+00:00:16.601 --> 00:00:19.367
+os elementos correspondentes
+dos dois vetores
+
+00:00:19.400 --> 00:00:20.901
+e soma tudo.
+
+00:00:20.934 --> 00:00:23.667
+O resultado é 565.
+
+00:00:23.934 --> 00:00:26.000
+No caso do segundo comando,
+
+00:00:26.033 --> 00:00:29.300
+temos a função T aplicada
+ao array X.
+
+00:00:29.334 --> 00:00:33.534
+A função T transpõe a matriz
+ou o array.
+
+00:00:33.567 --> 00:00:37.634
+As fileiras se tornam colunas
+e as colunas se tornam fileiras.
+
+00:00:37.667 --> 00:00:42.801
+O array de 4x5
+se torna um array de 5x4.
+

@@ -1,0 +1,60 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.320 --> 00:00:04.450
+In this case,
+we have standard algebraic operators,
+
+00:00:04.450 --> 00:00:08.070
+such as multiplication and
+addition applied to an array.
+
+00:00:08.070 --> 00:00:13.540
+The arithmetic operations are applied to
+each elements of the array separately.
+
+00:00:13.540 --> 00:00:17.620
+And we get a new array,
+as a result, of a similar size.
+
+00:00:17.620 --> 00:00:21.350
+In this case, if we take every
+element of this array, and
+
+00:00:21.350 --> 00:00:26.010
+we multiply it by 2 and add 1,
+we get the resulting array here.
+
+00:00:26.010 --> 00:00:30.560
+Please note that his will also apply
+in the same way for vectors or for
+
+00:00:30.560 --> 00:00:34.960
+higher dimensional arrays, such as
+three-dimensional arrays and so on.
+
+00:00:34.960 --> 00:00:38.670
+In this case, we have a matrix
+multiplication operator.
+
+00:00:38.670 --> 00:00:44.090
+The array y is interpreted as
+a matrix and we have the matrix
+
+00:00:44.090 --> 00:00:48.730
+y multiplied by itself using
+matrix multiplication operation,
+
+00:00:48.730 --> 00:00:50.909
+which is different from
+element y's product.
+
+00:00:51.990 --> 00:00:57.100
+For example, this element right here, of
+the result, is the result of multiplying
+
+00:00:57.100 --> 00:01:03.050
+the first row of y with the first column
+of y, using the inner product operation.
+

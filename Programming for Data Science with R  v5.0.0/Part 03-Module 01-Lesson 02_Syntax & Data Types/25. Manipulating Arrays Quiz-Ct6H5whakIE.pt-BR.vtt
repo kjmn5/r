@@ -1,0 +1,19 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.033 --> 00:00:02.880
+Neste teste,
+vamos manipular matrizes.
+
+00:00:03.333 --> 00:00:06.955
+Dada a seguinte matriz
+no canto superior direito,
+
+00:00:06.989 --> 00:00:09.815
+determine os resultados
+dos seguintes comandos.
+
+00:00:09.849 --> 00:00:15.350
+"2 * y + 1" e "y %*% y".
+

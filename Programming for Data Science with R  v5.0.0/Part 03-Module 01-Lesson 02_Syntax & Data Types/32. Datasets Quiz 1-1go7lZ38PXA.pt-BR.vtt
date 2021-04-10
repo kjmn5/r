@@ -1,0 +1,116 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.087 --> 00:00:02.844
+No primeiro caso,
+precisamos de um comando
+
+00:00:02.878 --> 00:00:05.144
+para listar os nomes
+das dimensões.
+
+00:00:05.178 --> 00:00:10.281
+Como vimos antes, a função "names"
+executa essa tarefa.
+
+00:00:10.752 --> 00:00:14.433
+No segundo caso, queremos exibir
+as primeiras quatro fileiras.
+
+00:00:15.122 --> 00:00:17.689
+Podemos fazer isso
+usando a função "head".
+
+00:00:18.495 --> 00:00:21.275
+Também passamos
+o segundo parâmetro, 4,
+
+00:00:21.309 --> 00:00:24.596
+para especificar quantas fileiras
+queremos exibir.
+
+00:00:24.876 --> 00:00:28.137
+Também podemos usar
+outra função
+
+00:00:28.171 --> 00:00:30.501
+para exibir
+as primeiras quatro fileiras,
+
+00:00:30.535 --> 00:00:32.808
+mas "head" já é o suficiente.
+
+00:00:32.842 --> 00:00:35.822
+No terceiro caso,
+queremos exibir a primeira fileira.
+
+00:00:36.711 --> 00:00:41.080
+A primeira opção é usar
+"head(iris,1)".
+
+00:00:41.114 --> 00:00:45.388
+Aqui há outro exemplo,
+"iris[1]".
+
+00:00:45.814 --> 00:00:47.103
+Se tivermos
+um quadro de dados
+
+00:00:47.137 --> 00:00:51.390
+e usarmos colchetes
+com um número no meio, 1,
+
+00:00:51.756 --> 00:00:54.212
+basicamente acessaremos
+a primeira fileira.
+
+00:00:54.598 --> 00:00:57.108
+No quarto caso,
+queremos o comprimento do sépalo
+
+00:00:57.142 --> 00:00:58.835
+das dez primeiras amostras.
+
+00:00:59.344 --> 00:01:01.839
+Nos referimos à coluna
+do comprimento da sépala
+
+00:01:01.873 --> 00:01:04.903
+usando a notação de nome.
+
+00:01:05.248 --> 00:01:07.016
+Então usamos o operador $
+
+00:01:07.050 --> 00:01:10.057
+seguido pelo nome
+da coluna correspondente.
+
+00:01:10.091 --> 00:01:13.643
+Então, aplicamos o índice
+de um a dez
+
+00:01:13.677 --> 00:01:17.891
+para dizer ao R que retorne apenas
+os 10 primeiros valores.
+
+00:01:18.585 --> 00:01:21.991
+Geralmente precisamos nos referir
+à coluna do comprimento da sépala
+
+00:01:22.025 --> 00:01:25.468
+usando a sintaxe
+"iris$Sepal.Length".
+
+00:01:25.957 --> 00:01:29.063
+Em alguns casos, podemos usar
+uma sintaxe mais curta,
+
+00:01:29.097 --> 00:01:31.928
+como "Sepal.Length",
+sem "iris$".
+
+00:01:32.525 --> 00:01:35.663
+Podemos fazer isso
+usando a função "attach".
+

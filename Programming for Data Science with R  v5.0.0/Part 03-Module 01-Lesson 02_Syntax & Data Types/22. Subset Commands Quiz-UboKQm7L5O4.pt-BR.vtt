@@ -1,0 +1,117 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.101 --> 00:00:04.389
+Na primeira fileira, vamos começar
+relembrando, no teste anterior,
+
+00:00:04.423 --> 00:00:08.732
+o que aconteceu
+quando escrevemos W &lt;= 0.5.
+
+00:00:08.766 --> 00:00:10.029
+Quando fizemos isso,
+
+00:00:10.063 --> 00:00:13.887
+obtivemos um vetor de valores
+lógicos verdadeiros ou falsos,
+
+00:00:13.921 --> 00:00:16.838
+sendo os primeiros seis valores
+verdadeiros
+
+00:00:16.872 --> 00:00:18.960
+e os cinco últimos, falsos.
+
+00:00:19.202 --> 00:00:24.007
+Passamos o vetor de valores lógicos
+dentro de colchetes.
+
+00:00:24.041 --> 00:00:29.609
+Com o vetor W,
+nós obtemos os índices de W
+
+00:00:29.643 --> 00:00:31.438
+correspondentes a pontos
+
+00:00:31.472 --> 00:00:33.806
+em que o valor de verdade
+seja verdadeiro,
+
+00:00:34.244 --> 00:00:37.844
+já que o vetor W &lt;= 0.5
+
+00:00:37.878 --> 00:00:40.223
+tem os primeiros seis valores
+verdadeiros,
+
+00:00:40.257 --> 00:00:43.615
+os seis primeiros índices
+serão recuperados
+
+00:00:43.649 --> 00:00:45.005
+e teremos o vetor
+
+00:00:45.039 --> 00:00:50.335
+0.0, 0.1, 0.2, 0.3, 0.4, 0.5.
+
+00:00:51.438 --> 00:00:56.094
+Na segunda fileira, teremos
+o mesmo resultado que o da primeira,
+
+00:00:56.128 --> 00:00:58.782
+usando uma sintaxe
+um pouco diferente.
+
+00:00:58.816 --> 00:01:02.946
+Usamos o comando "subset"
+e passamos o vetor W,
+
+00:01:02.980 --> 00:01:07.239
+contendo os valores
+0.0, 0.1, 0.2 etc, até chegar a 1.
+
+00:01:07.574 --> 00:01:10.937
+Depois, passamos outro vetor
+de valores lógicos
+
+00:01:10.971 --> 00:01:12.445
+contendo verdadeiro ou falso.
+
+00:01:12.479 --> 00:01:17.383
+A função extrai os elementos de W
+correspondentes aos pontos
+
+00:01:17.417 --> 00:01:21.322
+em que o segundo vetor lógico
+tem valores de verdade.
+
+00:01:21.822 --> 00:01:27.131
+Na terceira fileira, atribuímos
+o valor 0 a um subgrupo do vetor W.
+
+00:01:27.165 --> 00:01:32.768
+O subgrupo do vetor W é definido
+pela condição W &lt;= 0.5,
+
+00:01:33.355 --> 00:01:36.967
+que corresponde aos seis
+primeiros valores sendo verdadeiros.
+
+00:01:37.001 --> 00:01:42.257
+Assim, aos seis primeiros valores
+extraídos será atribuído o valor 0.
+
+00:01:42.291 --> 00:01:45.013
+O valor do vetor
+após este comando
+
+00:01:45.047 --> 00:01:47.484
+será o mesmo
+que o vetor original W
+
+00:01:47.518 --> 00:01:50.287
+com os seis primeiros valores
+zerados.
+

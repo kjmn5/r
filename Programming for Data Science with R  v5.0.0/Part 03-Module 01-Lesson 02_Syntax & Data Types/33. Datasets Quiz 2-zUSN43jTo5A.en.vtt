@@ -1,0 +1,123 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.090 --> 00:00:04.600
+In the first case we want to compute
+the average of the Sepal.Length column
+
+00:00:05.620 --> 00:00:07.750
+across all rows.
+
+00:00:07.750 --> 00:00:10.830
+We can do that using the function mean.
+
+00:00:10.830 --> 00:00:14.650
+Then we apply iris$Sepal.Length.
+
+00:00:14.650 --> 00:00:18.549
+In this case we want to compute
+the means of all numeric columns.
+
+00:00:19.710 --> 00:00:22.870
+You can do that using
+the function colMeans.
+
+00:00:22.870 --> 00:00:25.930
+We pass the data from to that, but
+
+00:00:25.930 --> 00:00:31.340
+only the 4 columns, because the last
+column has a categorical variable.
+
+00:00:31.340 --> 00:00:33.630
+We can not compute it's mean.
+
+00:00:33.630 --> 00:00:38.384
+In this case we want to create
+a subset of sepal.length less than
+
+00:00:38.384 --> 00:00:41.090
+5 within the setosa species.
+
+00:00:41.090 --> 00:00:43.710
+We can do that using
+the subset function.
+
+00:00:43.710 --> 00:00:48.010
+We first pass the data frame name and
+then the logical condition,
+
+00:00:48.010 --> 00:00:53.830
+in this case, Sepal.Length value
+has to be less than five and
+
+00:00:53.830 --> 00:00:57.880
+the Species column have
+to be equal to setosa.
+
+00:00:57.880 --> 00:00:58.530
+In this case,
+
+00:00:58.530 --> 00:01:03.660
+we want to measure the number of rows
+corresponding to the setosa species.
+
+00:01:03.660 --> 00:01:08.790
+One way to do that is use the subset
+function that we saw previously,
+
+00:01:08.790 --> 00:01:13.460
+where we basically extract all
+rows of the Iris data frame
+
+00:01:13.460 --> 00:01:17.480
+whose Species value
+corresponds to setosa, and
+
+00:01:17.480 --> 00:01:22.520
+then we apply the dim function to that,
+dim returns dimensions.
+
+00:01:22.520 --> 00:01:24.770
+But since this is a data frame,
+
+00:01:24.770 --> 00:01:30.070
+the dim function will return a vector
+of two values, the number of rows and
+
+00:01:30.070 --> 00:01:33.230
+the number of columns,
+we just want the number of rows.
+
+00:01:33.230 --> 00:01:37.090
+So we use a square bracket
+here with the value 1.
+
+00:01:37.090 --> 00:01:40.260
+Telling R we just won the first
+value of that vector.
+
+00:01:40.260 --> 00:01:43.330
+In this case we want
+the summary of the data set.
+
+00:01:43.330 --> 00:01:46.830
+We can do that using a very
+convenient summary function that
+
+00:01:46.830 --> 00:01:50.050
+gives a summary of every
+data frame column.
+
+00:01:50.050 --> 00:01:55.280
+If it's numeric we get numbers such
+as the mean, median, quartiles, etc.
+
+00:01:55.280 --> 00:01:56.890
+And if it's categorical,
+
+00:01:56.890 --> 00:02:00.160
+we get a histogram of how many
+times different values appear.
+

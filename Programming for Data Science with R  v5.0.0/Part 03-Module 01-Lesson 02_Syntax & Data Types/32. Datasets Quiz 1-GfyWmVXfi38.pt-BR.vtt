@@ -1,0 +1,71 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.067 --> 00:00:03.367
+Neste quiz vamos usar
+um conjunto de dados famoso
+
+00:00:03.400 --> 00:00:04.934
+chamado Iris.
+
+00:00:04.968 --> 00:00:09.701
+O Iris tem inúmeras medidas
+de flores diferentes.
+
+00:00:09.901 --> 00:00:11.200
+Para cada flor,
+
+00:00:11.234 --> 00:00:14.667
+vamos considerar
+três medidas diferentes.
+
+00:00:14.701 --> 00:00:16.834
+O comprimento da largura
+da sépala,
+
+00:00:16.868 --> 00:00:19.567
+o comprimento da largura
+da pétala
+
+00:00:19.601 --> 00:00:24.000
+e também vamos considerar
+a espécie de flor.
+
+00:00:24.300 --> 00:00:27.000
+Existem três espécies
+específicas,
+
+00:00:27.033 --> 00:00:30.467
+Iris setosa, versicolor
+e virginica.
+
+00:00:30.801 --> 00:00:33.801
+A estrutura de dados
+tem cinco colunas,
+
+00:00:33.834 --> 00:00:36.234
+sendo que quatro
+são numéricas,
+
+00:00:36.267 --> 00:00:39.901
+com as medidas dos comprimentos
+e larguras da flor.
+
+00:00:39.934 --> 00:00:43.200
+A última é um string
+
+00:00:43.567 --> 00:00:45.667
+com o nome das espécies.
+
+00:00:46.501 --> 00:00:49.467
+Encontre mais informações
+sobre o conjunto de dados
+
+00:00:49.501 --> 00:00:51.434
+ao digitar "HelpIris".
+
+00:00:51.467 --> 00:00:55.801
+Escreva o comando R que vai
+realizar a tarefa listada.
+

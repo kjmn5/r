@@ -1,0 +1,80 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.660 --> 00:00:03.710
+Now that we know how the three
+languages are similar,
+
+00:00:03.710 --> 00:00:05.450
+let's look at how they're different.
+
+00:00:06.500 --> 00:00:10.470
+R and Python are open source and
+free, Matlab is not.
+
+00:00:11.480 --> 00:00:16.734
+Contributing packages to R is
+a more standardized process.
+
+00:00:16.734 --> 00:00:21.939
+R is seeing an incredible growth in
+the number of package contributions.
+
+00:00:21.939 --> 00:00:25.190
+In this graph,
+we see on the x-axis, the year.
+
+00:00:25.190 --> 00:00:29.687
+And in the y-axis,
+the number of contributed packages.
+
+00:00:29.687 --> 00:00:34.155
+The y-axis is displayed on the log
+scale and the linear trend here,
+
+00:00:34.155 --> 00:00:39.350
+shows an exponential increase in
+the number of contributed packages.
+
+00:00:39.350 --> 00:00:44.750
+R's standardized process of
+contributing packages has led to
+
+00:00:44.750 --> 00:00:51.290
+a large group of motivated contributors
+who contribute high quality packages.
+
+00:00:52.820 --> 00:00:56.870
+R syntax is more suitable for
+statistics and
+
+00:00:56.870 --> 00:01:00.439
+data, as it was originally designed for
+that purpose.
+
+00:01:01.520 --> 00:01:06.819
+Finally, R has better graphics
+capabilities than both Python and
+
+00:01:06.819 --> 00:01:07.583
+Matlab.
+
+00:01:07.583 --> 00:01:10.935
+R is popular in statistics,
+bio-statistics and
+
+00:01:10.935 --> 00:01:13.099
+social sciences communities.
+
+00:01:13.099 --> 00:01:18.381
+In particular, Matlab is very popular
+in engineering and applied math.
+
+00:01:18.381 --> 00:01:21.238
+Python is popular for data analysis.
+
+00:01:21.238 --> 00:01:26.080
+But in addition, it's also popular for
+web development and scripting.
+

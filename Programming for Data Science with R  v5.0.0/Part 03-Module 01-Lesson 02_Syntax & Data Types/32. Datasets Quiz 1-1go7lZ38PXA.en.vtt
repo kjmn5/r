@@ -1,0 +1,92 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.370 --> 00:00:04.400
+The first case we need to issue
+a command that will list the dimension
+
+00:00:04.400 --> 00:00:05.380
+names.
+
+00:00:05.380 --> 00:00:09.970
+As we saw before, the function
+names accomplishes that task.
+
+00:00:11.080 --> 00:00:14.869
+In the second case we want
+to show the first four rows.
+
+00:00:14.869 --> 00:00:17.963
+We can do that using the function head.
+
+00:00:17.963 --> 00:00:21.151
+And we also pass a second parameter, 4,
+
+00:00:21.151 --> 00:00:24.970
+to specify how many rows
+we want to display.
+
+00:00:24.970 --> 00:00:30.820
+We can also use a different function
+to display the first four rows,
+
+00:00:30.820 --> 00:00:33.290
+but head is a pretty convenient one.
+
+00:00:33.290 --> 00:00:36.939
+In the third case we
+want to show the first row.
+
+00:00:36.939 --> 00:00:41.203
+Well, the first option is
+to just use head(Iris,1).
+
+00:00:41.203 --> 00:00:45.113
+But here is another example Iris[1].
+
+00:00:45.113 --> 00:00:49.189
+If we have a data frame and
+we use square brackets with one
+
+00:00:49.189 --> 00:00:54.820
+number in the middle 1,
+we'll basically access the first row.
+
+00:00:54.820 --> 00:00:58.500
+In the fourth case, we want the sepal
+length of the first 10 samples.
+
+00:00:59.630 --> 00:01:04.730
+We refer to the sepal length
+column using the name notation.
+
+00:01:04.730 --> 00:01:10.290
+So we use the $ operator followed by
+the name of the corresponding column.
+
+00:01:10.290 --> 00:01:14.392
+And then we need to apply
+the index 1:10 to tell
+
+00:01:15.450 --> 00:01:18.910
+R to return only the first 10 values.
+
+00:01:18.910 --> 00:01:23.597
+Normally we need to refer to
+the sepal length column using
+
+00:01:23.597 --> 00:01:26.250
+iris.Sepal.Length syntax.
+
+00:01:26.250 --> 00:01:29.270
+In some cases we may want to
+use a shorter syntax,
+
+00:01:29.270 --> 00:01:32.740
+just Sepal.Length, without the iris$.
+
+00:01:32.740 --> 00:01:35.640
+We can do that by issuing
+the function attach.
+

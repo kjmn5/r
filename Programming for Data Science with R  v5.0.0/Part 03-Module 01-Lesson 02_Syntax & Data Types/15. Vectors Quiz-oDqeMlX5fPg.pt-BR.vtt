@@ -1,0 +1,62 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.458 --> 00:00:06.004
+Na primeira fileira, temos
+a função C, que é de concatenar.
+
+00:00:06.038 --> 00:00:11.279
+Ela pega os argumentos,
+no caso, "4,3,3,4,3,1",
+
+00:00:11.313 --> 00:00:15.867
+e cria um vetor com os valores
+"4,3,3,4,3,1",
+
+00:00:15.901 --> 00:00:18.462
+que designa à variável X.
+
+00:00:18.790 --> 00:00:22.899
+Na segunda fileira, obteremos
+o comprimento de um vetor ou matriz
+
+00:00:22.933 --> 00:00:24.581
+usando a função "length".
+
+00:00:24.615 --> 00:00:29.672
+Já que o vetor tem seis valores,
+o resultado do comando será 6.
+
+00:00:30.338 --> 00:00:33.808
+A terceira fileira mostra
+um exemplo em que criamos
+
+00:00:33.842 --> 00:00:37.709
+um vetor de variáveis lógicas
+de comprimento 4.
+
+00:00:37.743 --> 00:00:42.681
+Vemos aqui que o vetor
+designa o valor padrão "false"
+
+00:00:42.715 --> 00:00:45.670
+para todas as variáveis lógicas
+contidas nele.
+
+00:00:45.704 --> 00:00:49.293
+Isso ocorre porque "false"
+é o valor padrão do tipo lógico.
+
+00:00:49.327 --> 00:00:53.126
+No último exemplo, criamos um vetor
+numérico de comprimento 3.
+
+00:00:53.160 --> 00:00:55.695
+O resultado é "0, 0, 0"
+novamente
+
+00:00:55.729 --> 00:00:59.009
+porque o valor padrão
+do tipo numérico é 0.
+

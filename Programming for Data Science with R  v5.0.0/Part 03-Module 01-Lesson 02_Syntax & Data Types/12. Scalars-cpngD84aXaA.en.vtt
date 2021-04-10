@@ -1,0 +1,63 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.660 --> 00:00:04.750
+Numeric data types are the most
+common scalar type.
+
+00:00:04.750 --> 00:00:07.300
+They correspond to
+floating point values.
+
+00:00:08.600 --> 00:00:09.900
+Here's an example.
+
+00:00:09.900 --> 00:00:12.918
+The variable a is assigned
+the value 3.2, and
+
+00:00:12.918 --> 00:00:16.030
+the variable b is assigned the value 3.
+
+00:00:16.030 --> 00:00:19.170
+Integers are somewhat less common in R.
+
+00:00:19.170 --> 00:00:22.410
+Here's an example of
+defining an integer.
+
+00:00:22.410 --> 00:00:24.352
+We take a numeric variable and
+
+00:00:24.352 --> 00:00:28.170
+we cast it using the as.integer
+function to a variable c.
+
+00:00:29.350 --> 00:00:33.280
+Logical type corresponds to true or
+false.
+
+00:00:33.280 --> 00:00:38.310
+Here's an example where we assign
+the value true to a variable d.
+
+00:00:38.310 --> 00:00:42.200
+In this case, we take the logical
+type in the variable d and
+
+00:00:42.200 --> 00:00:45.380
+we cast it to a numeric variable e.
+
+00:00:45.380 --> 00:00:49.977
+In this case,
+we casted true into the numeric value 1.
+
+00:00:49.977 --> 00:00:52.508
+Here is an example of
+a string data type.
+
+00:00:52.508 --> 00:00:56.510
+We can use either double quotation or
+single quotation in R.
+

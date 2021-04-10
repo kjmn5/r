@@ -1,0 +1,44 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.210 --> 00:00:04.230
+In the first command we have
+the operator percent and
+
+00:00:04.230 --> 00:00:07.950
+duplication percent between two vectors.
+
+00:00:07.950 --> 00:00:13.580
+This operator corresponds to the inner
+product operator between two vectors.
+
+00:00:13.580 --> 00:00:16.120
+The inner product operator
+
+00:00:16.120 --> 00:00:21.030
+multiplies the corresponding elements
+of the two vectors and sums them up.
+
+00:00:21.030 --> 00:00:23.951
+The result is 565.
+
+00:00:23.951 --> 00:00:26.052
+In the case of the second command,
+
+00:00:26.052 --> 00:00:29.310
+we have the function t()
+applied to the array x.
+
+00:00:29.310 --> 00:00:33.880
+The function t() transposes
+the matrix or array so
+
+00:00:33.880 --> 00:00:37.860
+that rows become columns and
+columns become rows.
+
+00:00:37.860 --> 00:00:42.920
+The four by five array is
+now a five by four array.
+

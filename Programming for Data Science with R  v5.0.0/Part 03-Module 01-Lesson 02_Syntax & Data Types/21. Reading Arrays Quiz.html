@@ -1,0 +1,474 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Reading Arrays Quiz</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Syntax &amp; Data Types</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Lesson Preview.html">01. Lesson Preview</a>
+    </li>
+    <li class="">
+      <a href="02. What&#x27;s Ahead.html">02. What&#x27;s Ahead</a>
+    </li>
+    <li class="">
+      <a href="03. R, Python, and Matlab Similarities.html">03. R, Python, and Matlab Similarities</a>
+    </li>
+    <li class="">
+      <a href="04. R, Python, and Matlab Differences.html">04. R, Python, and Matlab Differences</a>
+    </li>
+    <li class="">
+      <a href="05. Notebooks and Workspaces.html">05. Notebooks and Workspaces</a>
+    </li>
+    <li class="">
+      <a href="06. Graffiti Tutorial.html">06. Graffiti Tutorial</a>
+    </li>
+    <li class="">
+      <a href="07. Spaces &amp; Comments [Text].html">07. Spaces &amp; Comments [Text]</a>
+    </li>
+    <li class="">
+      <a href="08. Spaces &amp; Comments [Graffiti].html">08. Spaces &amp; Comments [Graffiti]</a>
+    </li>
+    <li class="">
+      <a href="09. Data Types [Text].html">09. Data Types [Text]</a>
+    </li>
+    <li class="">
+      <a href="10. Data Types [Graffiti].html">10. Data Types [Graffiti]</a>
+    </li>
+    <li class="">
+      <a href="11. Data Types [Quiz].html">11. Data Types [Quiz]</a>
+    </li>
+    <li class="">
+      <a href="12. Scalars [Video].html">12. Scalars [Video]</a>
+    </li>
+    <li class="">
+      <a href="13. Vectors [Text].html">13. Vectors [Text]</a>
+    </li>
+    <li class="">
+      <a href="14. Vectors [Graffiti].html">14. Vectors [Graffiti]</a>
+    </li>
+    <li class="">
+      <a href="15. Vectors [Quiz].html">15. Vectors [Quiz]</a>
+    </li>
+    <li class="">
+      <a href="16. Vectors 2 [Quiz].html">16. Vectors 2 [Quiz]</a>
+    </li>
+    <li class="">
+      <a href="17. Variables and Comparison Operators [Text].html">17. Variables and Comparison Operators [Text]</a>
+    </li>
+    <li class="">
+      <a href="18. Variables &amp; Comparison Operators [Graffiti].html">18. Variables &amp; Comparison Operators [Graffiti]</a>
+    </li>
+    <li class="">
+      <a href="19. Comparison Commands Quiz.html">19. Comparison Commands Quiz</a>
+    </li>
+    <li class="">
+      <a href="20. Subsets &amp; Indexing.html">20. Subsets &amp; Indexing</a>
+    </li>
+    <li class="">
+      <a href="21. Reading Arrays Quiz.html">21. Reading Arrays Quiz</a>
+    </li>
+    <li class="">
+      <a href="22. Subset Commands Quiz.html">22. Subset Commands Quiz</a>
+    </li>
+    <li class="">
+      <a href="23. Matrix Manipulation [Text] .html">23. Matrix Manipulation [Text] </a>
+    </li>
+    <li class="">
+      <a href="24. Matrix Manipulation [Graffiti].html">24. Matrix Manipulation [Graffiti]</a>
+    </li>
+    <li class="">
+      <a href="25. Manipulating Arrays Quiz.html">25. Manipulating Arrays Quiz</a>
+    </li>
+    <li class="">
+      <a href="26. Inner Product and Transpose Quiz.html">26. Inner Product and Transpose Quiz</a>
+    </li>
+    <li class="">
+      <a href="27. Concatenation Quiz.html">27. Concatenation Quiz</a>
+    </li>
+    <li class="">
+      <a href="28. Concatenation Quiz 2.html">28. Concatenation Quiz 2</a>
+    </li>
+    <li class="">
+      <a href="29. Iris Dataset [Text].html">29. Iris Dataset [Text]</a>
+    </li>
+    <li class="">
+      <a href="30. Iris Dataset [Graffiti].html">30. Iris Dataset [Graffiti]</a>
+    </li>
+    <li class="">
+      <a href="31. Dataset Quiz [Text].html">31. Dataset Quiz [Text]</a>
+    </li>
+    <li class="">
+      <a href="32. Datasets Quiz 1.html">32. Datasets Quiz 1</a>
+    </li>
+    <li class="">
+      <a href="33. Datasets Quiz 2.html">33. Datasets Quiz 2</a>
+    </li>
+    <li class="">
+      <a href="34. Recap.html">34. Recap</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">21. Reading Arrays Quiz</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>Reading Arrays Quiz</p></h3>
+  <div>
+  <div>
+    <h4>Question:</h4>
+
+    <video controls>
+  <source src="21. Reading Arrays Quiz-SzM_DZfIdb4.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="21. Reading Arrays Quiz-SzM_DZfIdb4.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="pt-BR" src="21. Reading Arrays Quiz-SzM_DZfIdb4.pt-BR.vtt" label="pt-BR">
+</video>
+
+
+  </div>
+
+  <h4>Start Quiz:</h4>
+  <div>
+  <div style="display: block;">
+    <div style="position: relative;">
+      <img src="img/7822312563.gif" style="width: 100%; max-height: 100%" alt="">
+      
+    <div style="
+    position: absolute; top: 62.22630266075389%; left: 15.139884663341647%; width: 6.857855361596011%; height: 7.095343680709535%;
+  ">
+      
+        <input type="text" style="width: 100%; height: 100%;" name="null" id="text1" aria-label="">
+      
+    </div>
+  
+    <div style="
+    position: absolute; top: 70.58619733924611%; left: 15.00740336658354%; width: 7.231920199501247%; height: 7.095343680709535%;
+  ">
+      
+        <input type="text" style="width: 100%; height: 100%;" name="null" id="text2" aria-label="">
+      
+    </div>
+  
+    <div style="
+    position: absolute; top: 78.95995011086474%; left: 15.00740336658354%; width: 7.107231920199501%; height: 7.095343680709535%;
+  ">
+      
+        <input type="text" style="width: 100%; height: 100%;" name="null" id="text3" aria-label="">
+      
+    </div>
+  
+    <div style="
+    position: absolute; top: 61.990715077605316%; left: 22.804317331670823%; width: 7.231920199501247%; height: 7.317073170731707%;
+  ">
+      
+        <input type="text" style="width: 100%; height: 100%;" name="null" id="text4" aria-label="">
+      
+    </div>
+  
+    <div style="
+    position: absolute; top: 70.64855875831486%; left: 22.971867206982544%; width: 7.107231920199501%; height: 7.095343680709535%;
+  ">
+      
+        <input type="text" style="width: 100%; height: 100%;" name="null" id="text5" aria-label="">
+      
+    </div>
+  
+    <div style="
+    position: absolute; top: 78.80404656319291%; left: 22.804317331670823%; width: 6.982543640897755%; height: 7.317073170731707%;
+  ">
+      
+        <input type="text" style="width: 100%; height: 100%;" name="null" id="text6" aria-label="">
+      
+    </div>
+  
+    <div style="
+    position: absolute; top: 62.28866407982262%; left: 30.747350374064837%; width: 7.107231920199501%; height: 7.095343680709535%;
+  ">
+      
+        <input type="text" style="width: 100%; height: 100%;" name="null" id="text7" aria-label="">
+      
+    </div>
+  
+    <div style="
+    position: absolute; top: 70.55848115299335%; left: 30.743453865336654%; width: 6.982543640897755%; height: 7.095343680709535%;
+  ">
+      
+        <input type="text" style="width: 100%; height: 100%;" name="null" id="text8" aria-label="">
+      
+    </div>
+  
+    <div style="
+    position: absolute; top: 79.25097006651885%; left: 30.83697007481297%; width: 6.982543640897755%; height: 7.095343680709535%;
+  ">
+      
+        <input type="text" style="width: 100%; height: 100%;" name="null" id="text9" aria-label="">
+      
+    </div>
+  
+    <div style="
+    position: absolute; top: 62.34756097560976%; left: 38.50335099750624%; width: 7.4812967581047385%; height: 7.095343680709535%;
+  ">
+      
+        <input type="text" style="width: 100%; height: 100%;" name="null" id="text10" aria-label="">
+      
+    </div>
+  
+    <div style="
+    position: absolute; top: 70.53769401330376%; left: 38.51504052369077%; width: 7.4812967581047385%; height: 7.095343680709535%;
+  ">
+      
+        <input type="text" style="width: 100%; height: 100%;" name="null" id="text11" aria-label="">
+      
+    </div>
+  
+    <div style="
+    position: absolute; top: 78.86987250554324%; left: 38.61245324189526%; width: 7.356608478802992%; height: 7.095343680709535%;
+  ">
+      
+        <input type="text" style="width: 100%; height: 100%;" name="null" id="text12" aria-label="">
+      
+    </div>
+  
+    <div style="
+    position: absolute; top: 62.254018847006655%; left: 46.498986907730675%; width: 7.356608478802992%; height: 7.095343680709535%;
+  ">
+      
+        <input type="text" style="width: 100%; height: 100%;" name="null" id="text13" aria-label="">
+      
+    </div>
+  
+    <div style="
+    position: absolute; top: 70.57926829268293%; left: 46.50093516209476%; width: 7.356608478802992%; height: 7.095343680709535%;
+  ">
+      
+        <input type="text" style="width: 100%; height: 100%;" name="null" id="text14" aria-label="">
+      
+    </div>
+  
+    <div style="
+    position: absolute; top: 78.914911308204%; left: 46.63146820448878%; width: 7.231920199501247%; height: 7.095343680709535%;
+  ">
+      
+        <input type="text" style="width: 100%; height: 100%;" name="null" id="text15" aria-label="">
+      
+    </div>
+  
+    <div style="
+    position: absolute; top: 67.76261086474501%; left: 70.52680798004988%; width: 11.097256857855362%; height: 7.095343680709535%;
+  ">
+      
+        <input type="text" style="width: 100%; height: 100%;" name="null" id="text16" aria-label="">
+      
+    </div>
+  
+    <div style="
+    position: absolute; top: 76.40659645232816%; left: 70.36120635910224%; width: 11.471321695760599%; height: 7.095343680709535%;
+  ">
+      
+        <input type="text" style="width: 100%; height: 100%;" name="null" id="text17" aria-label="">
+      
+    </div>
+  
+    <div style="
+    position: absolute; top: 67.82497228381375%; left: 82.43843516209476%; width: 11.471321695760599%; height: 7.095343680709535%;
+  ">
+      
+        <input type="text" style="width: 100%; height: 100%;" name="null" id="text18" aria-label="">
+      
+    </div>
+  
+    <div style="
+    position: absolute; top: 76.51746119733924%; left: 82.41895261845387%; width: 11.221945137157107%; height: 7.5388026607538805%;
+  ">
+      
+        <input type="text" style="width: 100%; height: 100%;" name="null" id="text19" aria-label="">
+      
+    </div>
+  
+    </div>
+  </div>
+</div>
+
+
+  <div>
+    <details>
+      <summary><strong>Solution:</strong></summary>
+      <div>
+        <video controls>
+  <source src="21. Reading Arrays Quiz-01yeVUaNEDI.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="21. Reading Arrays Quiz-01yeVUaNEDI.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="pt-BR" src="21. Reading Arrays Quiz-01yeVUaNEDI.pt-BR.vtt" label="pt-BR">
+</video>
+
+
+      </div>
+    </details>
+  </div>
+</div>
+
+
+  <div class="jumbotron" style="margin-top: 50px; margin-bottom: 50px;">
+    <h3>INSTRUCTOR NOTE:</h3>
+    <p><em>Correction</em>: Row labels for the array <code>x</code> are shown incorrectly (e.g. it should be <code>[1,]</code> instead of <code>[,1]</code>):</p>
+<p><code>
+     [,1] [,2] [,3] [,4] [,5]
+[1,]    1    5    9   13   17
+[2,]    2    6   10   14   18
+[3,]    3    7   11   15   19
+[4,]    4    8   12   16   20</code></p>
+  </div>
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <blockquote>
+  <p><em>Note</em>: The use of <code>negative indices</code> can be useful for a small set of real-world situations, but it is an advanced topic that doesn't get used all that often for most real-world use cases.  If you didn't get that one, no worries.  It wasn't covered in this course, but now you know for next time! If you would like to see more examples of negative indices to drop some elements, please refer to this <a href="http://www.cookbook-r.com/Basics/Indexing_into_a_data_structure/#negative-indexing" rel="noopener noreferrer" target="_blank">blog post</a>.</p>
+</blockquote>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="22. Subset Commands Quiz.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('21. Reading Arrays Quiz')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

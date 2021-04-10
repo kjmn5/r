@@ -1,0 +1,367 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Variables and Comparison Operators [Text]</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Syntax &amp; Data Types</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Lesson Preview.html">01. Lesson Preview</a>
+    </li>
+    <li class="">
+      <a href="02. What&#x27;s Ahead.html">02. What&#x27;s Ahead</a>
+    </li>
+    <li class="">
+      <a href="03. R, Python, and Matlab Similarities.html">03. R, Python, and Matlab Similarities</a>
+    </li>
+    <li class="">
+      <a href="04. R, Python, and Matlab Differences.html">04. R, Python, and Matlab Differences</a>
+    </li>
+    <li class="">
+      <a href="05. Notebooks and Workspaces.html">05. Notebooks and Workspaces</a>
+    </li>
+    <li class="">
+      <a href="06. Graffiti Tutorial.html">06. Graffiti Tutorial</a>
+    </li>
+    <li class="">
+      <a href="07. Spaces &amp; Comments [Text].html">07. Spaces &amp; Comments [Text]</a>
+    </li>
+    <li class="">
+      <a href="08. Spaces &amp; Comments [Graffiti].html">08. Spaces &amp; Comments [Graffiti]</a>
+    </li>
+    <li class="">
+      <a href="09. Data Types [Text].html">09. Data Types [Text]</a>
+    </li>
+    <li class="">
+      <a href="10. Data Types [Graffiti].html">10. Data Types [Graffiti]</a>
+    </li>
+    <li class="">
+      <a href="11. Data Types [Quiz].html">11. Data Types [Quiz]</a>
+    </li>
+    <li class="">
+      <a href="12. Scalars [Video].html">12. Scalars [Video]</a>
+    </li>
+    <li class="">
+      <a href="13. Vectors [Text].html">13. Vectors [Text]</a>
+    </li>
+    <li class="">
+      <a href="14. Vectors [Graffiti].html">14. Vectors [Graffiti]</a>
+    </li>
+    <li class="">
+      <a href="15. Vectors [Quiz].html">15. Vectors [Quiz]</a>
+    </li>
+    <li class="">
+      <a href="16. Vectors 2 [Quiz].html">16. Vectors 2 [Quiz]</a>
+    </li>
+    <li class="">
+      <a href="17. Variables and Comparison Operators [Text].html">17. Variables and Comparison Operators [Text]</a>
+    </li>
+    <li class="">
+      <a href="18. Variables &amp; Comparison Operators [Graffiti].html">18. Variables &amp; Comparison Operators [Graffiti]</a>
+    </li>
+    <li class="">
+      <a href="19. Comparison Commands Quiz.html">19. Comparison Commands Quiz</a>
+    </li>
+    <li class="">
+      <a href="20. Subsets &amp; Indexing.html">20. Subsets &amp; Indexing</a>
+    </li>
+    <li class="">
+      <a href="21. Reading Arrays Quiz.html">21. Reading Arrays Quiz</a>
+    </li>
+    <li class="">
+      <a href="22. Subset Commands Quiz.html">22. Subset Commands Quiz</a>
+    </li>
+    <li class="">
+      <a href="23. Matrix Manipulation [Text] .html">23. Matrix Manipulation [Text] </a>
+    </li>
+    <li class="">
+      <a href="24. Matrix Manipulation [Graffiti].html">24. Matrix Manipulation [Graffiti]</a>
+    </li>
+    <li class="">
+      <a href="25. Manipulating Arrays Quiz.html">25. Manipulating Arrays Quiz</a>
+    </li>
+    <li class="">
+      <a href="26. Inner Product and Transpose Quiz.html">26. Inner Product and Transpose Quiz</a>
+    </li>
+    <li class="">
+      <a href="27. Concatenation Quiz.html">27. Concatenation Quiz</a>
+    </li>
+    <li class="">
+      <a href="28. Concatenation Quiz 2.html">28. Concatenation Quiz 2</a>
+    </li>
+    <li class="">
+      <a href="29. Iris Dataset [Text].html">29. Iris Dataset [Text]</a>
+    </li>
+    <li class="">
+      <a href="30. Iris Dataset [Graffiti].html">30. Iris Dataset [Graffiti]</a>
+    </li>
+    <li class="">
+      <a href="31. Dataset Quiz [Text].html">31. Dataset Quiz [Text]</a>
+    </li>
+    <li class="">
+      <a href="32. Datasets Quiz 1.html">32. Datasets Quiz 1</a>
+    </li>
+    <li class="">
+      <a href="33. Datasets Quiz 2.html">33. Datasets Quiz 2</a>
+    </li>
+    <li class="">
+      <a href="34. Recap.html">34. Recap</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">17. Variables and Comparison Operators [Text]</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="variables">Variables</h1>
+<p>Variables are created by using an <code>=</code> value.  Variables allow us to store the result into a name and then use this result in other places.</p>
+<p>For example, I can create the variable <code>y</code></p>
+<pre><code class="undefined language-undefined">y = 4</code></pre>
+<p>Or I can create the variable <code>z</code></p>
+<pre><code class="undefined language-undefined">z = 5</code></pre>
+<p>Once these variables are created, I can use them to calculate new values.  For example:</p>
+<pre><code class="undefined language-undefined">[Input]:  y + z
+[Output]: 9
+[Input]:  y - z
+[Output]: -1
+[Input]:  y * z
+[Output]: 20
+[Input]:  y / z
+[Output]: 0.8</code></pre>
+<h1 id="variable-naming">Variable Naming</h1>
+<p>Creating names that are informative can help others read your code.  There is always a balance between creating short variable names (that are fast to type) and use variable names that are easy for a reader of your code to understand.</p>
+<h1 id="comparison-operators">Comparison Operators</h1>
+<p>There are a number of comparison operators in R.  Basically anything you can think of!  Below you can see an example of a number of them in comparing our variables <code>y</code> and <code>z</code>.</p>
+<pre><code class="undefined language-undefined">[Input]:  y = 4 # Create y variable
+[Input]:  z = 5 # Create z variable
+
+[Input]:  y &gt; z
+[Output]: FALSE
+
+[Input]:  y &lt; z
+[Output]: TRUE
+
+[Input]:  y &lt;= z # less than or equal
+[Output]: TRUE
+
+[Input]:  y &gt;= z # greater than or equal
+[Output]: FALSE
+
+[Input]:  y == z # exactly equal to one another
+[Output]: FALSE
+
+[Input]:  y != z # not equal to one another
+[Output]: TRUE</code></pre>
+<p>You can also do these calculations on an entire vector all in one operation!</p>
+<pre><code class="undefined language-undefined">[Input]:  heights = c(67, 74, 63, 70)
+[Input]:  heights &gt;= 70 # compares all values in heights to 70
+[Output]: FALSE TRUE FALSE TRUE</code></pre>
+<h1 id="any-all-which-subset">any, all, which, subset</h1>
+<h2 id="any">any</h2>
+<p>There are some additional operators that can be quite helpful when working with vectors.</p>
+<p>The <code>any</code>** **function returns **TRUE **if any of the values in a vector meet some criteria.  For example, the below looks at all items in <code>heights</code>  to see if they are less than or equal to 70.  If even one of the values is less than 70, **TRUE **is returned.</p>
+<p>In this case, 67, 63, and 70 meet the criteria, so we get a return of <code>TRUE</code>.</p>
+<pre><code class="undefined language-undefined">[Input]:  any(heights &lt;= 70)
+[Output]: TRUE</code></pre>
+<p>Alternatively, the following returns <code>FALSE</code>, because none of the heights are greater than 80.</p>
+<pre><code class="undefined language-undefined">[Input]:  any(heights &gt; 80)
+[Output]: FALSE</code></pre>
+<h2 id="all">all</h2>
+<p>The <code>all</code> command is very similar to the previous command but only returns **TRUE **if all of the elements of a vector meet the provided criteria.  So comparing the two, we can see a case where they differ since not **all **elements in <code>heights</code> meet the criteria, but some do. </p>
+<pre><code class="undefined language-undefined">[Input]:  any(heights &lt;= 70)
+[Output]: TRUE
+[Input]:  all(heights &lt;= 70)
+[Output]: FALSE</code></pre>
+<p>However, if we change the criteria, we see a new result.</p>
+<pre><code class="undefined language-undefined">[Input]:  all(heights &gt; 60)
+[Output]: TRUE</code></pre>
+<h2 id="which">which</h2>
+<p>The <code>which</code> command returns the indices of the vector elements that meet a particular criteria.  **Note that R indexes starting at 1.  **Depending on your experience with other programming languages, you might be used to languages that use 0 i<strong>ndexing - R doesn't do this.</strong></p>
+<p>See below the indices of <code>heights</code> that are less than or equal to 70.  We can also pull the values that are exactly equal to 70 or not equal.  </p>
+<pre><code class="undefined language-undefined">[Input]:  which(heights &lt;= 70)
+[Output]: 1 3 4
+[Input]:  which(heights == 70)
+[Output]: 4
+[Input]:  which(heights != 70)
+[Output]: 1 2 3</code></pre>
+<h2 id="subset">subset</h2>
+<p>The <code>subset</code> command works a lot the same way as the <code>which</code> command with the largest difference being that a subset command will allow you to pull the indices from other vectors.</p>
+<p>For example, if you want to know the eye colors associated with people who are taller than 70 inches, we would use the subset command.</p>
+<pre><code class="undefined language-undefined"># four people with 1st person eye and height in index 1
+# 2nd person has eye and height in index 2
+# and so on...
+
+[Input]:  eye.colors = c('blue', 'green', 'brown', 'brown')
+[Input]:  heights = c(67, 74, 63, 70)
+
+[Input]:  subset(eye.colors, heights &gt; 70)
+[Output]: 'green'</code></pre>
+<p>You can also use <code>subset</code> the same way you used <code>which</code>, but the above shows a scenario when you might prefer to use this command.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>In the graffiti notebook on the next page, you will have the opportunity to see three additional commands that are frequently used when creating vectors. You can watch me work through them by clicking the green link on the next page, or you can try running the cells yourself!</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/download.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="18. Variables &amp; Comparison Operators [Graffiti].html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('17. Variables and Comparison Operators [Text]')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

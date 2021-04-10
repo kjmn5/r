@@ -1,0 +1,11 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.080 --> 00:00:01.876
+Temos a função "cbind".
+
+00:00:01.910 --> 00:00:05.571
+A função "cbind" concatena
+os dois vetores como colunas.
+

@@ -1,0 +1,67 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.367 --> 00:00:04.367
+Os tipos de dados numéricos
+são o tipo escalar mais comum.
+
+00:00:04.567 --> 00:00:07.934
+Eles correspondem a valores
+de pontos flutuantes.
+
+00:00:08.300 --> 00:00:10.000
+Aqui temos um exemplo.
+
+00:00:10.033 --> 00:00:12.667
+A variável A
+tem um valor de 3,2,
+
+00:00:12.701 --> 00:00:15.667
+e a variável B
+tem um valor de 3.
+
+00:00:15.868 --> 00:00:19.033
+O número inteiro
+é menos comum no R.
+
+00:00:19.067 --> 00:00:22.334
+Aqui temos um exemplo
+de definição de número inteiro.
+
+00:00:22.367 --> 00:00:24.300
+Pegamos
+uma variável numérica
+
+00:00:24.334 --> 00:00:29.100
+e determinamos a função
+as.integer para uma variável C.
+
+00:00:29.133 --> 00:00:33.234
+O tipo lógico corresponde
+ao verdadeiro ou falso.
+
+00:00:33.267 --> 00:00:37.968
+Associamos o valor verdadeiro
+à variável D.
+
+00:00:38.200 --> 00:00:42.067
+Aqui pegamos o tipo lógico
+na variável D
+
+00:00:42.100 --> 00:00:45.300
+e transformamos
+na variável numérica E.
+
+00:00:45.334 --> 00:00:49.667
+Neste caso o verdadeiro
+é o valor numérico 1.
+
+00:00:49.968 --> 00:00:53.400
+Este é um exemplo
+de um tipo de dados string.
+
+00:00:53.434 --> 00:00:56.767
+Podemos usar aspas duplas
+ou singulares no R.
+

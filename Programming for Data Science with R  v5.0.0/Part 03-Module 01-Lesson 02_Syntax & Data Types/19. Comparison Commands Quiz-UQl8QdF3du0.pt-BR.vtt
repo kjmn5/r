@@ -1,0 +1,41 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.876
+Neste teste,
+temos quatro fileiras.
+
+00:00:02.910 --> 00:00:05.720
+Em cada uma,
+executamos um código específico
+
+00:00:05.754 --> 00:00:08.378
+tentando alcançar
+um objetivo específico.
+
+00:00:08.412 --> 00:00:11.925
+Preencha a coluna da direita
+com o resultado dos comandos.
+
+00:00:12.286 --> 00:00:15.397
+Repare que o vetor W
+
+00:00:15.431 --> 00:00:18.939
+é um vetor de valores
+entre 0 e 1
+
+00:00:18.973 --> 00:00:21.129
+com incrementos de 0.1.
+
+00:00:21.420 --> 00:00:24.099
+É o mesmo vetor
+que vimos no teste anterior,
+
+00:00:24.133 --> 00:00:25.721
+especificamente,
+
+00:00:25.755 --> 00:00:31.741
+um vetor contendo
+os valores 0, 0.1, 0.2 etc, até 1.
+

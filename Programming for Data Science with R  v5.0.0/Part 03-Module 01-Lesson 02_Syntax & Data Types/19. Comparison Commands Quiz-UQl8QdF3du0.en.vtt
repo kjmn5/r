@@ -1,0 +1,30 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.110 --> 00:00:03.070
+In this quiz we have four rows.
+
+00:00:03.070 --> 00:00:07.551
+Where in each row we execute specific
+code trying to accomplish a specific
+
+00:00:07.551 --> 00:00:08.470
+purpose.
+
+00:00:08.470 --> 00:00:12.530
+Please fill in the right column
+with the outcome of the code.
+
+00:00:12.530 --> 00:00:18.172
+Please note, that the vector w is
+a vector of values between 0 and
+
+00:00:18.172 --> 00:00:24.635
+1 with increments of 0.1, the same
+vector we saw in the previous quiz,
+
+00:00:24.635 --> 00:00:32.039
+specifically a vector containing
+the values, 0, 0.1, 0.2, etc until 1.
+
