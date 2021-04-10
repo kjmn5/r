@@ -1,0 +1,58 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.490 --> 00:00:03.330
+Para criar o histograma, vamos passar friend_count para x
+
+00:00:03.330 --> 00:00:06.100
+dentro de qplot, e passaremos pf para data.
+
+00:00:08.370 --> 00:00:11.370
+Quando executo o código, posso obter meu histograma. Olhando
+
+00:00:11.370 --> 00:00:13.670
+para o gráfico, podemos ver que os dados estão espremidos
+
+00:00:13.670 --> 00:00:16.680
+no lado esquerdo, como o gráfico de Moira, e
+
+00:00:16.680 --> 00:00:20.280
+este gráfico se estende até a marca 5000. Isso é
+
+00:00:20.280 --> 00:00:22.670
+o que chamamos de dados de final longo. E esses dados podem ser
+
+00:00:22.670 --> 00:00:26.380
+comuns para alguns dados de nível de usuário. A maioria dos usuários tem contagens de amigos abaixo de 500,
+
+00:00:26.380 --> 00:00:30.380
+por isso temos colunas bem altas à esquerda. Mas há
+
+00:00:30.380 --> 00:00:33.540
+alguns usuários em nosso conjunto de dados com valores bem altos. Os valores
+
+00:00:33.540 --> 00:00:35.980
+mais altos são mais próximos de 5000, que é o número
+
+00:00:35.980 --> 00:00:38.510
+máximo de amigos que um usuário pode ter. Moira estava interessada
+
+00:00:38.510 --> 00:00:41.020
+em examinar a parte maior de seus dados. E o mesmo vale
+
+00:00:41.020 --> 00:00:43.610
+para nós. Enquanto possamos querer investigar algumas
+
+00:00:43.610 --> 00:00:46.920
+observações nesta ponta, realmente queremos examinar
+
+00:00:46.920 --> 00:00:50.160
+nossos usuários com menos de 1.000 amigos, todas estas
+
+00:00:50.160 --> 00:00:52.420
+pessoas aqui. Para fazer isso, precisamos aprender outra
+
+00:00:52.420 --> 00:00:54.700
+coisa para ajudar nosso código e nosso gráfico.
+

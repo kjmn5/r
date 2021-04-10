@@ -1,0 +1,61 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.260 --> 00:00:02.860
+Vamos olhar mais atentamente estes dois gráficos. Neste momento,
+
+00:00:02.860 --> 00:00:05.420
+pode ser difícil determinar qual sexo tem mais amigos em
+
+00:00:05.420 --> 00:00:07.410
+média. Lembre-se: essa é a questão
+
+00:00:07.410 --> 00:00:09.490
+que estamos investigando. Quem tem mais amigos,
+
+00:00:09.490 --> 00:00:13.110
+homens ou mulheres? Em vez de observarmos estes histogramas,
+
+00:00:13.110 --> 00:00:15.090
+podemos usar o comando da tabela para verificar se há mais
+
+00:00:15.090 --> 00:00:18.770
+homens do que mulheres. Ao executar esse comando, obtenho este
+
+00:00:18.770 --> 00:00:22.450
+resultado. Parece que há significativamente mais homens do que mulheres
+
+00:00:22.450 --> 00:00:25.540
+na nossa amostra. Para ver a contagem média de amigos por sexo,
+
+00:00:25.540 --> 00:00:28.390
+será preciso outro novo comando. Este comando é o
+
+00:00:28.390 --> 00:00:32.830
+comando "by" (por). O comando "by" (por) leva a três resultados: uma variável, uma variável
+
+00:00:32.830 --> 00:00:35.740
+de categoria, ou uma lista de indicadores para o subconjunto acima, e
+
+00:00:35.740 --> 00:00:38.380
+uma função. No nosso caso, queremos usar o resumo
+
+00:00:38.380 --> 00:00:40.730
+como a função para obter estatísticas básicas sobre nossa contagem
+
+00:00:40.730 --> 00:00:45.140
+de amigos. A contagem de amigos é a variável, o sexo é a nossa variável de categoria
+
+00:00:45.140 --> 00:00:47.890
+ou a variável que contém nossos segmentos de usuários. Além disso,
+
+00:00:47.890 --> 00:00:50.400
+queremos um resumo da contagem de amigos por sexo. Agora
+
+00:00:50.400 --> 00:00:52.070
+não vou executar este código, mas gostaria que você
+
+00:00:52.070 --> 00:00:54.800
+o executasse no R Studio e depois respondesse às próximas questões.
+

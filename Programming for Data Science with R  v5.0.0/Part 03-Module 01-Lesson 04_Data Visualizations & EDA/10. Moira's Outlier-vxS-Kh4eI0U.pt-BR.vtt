@@ -1,0 +1,34 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.160 --> 00:00:02.880
+Neste caso, o outlier foi um exemplo de dados ruins
+
+00:00:02.880 --> 00:00:06.320
+sobre um caso extremo. O entrevistado no estudo de Moira disse
+
+00:00:06.320 --> 00:00:09.970
+que tinha mais de 1 milhão de amigos. O outlier de Moira tinha um valor
+
+00:00:09.970 --> 00:00:13.590
+de 10 milhões, o que é impossível no Facebook. Então, esse seria
+
+00:00:13.590 --> 00:00:16.510
+seria um exemplo de dados ruins em um caso extremo
+
+00:00:16.510 --> 00:00:19.560
+porque estamos na ponta mais alta das pessoas que viram o post.
+
+00:00:19.560 --> 00:00:22.200
+Em geral, acho que é muito importante pensarmos sobre
+
+00:00:22.200 --> 00:00:25.500
+em que tipo de caso ou categoria nossos outliers se enquadram.
+
+00:00:25.500 --> 00:00:28.740
+Isso pode nos ajudar a pensar em como podemos ajustar os outliers
+
+00:00:28.740 --> 00:00:31.630
+ou substituí-los ou excluí-los de nossos dados, se quisermos tomar essas decisões.
+

@@ -1,0 +1,52 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.024 --> 00:00:01.830
+O comando by nos permitirá responder essa
+
+00:00:01.830 --> 00:00:04.736
+pergunta. Primeiro, crio um bloco de código R
+
+00:00:04.736 --> 00:00:08.090
+e uso o comando by. Passo um www_likes
+
+00:00:08.090 --> 00:00:10.740
+como primeiro parâmetro e, depois, o sexo como
+
+00:00:10.740 --> 00:00:13.085
+segundo, já que essa é a variável sobre a qual teria separado nosso
+
+00:00:13.085 --> 00:00:16.820
+www_likes. Eu quero o total de curtidas para cada sexo, então
+
+00:00:16.820 --> 00:00:19.995
+vou usar a função de soma aqui. Escrevendo esse código,
+
+00:00:19.995 --> 00:00:25.819
+podemos ver nossa saída. As curtidas para os homens são 1.430.175.
+
+00:00:26.840 --> 00:00:29.590
+Mas são as mulheres que têm muito mais curtidas. Há
+
+00:00:29.590 --> 00:00:32.222
+mais de 3,5 milhões. Parece que
+
+00:00:32.222 --> 00:00:34.458
+as mulheres têm duas vezes mais a quantidade de curtidas
+
+00:00:34.458 --> 00:00:38.350
+que os homens. Embora isso possa parecer banal, informações como essa
+
+00:00:38.350 --> 00:00:41.430
+ajudam sites e outros negócios a decidirem quais recursos são
+
+00:00:41.430 --> 00:00:44.710
+usados com mais frequência por diferentes subgrupos. Isso pode ajudar uma
+
+00:00:44.710 --> 00:00:47.330
+empresa ou um site a decidir em quais recursos devem continuar
+
+00:00:47.330 --> 00:00:49.910
+a investir ou quais eles devem simplesmente abandonar.
+

@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.800 --> 00:00:04.570
+Vamos aceitar o conselho de Mora e evitar usar histogramas. Até
+
+00:00:04.570 --> 00:00:07.990
+este ponto verificamos distribuições de variáveis únicas. Por
+
+00:00:07.990 --> 00:00:11.460
+exemplo, contagem de amigos e, no máximo, verificamos diferentes subconjuntos
+
+00:00:11.460 --> 00:00:14.270
+de contagem de amigos dividindo-os, usando um fator, em
+
+00:00:14.270 --> 00:00:16.780
+nosso caso, era sexo. Agora vamos verificar
+
+00:00:16.780 --> 00:00:20.600
+duas variáveis contínuas ao mesmo tempo. Então para começar,
+
+00:00:20.600 --> 00:00:23.510
+certifique-se de que você está no diretório de trabalho certo e,
+
+00:00:23.510 --> 00:00:27.010
+prossiga e carregue seu conjunto de dados e a biblioteca ggplot.
+
+00:00:27.010 --> 00:00:29.440
+Geralmente, é melhor usar um gráfico de dispersão para examinar
+
+00:00:29.440 --> 00:00:33.150
+o relacionamento entre duas variáveis contínuas. O Q plot escolhe o
+
+00:00:33.150 --> 00:00:36.350
+gráfico de dispersão automaticamente quando passamos duas variáveis contínuas para
+
+00:00:36.350 --> 00:00:38.580
+os parâmetros do eixo x e y, então vamos prosseguir e
+
+00:00:38.580 --> 00:00:41.610
+fazer isso. Passarei h para o parâmetro x e
+
+00:00:41.610 --> 00:00:44.750
+passarei a contagem de amigos para o parâmetro y e, finalmente,
+
+00:00:44.750 --> 00:00:47.220
+indicarei que meu conjunto de dados é pf, meus pseudousuários do
+
+00:00:47.220 --> 00:00:52.200
+Facebook. Agora, há mais de 99.000 observações em nossos dados,
+
+00:00:52.200 --> 00:00:54.230
+então quando criamos este gráfico, ele pode
+
+00:00:54.230 --> 00:00:59.120
+demorar para renderizar. Aqui está. Também podemos
+
+00:00:59.120 --> 00:01:02.190
+gravar este código que produzirá o mesmo gráfico exato. Desta
+
+00:01:02.190 --> 00:01:05.239
+vez, não estou usado os parâmetros x e y explicitamente. E
+
+00:01:05.239 --> 00:01:08.790
+está certo, porque qplot sabe quais variáveis usar em quais
+
+00:01:08.790 --> 00:01:12.470
+eixos. X virá primeiro e y depois. Vou
+
+00:01:12.470 --> 00:01:14.030
+executar este código apenas do jeito que você vê o
+
+00:01:14.030 --> 00:01:17.220
+mesmo gráfico sendo produzido. Aqui está, temos um
+
+00:01:17.220 --> 00:01:21.460
+gráfico de dispersão bem feio, mas quais foram as coisas que você observou, de imediato?
+

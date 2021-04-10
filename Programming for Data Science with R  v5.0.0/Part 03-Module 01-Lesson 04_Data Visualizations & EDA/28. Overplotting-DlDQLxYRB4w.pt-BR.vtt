@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.220 --> 00:00:02.500
+Você pode ver que alguns desses pontos estão dispersos
+
+00:00:02.500 --> 00:00:05.440
+um do outro, enquanto outros estão empilhados um
+
+00:00:05.440 --> 00:00:08.340
+sobre o outro. Esta área do gráfico é considerada excesso de
+
+00:00:08.340 --> 00:00:11.750
+plotagem. O excesso de plotagem dificulta entender quantos pontos há
+
+00:00:11.750 --> 00:00:15.180
+em cada região. Podemos definir a transparência dos
+
+00:00:15.180 --> 00:00:18.880
+pontos usando o parâmetro alpha e o ponto geom. Adicionarei isso em uma
+
+00:00:18.880 --> 00:00:20.800
+nova linha para que possamos ver nossas camadas
+
+00:00:20.800 --> 00:00:24.970
+melhor. Depois, defino o parâmetro alpha como 1/20.
+
+00:00:24.970 --> 00:00:27.760
+Isso significa que pegará 20 pontos
+
+00:00:27.760 --> 00:00:30.950
+equivalentes a um destes pontos pretos. Ao escrever
+
+00:00:30.950 --> 00:00:32.659
+este código, vemos que grande parte dos
+
+00:00:32.659 --> 00:00:36.370
+dados estão abaixo do limite de 1.000 amigos. Vamos
+
+00:00:36.370 --> 00:00:39.550
+também adicionar um jitter aqui. Podemos
+
+00:00:39.550 --> 00:00:44.150
+trocar geom_point por geom_jitter. Age é uma variável
+
+00:00:44.150 --> 00:00:47.160
+contínua, mas você tem apenas valores inteiros, portanto,
+
+00:00:47.160 --> 00:00:50.030
+vemos essas colunas perfeitamente alinhadas, que não é uma
+
+00:00:50.030 --> 00:00:54.830
+reflexão verdadeira de idade. Essas colunas devem parecer intuitivamente
+
+00:00:54.830 --> 00:00:57.010
+erradas. Queremos garantir que consigamos ver
+
+00:00:57.010 --> 00:00:59.870
+mais pontos. Usando jitter, podemos adicionar
+
+00:00:59.870 --> 00:01:02.310
+ruído a cada idade para termos uma ideia mais
+
+00:01:02.310 --> 00:01:05.630
+clara da relação entre idade e número de amigos. Escrevendo nosso
+
+00:01:05.630 --> 00:01:07.830
+código com geom_jitter, temos
+
+00:01:07.830 --> 00:01:11.320
+uma distribuição mais dispersa. O que chama sua atenção neste
+
+00:01:11.320 --> 00:01:14.650
+novo gráfico? Lembre-se de que alpha é definido como
+
+00:01:14.650 --> 00:01:17.359
+120° ou 0,05.
+

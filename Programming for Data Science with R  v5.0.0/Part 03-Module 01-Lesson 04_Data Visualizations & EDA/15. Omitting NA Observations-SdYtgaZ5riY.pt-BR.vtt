@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.600 --> 00:00:02.910
+Criamos estes três histogramas. Vamos dar um
+
+00:00:02.910 --> 00:00:05.770
+olhar mais atento neles. Temos um para mulheres, um
+
+00:00:05.770 --> 00:00:08.860
+para homens e um para NA, que significa Não
+
+00:00:08.860 --> 00:00:12.570
+aplicável. O terceiro histograma que acabamos de criar contém usuários
+
+00:00:12.570 --> 00:00:15.570
+não classificados como homem ou mulher. É assim que
+
+00:00:15.570 --> 00:00:18.980
+R lida com os valores ausentes. Os valores ausentes assumem o valor
+
+00:00:18.980 --> 00:00:22.420
+de NA. Vamos tentar criar nosso histograma para número de amigos
+
+00:00:22.420 --> 00:00:25.680
+divididos por sexo. Mas, desta vez, pegaremos
+
+00:00:25.680 --> 00:00:28.300
+um subconjunto de dados e ignoraremos as observações nos quais
+
+00:00:28.300 --> 00:00:31.810
+o sexo for NA. Para fazer isso, dividirei os dados em subconjuntos.
+
+00:00:31.810 --> 00:00:34.940
+Posso usar o comando subset. E usar uma condição para o
+
+00:00:34.940 --> 00:00:38.570
+segundo parâmetro. O primeiro parâmetro é o conjunto de dados. Aqui, estou
+
+00:00:38.570 --> 00:00:41.830
+usando a função is.na com um bing. Isso remove
+
+00:00:41.830 --> 00:00:44.870
+todas as linhas com NA para a variável gender. Ao executar
+
+00:00:44.870 --> 00:00:48.170
+o código agora, não verei NA e, corrigindo um
+
+00:00:48.170 --> 00:00:50.490
+pequeno erro de digitação, tenho meus dois histogramas de
+
+00:00:50.490 --> 00:00:53.160
+mulheres e homens. Quero ressaltar que há outra
+
+00:00:53.160 --> 00:00:55.470
+forma de dividir os dados em subconjuntos. Se
+
+00:00:55.470 --> 00:00:59.210
+eu usar a função na.omit, removerei todas as
+
+00:00:59.210 --> 00:01:03.110
+observações com NA, não necessariamente apenas para sexo.
+
+00:01:03.110 --> 00:01:06.160
+Tenha cuidado ao usar o wrapper na.omit, pois podemos acabar
+
+00:01:06.160 --> 00:01:08.370
+ignorando alguns usuários classificados como
+
+00:01:08.370 --> 00:01:11.210
+homens ou mulheres que tenham variáveis diferentes com
+
+00:01:11.210 --> 00:01:15.060
+valores NA. Por exemplo, friend_count ou algo do tipo.
+

@@ -1,0 +1,34 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.080 --> 00:00:02.170
+Com este novo gráfico, podemos ver que as
+
+00:00:02.170 --> 00:00:04.860
+contagens de amigos de usuários jovens não são tão altas
+
+00:00:04.860 --> 00:00:08.870
+quanto pareciam antes. A maioria dos usuários jovens realmente tem contagens
+
+00:00:08.870 --> 00:00:12.360
+de amigos abaixo de 1000. É por isso que vemos estas regiões escuras aqui.
+
+00:00:12.360 --> 00:00:16.020
+Lembre-se, alfa está definido para 0.05, então,
+
+00:00:16.020 --> 00:00:19.200
+são necessários 20 pontos para um círculo aparecer completamente escuro. Você também
+
+00:00:19.200 --> 00:00:22.290
+ainda pode ter visto este pico em torno de 69, que foi
+
+00:00:22.290 --> 00:00:24.950
+o que vimos originalmente quando verificamos a contagem de amigos em nossos dados.
+
+00:00:24.950 --> 00:00:28.820
+Está fraco porque temos o parâmetro alpha definido para 0.05, mas eu
+
+00:00:28.820 --> 00:00:33.280
+diria que isso é comparável a usuários da faixa de 25 ou 26 anos.
+

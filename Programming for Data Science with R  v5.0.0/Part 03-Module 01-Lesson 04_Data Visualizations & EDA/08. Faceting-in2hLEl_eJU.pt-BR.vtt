@@ -1,0 +1,121 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.470 --> 00:00:02.980
+Legal. Parece que Moira começou da mesma maneira
+
+00:00:02.980 --> 00:00:06.270
+que nós quando investigamos aniversários. Vamos dar mais sentido para
+
+00:00:06.270 --> 00:00:08.790
+nossos dados, principalmente para esta coluna de pessoas nascidas no
+
+00:00:08.790 --> 00:00:13.590
+primeiro dia. Podemos dividir este histograma em doze histogramas, um para
+
+00:00:13.590 --> 00:00:16.810
+cada mês do ano. E o código seria parecido com isto.
+
+00:00:16.810 --> 00:00:19.098
+Primeiro, vou adicionar uma camada, e essa camada será
+
+00:00:19.098 --> 00:00:23.240
+chamada facet_wrap. Facet_wrap usa uma fórmula em que
+
+00:00:23.240 --> 00:00:25.540
+temos um til e, em seguida, vamos usar a variável sobre a qual
+
+00:00:25.540 --> 00:00:29.170
+vamos dividir nossos dados. Neste caso, dob_month.
+
+00:00:29.170 --> 00:00:31.890
+Temos o número de colunas definido como igual a três. E
+
+00:00:31.890 --> 00:00:34.630
+podemos executar este código e ver a saída. Observe
+
+00:00:34.630 --> 00:00:39.050
+que usamos nosso único histograma e o dividimos em 12 histogramas.
+
+00:00:39.050 --> 00:00:41.830
+Como definimos na chamada, é o número de colunas igual
+
+00:00:41.830 --> 00:00:44.150
+a três, podemos ver as três colunas em nosso
+
+00:00:44.150 --> 00:00:47.620
+gráfico. Agora, este um significa janeiro. Este dois seria
+
+00:00:47.620 --> 00:00:50.570
+para fevereiro e assim por diante. E se eu quisesse, poderia
+
+00:00:50.570 --> 00:00:52.940
+ter usado ncol igual a quatro. Isso me daria
+
+00:00:52.940 --> 00:00:56.900
+um gráfico um pouco diferente com quatro colunas. Antes
+
+00:00:56.900 --> 00:00:59.920
+de continuarmos, quero focalizar neste facet_
+
+00:00:59.920 --> 00:01:04.129
+wrap. E, especificamente nesta fórmula aqui. Em geral, o facet_
+
+00:01:04.129 --> 00:01:08.090
+wrap inclui uma fórmula dentro de parênteses. A
+
+00:01:08.090 --> 00:01:10.900
+fórmula contém um sinal de til seguido do nome
+
+00:01:10.900 --> 00:01:13.800
+da variável sobre a qual você deseja colocar a faceta. Isso permite
+
+00:01:13.800 --> 00:01:15.910
+criar o mesmo tipo de gráfico para cada
+
+00:01:15.910 --> 00:01:19.650
+nível de sua variável de categoria. Em nosso caso, desejamos
+
+00:01:19.650 --> 00:01:23.060
+criar histogramas de dob_day, uma para cada mês
+
+00:01:23.060 --> 00:01:26.490
+do ano. Uma camada semelhante à facet-wrap é
+
+00:01:26.490 --> 00:01:29.730
+facet_grid. Facet_grid também usa uma fórmula, mas ela é
+
+00:01:29.730 --> 00:01:33.300
+uma fórmula um pouco diferente. Esta fórmula contém variáveis que
+
+00:01:33.300 --> 00:01:35.620
+queremos dividir na direção vertical, seguidas por um
+
+00:01:35.620 --> 00:01:37.715
+sinal til e, em seguida, o nome das variáveis que
+
+00:01:37.715 --> 00:01:41.070
+queremos dividir na direção horizontal. Em geral, o local onde você coloca
+
+00:01:41.070 --> 00:01:45.170
+as variáveis pode alterar a maneira como o gráfico é disposto e a orientação das variáveis.
+
+00:01:45.170 --> 00:01:47.480
+Agora, facet_grid geralmente mais útil de
+
+00:01:47.480 --> 00:01:49.430
+usar quando você está passando duas ou mais
+
+00:01:49.430 --> 00:01:51.570
+variáveis. Se for apenas uma, eu usaria
+
+00:01:51.570 --> 00:01:54.090
+facet_wrap. Você pode aprender mais sobre facet_
+
+00:01:54.090 --> 00:01:56.640
+wrap, facet_grid e como formatar gráficos
+
+00:01:56.640 --> 00:01:58.400
+seguindo o link nas notas do instrutor.
+

@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.170 --> 00:00:03.040
+Sem fazer nenhum ajuste a esse gráfico, observei que
+
+00:00:03.040 --> 00:00:06.830
+ter mais de 1.000 amigos é absolutamente raro. Até mesmo para os
+
+00:00:06.830 --> 00:00:08.900
+usuários muito jovens, podemos ver que há
+
+00:00:08.900 --> 00:00:12.360
+picos, com exceção deste conjunto mais velho. E que
+
+00:00:12.360 --> 00:00:15.340
+90% estão bem abaixo de 1.000. Você também deve ter
+
+00:00:15.340 --> 00:00:18.325
+ampliado esse gráfico usando a camada de coord_cartesian. Para
+
+00:00:18.325 --> 00:00:21.023
+usá-la, primeiro precisamos nos livrar das camadas
+
+00:00:21.023 --> 00:00:25.010
+coord_trans e xlim. Para isso, excluirei essas linhas de código.
+
+00:00:25.010 --> 00:00:27.580
+Adicionando a camada de coord_cartesian, podemos apenas definir
+
+00:00:27.580 --> 00:00:31.020
+os limites de x e y com um valor que acharmos apropriado. Para nossos usuários, quero
+
+00:00:31.020 --> 00:00:35.020
+explorar usuários entre 13 e 70 anos. E para a contagem de amigos,
+
+00:00:35.020 --> 00:00:37.920
+90% estão até 1.000; então, esse parece ser um bom limite
+
+00:00:37.920 --> 00:00:40.640
+superior aqui. Agora, parece que recebi um erro; isso
+
+00:00:40.640 --> 00:00:43.760
+é porque me esqueci de incluir um sinal de adição depois desta camada. Quero
+
+00:00:43.760 --> 00:00:46.890
+adicionar todas essas camadas umas sobre as outras. Agora, neste gráfico,
+
+00:00:46.890 --> 00:00:50.220
+podemos ver que obtemos um pouco mais de detalhes. Por exemplo,
+
+00:00:50.220 --> 00:00:52.680
+podemos ver que de 35 anos até
+
+00:00:52.680 --> 00:00:56.090
+60 anos, a contagem de amigos está abaixo de 250.
+
+00:00:56.090 --> 00:00:59.760
+Portanto, 90% de nossos usuários nesse grupo de idades
+
+00:00:59.760 --> 00:01:02.890
+têm menos de 250 amigos. Pelo menos, de acordo com o Facebook.
+

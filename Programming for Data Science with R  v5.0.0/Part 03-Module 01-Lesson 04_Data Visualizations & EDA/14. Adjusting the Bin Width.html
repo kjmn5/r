@@ -1,0 +1,336 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Adjusting the Bin Width</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Data Visualizations &amp; EDA</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. What is EDA.html">01. What is EDA?</a>
+    </li>
+    <li class="">
+      <a href="02. Pseudo-Facebook User Data.html">02. Pseudo-Facebook User Data</a>
+    </li>
+    <li class="">
+      <a href="03. Notebooks vs. RStudio.html">03. Notebooks vs. RStudio</a>
+    </li>
+    <li class="">
+      <a href="04. Pseudo Facebook User Data Notebook.html">04. Pseudo Facebook User Data Notebook</a>
+    </li>
+    <li class="">
+      <a href="05. Histogram of Users&#x27; Birthdays.html">05. Histogram of Users&#x27; Birthdays</a>
+    </li>
+    <li class="">
+      <a href="06. Histogram of Users&#x27; Birthdays Notebook.html">06. Histogram of Users&#x27; Birthdays Notebook</a>
+    </li>
+    <li class="">
+      <a href="07. Perceived Audience Size.html">07. Perceived Audience Size</a>
+    </li>
+    <li class="">
+      <a href="08. Faceting.html">08. Faceting</a>
+    </li>
+    <li class="">
+      <a href="09. Faceting Notebook.html">09. Faceting Notebook</a>
+    </li>
+    <li class="">
+      <a href="10. Moira&#x27;s Outlier.html">10. Moira&#x27;s Outlier</a>
+    </li>
+    <li class="">
+      <a href="11. Friend Count.html">11. Friend Count</a>
+    </li>
+    <li class="">
+      <a href="12. Limiting the Axes.html">12. Limiting the Axes</a>
+    </li>
+    <li class="">
+      <a href="13. Exploring with Bin Width.html">13. Exploring with Bin Width</a>
+    </li>
+    <li class="">
+      <a href="14. Adjusting the Bin Width.html">14. Adjusting the Bin Width</a>
+    </li>
+    <li class="">
+      <a href="15. Omitting NA Observations.html">15. Omitting NA Observations</a>
+    </li>
+    <li class="">
+      <a href="16. Friends by Gender.html">16. Friends by Gender</a>
+    </li>
+    <li class="">
+      <a href="17. Statistics &#x27;by&#x27; Gender.html">17. Statistics &#x27;by&#x27; Gender</a>
+    </li>
+    <li class="">
+      <a href="18. Tenure.html">18. Tenure</a>
+    </li>
+    <li class="">
+      <a href="19. Labeling Plots.html">19. Labeling Plots</a>
+    </li>
+    <li class="">
+      <a href="20. Statistics, Tenure, &amp; Labeling.html">20. Statistics, Tenure, &amp; Labeling</a>
+    </li>
+    <li class="">
+      <a href="21. Likes on the Web.html">21. Likes on the Web</a>
+    </li>
+    <li class="">
+      <a href="22. Box Plots.html">22. Box Plots</a>
+    </li>
+    <li class="">
+      <a href="23. Box Plots, Quartiles, and Friendships.html">23. Box Plots, Quartiles, and Friendships</a>
+    </li>
+    <li class="">
+      <a href="24. Box Plots Notebook.html">24. Box Plots Notebook</a>
+    </li>
+    <li class="">
+      <a href="25. Scatterplots and Perceived Audience Size.html">25. Scatterplots and Perceived Audience Size</a>
+    </li>
+    <li class="">
+      <a href="26. Scatterplots.html">26. Scatterplots</a>
+    </li>
+    <li class="">
+      <a href="27. ggplot Syntax.html">27. ggplot Syntax</a>
+    </li>
+    <li class="">
+      <a href="28. Overplotting.html">28. Overplotting</a>
+    </li>
+    <li class="">
+      <a href="29. Overlaying Summaries with Raw Data.html">29. Overlaying Summaries with Raw Data</a>
+    </li>
+    <li class="">
+      <a href="30. Bivariate Plots.html">30. Bivariate Plots</a>
+    </li>
+    <li class="">
+      <a href="31. Recap.html">31. Recap</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">14. Adjusting the Bin Width</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>Adjusting the Bin Width</p></h3>
+  <div>
+  <div>
+    <h4>Question:</h4>
+
+    <video controls>
+  <source src="14. Adjusting the Bin Width-AY5nywPa3GI.mp4" type="video/mp4">
+
+  <track default="false" kind="subtitles" srclang="zh-CN" src="14. Adjusting the Bin Width-AY5nywPa3GI.zh-CN.vtt" label="zh-CN">
+  <track default="false" kind="subtitles" srclang="ar" src="14. Adjusting the Bin Width-AY5nywPa3GI.ar.vtt" label="ar">
+  <track default="false" kind="subtitles" srclang="pt-BR" src="14. Adjusting the Bin Width-AY5nywPa3GI.pt-BR.vtt" label="pt-BR">
+  <track default="false" kind="subtitles" srclang="ja" src="14. Adjusting the Bin Width-AY5nywPa3GI.ja.vtt" label="ja">
+  <track default="true" kind="subtitles" srclang="en" src="14. Adjusting the Bin Width-AY5nywPa3GI.en.vtt" label="en">
+</video>
+
+
+  </div>
+
+  <h4>Start Quiz:</h4>
+  <div>
+  <div style="display: block;">
+    <div style="position: relative;">
+      <img src="img/811278704.gif" style="width: 100%; max-height: 100%" alt="">
+      
+    <div style="
+    position: absolute; top: 78.70357538802661%; left: 29.299797381546135%; width: 0%; height: 0%;
+  ">
+      
+        <input type="radio" name="group0" id="0" aria-label="Empty">
+      
+    </div>
+  
+    <div style="
+    position: absolute; top: 78.70357538802661%; left: 50.687733790523694%; width: 0%; height: 0%;
+  ">
+      
+        <input type="radio" name="group0" id="1" aria-label="Empty">
+      
+    </div>
+  
+    </div>
+  </div>
+</div>
+
+
+  <div>
+    <details>
+      <summary><strong>Solution:</strong></summary>
+      <div>
+        <video controls>
+  <source src="14. Adjusting the Bin Width-VyYQPDw7w3Y.mp4" type="video/mp4">
+
+  <track default="false" kind="subtitles" srclang="zh-CN" src="14. Adjusting the Bin Width-VyYQPDw7w3Y.zh-CN.vtt" label="zh-CN">
+  <track default="false" kind="subtitles" srclang="ar" src="14. Adjusting the Bin Width-VyYQPDw7w3Y.ar.vtt" label="ar">
+  <track default="false" kind="subtitles" srclang="pt-BR" src="14. Adjusting the Bin Width-VyYQPDw7w3Y.pt-BR.vtt" label="pt-BR">
+  <track default="false" kind="subtitles" srclang="ja" src="14. Adjusting the Bin Width-VyYQPDw7w3Y.ja.vtt" label="ja">
+  <track default="true" kind="subtitles" srclang="en" src="14. Adjusting the Bin Width-VyYQPDw7w3Y.en.vtt" label="en">
+</video>
+
+
+      </div>
+    </details>
+  </div>
+</div>
+
+
+  <div class="jumbotron" style="margin-top: 50px; margin-bottom: 50px;">
+    <h3>INSTRUCTOR NOTE:</h3>
+    <p><a href="http://docs.ggplot2.org/current/scale_continuous.html" target="_blank">Scales in ggplot2</a><br />
+<br><br />
+Original code:</p>
+<pre><code>qplot(x = friend_count, data = pf, binwidth = 25) +
+  scale_x_continuous(limits = c(0, 1000), breaks = seq(0, 1000, 50))</code></pre>
+<p>Equivalent ggplot syntax:</p>
+<pre><code>ggplot(aes(x = friend_count), data = pf) +
+  geom_histogram(binwidth = 25) +
+  scale_x_continuous(limits = c(0, 1000), breaks = seq(0, 1000, 50))</code></pre>
+<p>In the alternate solution below, the period or dot in the <em>formula</em> for <code>facet_grid()</code> represents all of the other variables in the data set. Essentially, this notation splits up the data by gender and produces three histograms, each having their own row.</p>
+<pre><code>qplot(x = friend_count, data = pf) +
+  facet_grid(gender ~ .)</code></pre>
+<p>Equivalent ggplot syntax:</p>
+<pre><code>ggplot(aes(x = friend_count), data = pf) +
+  geom_histogram() +
+  scale_x_continuous(limits = c(0, 1000), breaks = seq(0, 1000, 50)) +
+  facet_wrap(~gender)</code></pre>
+  </div>
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="15. Omitting NA Observations.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('14. Adjusting the Bin Width')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

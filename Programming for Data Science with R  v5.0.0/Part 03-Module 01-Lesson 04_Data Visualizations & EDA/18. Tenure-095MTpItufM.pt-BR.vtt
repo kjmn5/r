@@ -1,0 +1,52 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.460 --> 00:00:03.820
+Para este exercício de programação, você precisa alterar o período de duração da variável,
+
+00:00:03.820 --> 00:00:07.190
+dessa forma, ela foi medida em anos e não em dias. E
+
+00:00:07.190 --> 00:00:10.080
+isso deve fazer muito sentido, uma vez que 365 dias
+
+00:00:10.080 --> 00:00:13.950
+seriam um ano, e 730 dias seriam dois anos. Agora, quanto
+
+00:00:13.950 --> 00:00:16.370
+ao binwidth, vamos defini-lo como igual a um para obtermos
+
+00:00:16.370 --> 00:00:20.200
+uma contagem de usuários anuais. Ao executar esse código, podemos ver nosso
+
+00:00:20.200 --> 00:00:22.860
+histograma. E observe que aqui nós temos uma cor diferente. E
+
+00:00:22.860 --> 00:00:25.510
+fiz isso alterando o código hex. Para obter uma visão melhor
+
+00:00:25.510 --> 00:00:28.580
+de nossos dados, podemos definir a largura de banda como 0,25. Parece
+
+00:00:28.580 --> 00:00:30.880
+que grande parte de nossos usuários está há menos de dois anos
+
+00:00:30.880 --> 00:00:34.100
+e meio no Facebook. Para melhorar este gráfico de mais uma
+
+00:00:34.100 --> 00:00:37.510
+maneira, eu posso alterar o eixo x para que ele seja incrementado em
+
+00:00:37.510 --> 00:00:40.460
+um ano. Para fazer isso, eu posso adicionar a camada da escala
+
+00:00:40.460 --> 00:00:43.970
+x contínua e definir intervalos de um a sete. Também vou
+
+00:00:43.970 --> 00:00:46.290
+limitar nossos dados para vermos apenas usuários de zero a sete
+
+00:00:46.290 --> 00:00:49.340
+anos. Ao escrever esse código, podemos ver que temos um histograma muito bom.
+

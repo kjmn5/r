@@ -1,0 +1,106 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.140 --> 00:00:02.330
+Para responder a essa pergunta, queremos escrever um código
+
+00:00:02.330 --> 00:00:04.800
+parecido com o anterior. Queremos
+
+00:00:04.800 --> 00:00:07.660
+criar um gráfico de caixa para comparar a distribuição do número
+
+00:00:07.660 --> 00:00:11.220
+de amizades iniciadas dos nossos usuários masculinos e femininos. Vamos
+
+00:00:11.220 --> 00:00:13.960
+lembrar quais variáveis temos na nossa estrutura de dados.
+
+00:00:13.960 --> 00:00:17.660
+Para solicitações de amizade, usarei friendships_initiated, que parecer ser
+
+00:00:17.660 --> 00:00:20.630
+a certa. Para formar meu gráfico de caixa, passarei x, a variável gender,
+
+00:00:20.630 --> 00:00:23.875
+pois essa é minha variável de categoria. Depois, passarei y,
+
+00:00:23.875 --> 00:00:27.190
+friendships_initiated. Agora, preciso dividir minha estrutura de dados,
+
+00:00:27.190 --> 00:00:29.550
+assim como anteriormente. Depois, precisarei dizer ao gráfico de cubo que
+
+00:00:29.550 --> 00:00:31.990
+quero um gráfico de caixa. Então defino geom. Analisando
+
+00:00:31.990 --> 00:00:34.990
+este gráfico, vemos que a maioria dos usuários fazem menos de 500 solicitações
+
+00:00:34.990 --> 00:00:38.120
+de amizade. Vamos então definir ylimb usando 0 como nosso
+
+00:00:38.120 --> 00:00:42.020
+mínimo e 500, nosso máximo. Adicionarei a camada cored_cartesian
+
+00:00:42.020 --> 00:00:45.120
+e definirei meus limites. Está bem próximo, mas parece que
+
+00:00:45.120 --> 00:00:48.890
+as mulheres têm um pouco mais de solicitações de amizade, pois a linha preta média está
+
+00:00:48.890 --> 00:00:52.250
+um pouco mais alta para as mulheres que para
+
+00:00:52.250 --> 00:00:54.890
+os homens. Mas pode ser arriscado afirmar isso.
+
+00:00:54.890 --> 00:00:57.250
+Vamos aumentar o zoom novamente. Desta vez,
+
+00:00:57.250 --> 00:01:00.520
+alteraremos o limite máximo para 150. Sim, parece
+
+00:01:00.520 --> 00:01:04.340
+que as mulheres começam mais amizades, em média. Vamos também
+
+00:01:04.340 --> 00:01:06.810
+comparar isso a uma resumo numérico. Posso usar o comando
+
+00:01:06.810 --> 00:01:09.990
+by e dividir friendships_initiated por gender e encontrar
+
+00:01:09.990 --> 00:01:14.010
+o resumo. Então pegarei friendships_initiated, dividirei por
+
+00:01:14.010 --> 00:01:17.320
+gender e gerarei um resumo. Aqui está nosso resultado. Podemos ver
+
+00:01:17.320 --> 00:01:20.400
+que a média das mulheres é de 49 e
+
+00:01:20.400 --> 00:01:23.420
+a dos homens é de 44. Você pode estar se perguntando
+
+00:01:23.420 --> 00:01:26.000
+por que devemos criar este gráfico de caixa se
+
+00:01:26.000 --> 00:01:29.240
+podemos responder à nossa pergunta com um resumo numérico. Ele é
+
+00:01:29.240 --> 00:01:32.810
+útil para entender a distribuição dos dados. No caso
+
+00:01:32.810 --> 00:01:35.160
+do gráfico de caixa, podemos ver a média de 50%
+
+00:01:35.160 --> 00:01:39.310
+dos valores de cada segmento da nossa variável de categoria. Nosso gráfico de caixa
+
+00:01:39.310 --> 00:01:41.590
+também permite que tenhamos uma ideia das exceções. Então, de uma forma,
+
+00:01:41.590 --> 00:01:44.930
+eles têm mais informações que uma tabela.
+

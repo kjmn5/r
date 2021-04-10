@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.280 --> 00:00:02.719
+Agora que Mora já nos falou sobre os benefícios da largura de compartimento
+
+00:00:02.719 --> 00:00:06.240
+alternada, tentem vocês mesmos. Olhando o histograma que criamos
+
+00:00:06.240 --> 00:00:09.360
+antes, podemos ver que ele é enviesado. Acabamos de ampliar
+
+00:00:09.360 --> 00:00:12.200
+a parte esquerda do gráfico do histograma de antes.
+
+00:00:12.200 --> 00:00:15.750
+Trabalhando nesse novo histograma, vamos adicionar alguns rótulos melhores e
+
+00:00:15.750 --> 00:00:19.190
+algumas compartimentalizações. Para ajustar a largura de compartimento, posso colocar o parâmetro da largura de compartimento
+
+00:00:19.190 --> 00:00:22.440
+no qplot. E para esses dados, vou escolher um valor de
+
+00:00:22.440 --> 00:00:26.140
+25. Parece bastante razoável, pois estamos indo de zero a 1.000.
+
+00:00:26.140 --> 00:00:28.290
+Também quero dividir esses eixos X
+
+00:00:28.290 --> 00:00:31.770
+a cada 50 unidades salvas. Para fazer isso, vou passar o
+
+00:00:31.770 --> 00:00:35.380
+parâmetro das divisões na camada contínua da nossa escala X. As divisões vão
+
+00:00:35.380 --> 00:00:38.740
+assumir a sequência com ponto de partida, ponto de chegada
+
+00:00:38.740 --> 00:00:42.310
+e etapa ou o espaço de intervalo que queremos no nosso eixo.
+
+00:00:42.310 --> 00:00:44.770
+Então, nesse caso, estou indo de zero a 1.000, e
+
+00:00:44.770 --> 00:00:48.320
+quero fazer uma divisão a cada 50 unidades. Você pode aprender mais sobre
+
+00:00:48.320 --> 00:00:51.370
+como manipular a escala e as divisões nos eixos X ou Y
+
+00:00:51.370 --> 00:00:54.380
+lendo o link na nota do instrutor. Ao
+
+00:00:54.380 --> 00:00:56.240
+executar o código, posso ver que criei
+
+00:00:56.240 --> 00:01:00.320
+um histograma completamente diferente. Olhando mais atentamente, é fácil
+
+00:01:00.320 --> 00:01:03.360
+ver que muitos usuários têm menos de 25 amigos.
+
+00:01:03.360 --> 00:01:06.140
+Esses usuários provavelmente são novos. Agora vamos fazer uma
+
+00:01:06.140 --> 00:01:10.280
+pergunta mais interessante. Em média, o grupo de qual sexo tem mais amigos,
+
+00:01:10.280 --> 00:01:13.150
+homens ou mulheres? Para responder a essa questão, precisamos
+
+00:01:13.150 --> 00:01:16.840
+dividir este histograma em duas partes para homens e mulheres.
+
+00:01:16.840 --> 00:01:17.870
+Vamos ver se você consegue fazer isso.
+

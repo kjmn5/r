@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.550 --> 00:00:03.090
+Para evitar analisar todos estes dados de cauda longa,
+
+00:00:03.090 --> 00:00:06.570
+podemos usar o parâmetro membro x em um q plot. Esse
+
+00:00:06.570 --> 00:00:09.350
+parâmetro usa um vetor no qual temos as posições de início
+
+00:00:09.350 --> 00:00:12.280
+e término dos eixos. No nosso caso,
+
+00:00:12.280 --> 00:00:15.930
+queremos examinar o número de amigos menor que 1.000.
+
+00:00:15.930 --> 00:00:18.590
+Ao executar o código, vejo que tenho o gráfico
+
+00:00:18.590 --> 00:00:22.420
+com o número de amigos menor que 1.000. Há outra forma
+
+00:00:22.420 --> 00:00:26.290
+de criar o mesmo gráfico. Não usarei o parâmetro membro x.
+
+00:00:26.290 --> 00:00:29.190
+Em vez disso, adicionarei uma camada. Uso limites,
+
+00:00:29.190 --> 00:00:32.390
+em vez do membro x, como parâmetro aqui, pois
+
+00:00:32.390 --> 00:00:35.400
+sei que esse ajuste já é para o eixo x. É por isso
+
+00:00:35.400 --> 00:00:39.270
+que ele é chamado scale x continuous. Há também um correspondente do
+
+00:00:39.270 --> 00:00:43.010
+eixo y denominado scale y continuous. Um dos conceitos
+
+00:00:43.010 --> 00:00:45.190
+legais do gráfico GG é a possibilidade de criar o
+
+00:00:45.190 --> 00:00:48.260
+gráfico em camadas. Discutiremos as camadas posteriormente nesta lição.
+
+00:00:48.260 --> 00:00:51.490
+Por ora, usarei a sintaxe q plot.
+
+00:00:51.490 --> 00:00:53.820
+Até agora, aprendemos como criar histogramas,
+
+00:00:53.820 --> 00:00:56.870
+aprimorá-los e ajustar os eixos. Mas
+
+00:00:56.870 --> 00:00:59.240
+todos os nossos histogramas tinham uma configuração
+
+00:00:59.240 --> 00:01:02.030
+padrão. Recebemos esta mensagem de erro
+
+00:01:02.030 --> 00:01:05.330
+sobre a largura de banda padrão acima de 30.
+
+00:01:05.330 --> 00:01:08.210
+Podemos definir a largura de banda para revelar
+
+00:01:08.210 --> 00:01:10.760
+tendências interessantes nos dados. Vamos ouvir o que aconteceu durante
+
+00:01:10.760 --> 00:01:13.760
+a investigação de Moira quando ela alterou a largura de banda de seu histograma.
+

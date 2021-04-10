@@ -1,0 +1,61 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.510 --> 00:00:03.070
+Quando executamos este código, obtemos este resultado. E
+
+00:00:03.070 --> 00:00:05.920
+note que há uma contagem de amigos dividida em mulheres e
+
+00:00:05.920 --> 00:00:09.530
+homens. Parece que a contagem de amigos
+
+00:00:09.530 --> 00:00:12.870
+mediana e média é maior para mulheres. Nesse caso, a resposta foi
+
+00:00:12.870 --> 00:00:16.230
+mulheres. A diferença entre a contagem de amigos mediana para
+
+00:00:16.230 --> 00:00:20.370
+homens e mulheres é 22. É só subtrair estes dois números.
+
+00:00:20.370 --> 00:00:22.310
+Agora, quero que preste atenção na média.
+
+00:00:22.310 --> 00:00:25.600
+Note como a média para contagem de amigos é mais elevada do que
+
+00:00:25.600 --> 00:00:29.820
+a mediana para mulheres e homens. Isso deve
+
+00:00:29.820 --> 00:00:32.790
+fazer sentido, já que nossos dados são de cauda longa. Portanto, esses
+
+00:00:32.790 --> 00:00:35.230
+valores mais elevados fora e as contagens de amigos mais elevadas trarão
+
+00:00:35.230 --> 00:00:38.420
+nossa média para a direita. Quanto a essa última questão,
+
+00:00:38.420 --> 00:00:40.830
+a mediana é uma métrica melhor do que a média porque é
+
+00:00:40.830 --> 00:00:43.530
+uma estatística mais robusta. Algumas pessoas com grandes
+
+00:00:43.530 --> 00:00:46.910
+contagens de amigos elevam a média, o que não representa necessariamente
+
+00:00:46.910 --> 00:00:50.480
+a maioria dos usuários. O que é legal é que a mediana é resistente a alteração,
+
+00:00:50.480 --> 00:00:53.820
+pois ela marca o ponto médio de todos os pontos de dados. Enquanto confiamos
+
+00:00:53.820 --> 00:00:55.480
+em metade dos nossos valores, podemos reportar um
+
+00:00:55.480 --> 00:00:57.740
+local confiável do centro de nossa distribuição.
+

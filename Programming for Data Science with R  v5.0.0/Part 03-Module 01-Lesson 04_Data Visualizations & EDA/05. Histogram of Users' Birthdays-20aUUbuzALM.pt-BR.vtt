@@ -1,0 +1,106 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.850 --> 00:00:04.440
+Vamos começar verificando aniversários usando ggplot. Ggplot é um
+
+00:00:04.440 --> 00:00:08.430
+pacote de gráficos que nos permite fazer visualizações. Estamos usando ggplot
+
+00:00:08.430 --> 00:00:11.340
+porque é mais fácil do que os gráficos básicos que veem com o R.
+
+00:00:11.340 --> 00:00:13.980
+Ele tem alguns recursos incríveis, como formatos de gráficos e
+
+00:00:13.980 --> 00:00:16.790
+legendas que são gerados automaticamente. A primeira coisa que precisamos fazer
+
+00:00:16.790 --> 00:00:19.920
+é baixar e instalar a biblioteca ggplot. Agora que
+
+00:00:19.920 --> 00:00:23.070
+carregamos o ggplot, vamos usar a função qplot
+
+00:00:23.070 --> 00:00:26.120
+para traçar um histograma que mostra o número de usuários cujos aniversários caem
+
+00:00:26.120 --> 00:00:28.790
+em determinado dia. Posso executar o comando pf
+
+00:00:28.790 --> 00:00:32.500
+por nome para obter uma saída com todas as minhas variáveis. Agora, estou
+
+00:00:32.500 --> 00:00:35.670
+tentando criar a data de nascimento pelo histograma dia
+
+00:00:35.670 --> 00:00:38.220
+para todos os meus usuários. Vou usar a variável dia da data de
+
+00:00:38.220 --> 00:00:41.858
+nascimento, aqui. Para a função qplot, vou passar
+
+00:00:41.858 --> 00:00:45.226
+dois parâmetros x e data. X vai usar a variável
+
+00:00:45.226 --> 00:00:48.950
+dob_day e data vai usar a variável pf
+
+00:00:48.950 --> 00:00:51.280
+que é de onde todos os meus dados vêm, do conjunto de dados de pseudousuários do
+
+00:00:51.280 --> 00:00:54.880
+Facebook. Executando este comando, vejo meu histograma
+
+00:00:54.880 --> 00:00:57.680
+em uma janela do gráfico abaixo. Agora, você pode observar que
+
+00:00:57.680 --> 00:01:00.770
+este gráfico tem uma cor um pouco diferente. Se estiver curioso sobre
+
+00:01:00.770 --> 00:01:04.560
+a definição de cores e temas no R, consulte as notas do instrutor. Voltando
+
+00:01:04.560 --> 00:01:06.780
+ao nosso código na console, você pode ver que recebemos esta mensagem
+
+00:01:06.780 --> 00:01:09.840
+de aviso, quando executamos o código. Está tudo certo
+
+00:01:09.840 --> 00:01:12.360
+por enquanto, mas você deve pensar sobre o que esta mensagem
+
+00:01:12.360 --> 00:01:16.490
+significa. Então, aqui está nosso histograma até agora, mas eu quero
+
+00:01:16.490 --> 00:01:19.190
+adicionar mais uma camada a este gráfico. Vamos corrigir o rótulo no
+
+00:01:19.190 --> 00:01:22.540
+eixo x, dessa forma podemos ver cada dia do mês aqui. Dessa forma,
+
+00:01:22.540 --> 00:01:24.750
+para ajustar o eixo x, vou adicionar um sinal + à direita,
+
+00:01:24.750 --> 00:01:28.270
+após meu código e, em seguida, clicar na tecla de retorno. Isso me conduz imediatamente à
+
+00:01:28.270 --> 00:01:32.080
+próxima linha com um pouco de recuo aqui à direita. Vou
+
+00:01:32.080 --> 00:01:34.700
+adicionar a camada layer scale x discrete e dar a ela os intervalos de ordem de prioridade
+
+00:01:34.700 --> 00:01:38.210
+de 1 a 31. Isso ocorre porque quero que todos os
+
+00:01:38.210 --> 00:01:41.550
+meus dias sejam de 1 a 31, os dias do mês. E executando
+
+00:01:41.550 --> 00:01:43.480
+este código, podemos ver que fizemos um pouco
+
+00:01:43.480 --> 00:01:46.580
+melhor. O que você observou neste histograma?
+

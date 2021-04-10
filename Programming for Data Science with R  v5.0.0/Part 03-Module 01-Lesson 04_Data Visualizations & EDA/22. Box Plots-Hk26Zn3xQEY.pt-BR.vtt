@@ -1,0 +1,88 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.270 --> 00:00:02.870
+Para alterar a aparência de gráficos de caixa, basta
+
+00:00:02.870 --> 00:00:06.780
+ajustar o eixo Y. Para fazer isso, podemos usar o parâmetro ylim
+
+00:00:06.780 --> 00:00:09.680
+no Q plot. Aqui posso
+
+00:00:09.680 --> 00:00:12.850
+definir os limites superior e inferior. O limite inferior será 0
+
+00:00:12.850 --> 00:00:15.500
+e o limite superior será 1000. Você pode ou não
+
+00:00:15.500 --> 00:00:17.910
+ter recebido uma mensagem de aviso sobre a remoção de pontos de
+
+00:00:17.910 --> 00:00:21.900
+dados. Quando usamos o parâmetro ylim, estamos removendo pontos
+
+00:00:21.900 --> 00:00:25.570
+de dados de nossos cálculos. Os gráficos de caixa originais
+
+00:00:25.570 --> 00:00:28.620
+podem ser um pouco diferentes deste. Outra forma de criar o
+
+00:00:28.620 --> 00:00:32.280
+mesmo gráfico é usando a camada scale_y_continuous. Podemos
+
+00:00:32.280 --> 00:00:34.570
+usar esta mesma parte do código e fechar
+
+00:00:34.570 --> 00:00:38.405
+os parênteses. Ao adicionar a camada scale_y_continuous,
+
+00:00:38.405 --> 00:00:41.190
+posso definir limits entre 0 e 1000. Com este
+
+00:00:41.190 --> 00:00:44.460
+código, note que obtemos os mesmos gráficos de caixa.
+
+00:00:44.460 --> 00:00:47.025
+Quero chamar sua atenção para o gráfico da caixa
+
+00:00:47.025 --> 00:00:50.490
+female. Note que o topo da caixa está abaixo de 250.
+
+00:00:50.490 --> 00:00:55.280
+Este valor deve ser em torno de 200 ou 230.
+
+00:00:55.280 --> 00:00:57.970
+Mas o valor pode não ser preciso para todos os dados. Quando
+
+00:00:57.970 --> 00:01:01.610
+usamos o parâmetro ylim ou a camada scale_y_continuous, removemos
+
+00:01:01.610 --> 00:01:04.580
+pontos de dados de nossos cálculos. Convém usar a
+
+00:01:04.580 --> 00:01:07.060
+camada coord_cartesian para definir os
+
+00:01:07.060 --> 00:01:09.860
+limites de ylim. Usaremos a mesma parte do código e, em vez de
+
+00:01:09.860 --> 00:01:13.740
+adicionar a camada scale_y_continuous, adicionaremos a camada coord_cartesian.
+
+00:01:13.740 --> 00:01:16.690
+Definirei aqui os limites de ylim de 0 a 1000.
+
+00:01:16.690 --> 00:01:19.660
+Note como o topo da caixa se aproximou um pouco de
+
+00:01:19.660 --> 00:01:23.050
+250 para females. No próximo vídeo, explicarei melhor essa
+
+00:01:23.050 --> 00:01:27.090
+diferença. Também verificaremos o significado do topo da caixa.
+
+00:01:27.090 --> 00:01:30.190
+E o significado da parte inferior da caixa. E o que esta linha preta representa.
+

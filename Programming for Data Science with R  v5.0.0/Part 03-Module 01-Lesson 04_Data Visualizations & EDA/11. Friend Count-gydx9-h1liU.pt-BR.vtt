@@ -1,0 +1,25 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.170 --> 00:00:03.610
+Como a Moira disse, pode ser que precisemos ajustar nossos eixos
+
+00:00:03.610 --> 00:00:06.270
+para observar melhor os dados. Vamos ver um exemplo disso usando nosso
+
+00:00:06.270 --> 00:00:09.140
+conjunto de dados do Facebook. Quero que você crie
+
+00:00:09.140 --> 00:00:12.160
+um histograma de contagem de amigos. Tente fazer isso em "R"
+
+00:00:12.160 --> 00:00:15.010
+o cole seu código na caixa. Assim que tiver seu gráfico,
+
+00:00:15.010 --> 00:00:16.580
+quero que pense no que esse gráfico
+
+00:00:16.580 --> 00:00:19.200
+é semelhante ao primeiro gráfico da Moira.
+

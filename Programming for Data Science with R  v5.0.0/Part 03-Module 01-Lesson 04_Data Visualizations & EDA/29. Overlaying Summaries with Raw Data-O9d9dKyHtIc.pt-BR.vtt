@@ -1,0 +1,175 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.380 --> 00:00:03.230
+O Ggplot permite criar facilmente vários resumos de
+
+00:00:03.230 --> 00:00:06.180
+nossos dados e plotá-los. Isso pode ser especialmente útil
+
+00:00:06.180 --> 00:00:09.810
+para exploração rápida e para combinar gráficos de dados brutos,
+
+00:00:09.810 --> 00:00:13.900
+como nosso gráfico de dispersão original com resumos de exibição. Este gráfico
+
+00:00:13.900 --> 00:00:16.490
+é um desses resumos de exibição e quero
+
+00:00:16.490 --> 00:00:18.920
+poder exibi-lo sobre o gráfico original que
+
+00:00:18.920 --> 00:00:22.570
+tínhamos para friend_count versus age. Vamos ver aquele gráfico
+
+00:00:22.570 --> 00:00:25.810
+de dispersão original novamente. Agora, como todos esses pontos são pretos,
+
+00:00:25.810 --> 00:00:27.960
+vou mudar a cor deles. Dessa forma, quando eu
+
+00:00:27.960 --> 00:00:30.730
+sobrepuser o resumo, será mais fácil de ver. Vou mudar
+
+00:00:30.730 --> 00:00:34.016
+a cor aqui para laranja Agora, tenho meu gráfico de dispersão
+
+00:00:34.016 --> 00:00:36.980
+e quero sobrepor o resumo que temos de antes.
+
+00:00:36.980 --> 00:00:40.258
+Quero colocar isto sobre isto. Posso adicionar uma
+
+00:00:40.258 --> 00:00:44.540
+geom_line à nosso gráfico para fazer isso. Aqui, eu vou
+
+00:00:44.540 --> 00:00:47.590
+passar o parâmetro stat e defini-lo como igual a summary e
+
+00:00:47.590 --> 00:00:51.010
+vou dar a ele uma função para y. O parâmetro fun.y usa
+
+00:00:51.010 --> 00:00:53.090
+qualquer tipo de função, portanto, podemos aplicá-la
+
+00:00:53.090 --> 00:00:55.520
+aos valores y. Neste caso, quero usar
+
+00:00:55.520 --> 00:00:58.530
+a mean. E lá está ela, esta é minha linha de resumo.
+
+00:00:58.530 --> 00:01:01.800
+São a contagem média de amigos por idade, sobre meus dados brutos
+
+00:01:01.800 --> 00:01:05.825
+ou meu gráfico de dispersão. Este gráfico revela imediatamente o aumento em
+
+00:01:05.825 --> 00:01:09.460
+friend_count para usuários muito jovens e a redução subsequente logo depois
+
+00:01:09.460 --> 00:01:12.480
+disso. Podemos até adicionar mais detalhes a este gráfico
+
+00:01:12.480 --> 00:01:16.290
+exibindo vários resumos ao mesmo tempo. Apesar de ter esta média
+
+00:01:16.290 --> 00:01:20.150
+condicional plotada, não podemos ver imediatamente quão dispersa ela é em torno
+
+00:01:20.150 --> 00:01:22.800
+da média. Por exemplo, as friend_counts médias para
+
+00:01:22.800 --> 00:01:25.440
+a idade de 30 anos são nesta região ou elas se estendem
+
+00:01:25.440 --> 00:01:28.280
+para cima até 2.000? Certamente, podemos ver
+
+00:01:28.280 --> 00:01:31.290
+que a maioria dos usuários, mesmo os jovens, não têm mais
+
+00:01:31.290 --> 00:01:34.970
+que 2.000 amigos. Podemos nos ajudar a entender essa distribuição
+
+00:01:34.970 --> 00:01:38.030
+condicional de friend_counts plotando também quantis dos
+
+00:01:38.030 --> 00:01:41.916
+dados. Vamos usar os quantis de 10%, 50% ou mediano e
+
+00:01:41.916 --> 00:01:46.520
+de 90%. Começaremos adicionando nosso linha de resumo do quantil de 10%
+
+00:01:46.520 --> 00:01:50.060
+a este gráfico. Portanto, vou adicionar outra geom-line, vou passar
+
+00:01:50.060 --> 00:01:52.570
+um stat de summary para ela e, para a função, vou
+
+00:01:52.570 --> 00:01:55.320
+passar quantile, em vez de mean. Preciso definir a
+
+00:01:55.320 --> 00:01:59.145
+probabilidade igual a um décimo ou 0,1. Este código fornece
+
+00:01:59.145 --> 00:02:02.170
+um quantil de 10% em meu gráfico. Agora, eu quero que ele apareça
+
+00:02:02.170 --> 00:02:04.550
+de maneira diferente da média. Portanto, vou adicionar alguns detalhes para
+
+00:02:04.550 --> 00:02:07.050
+colori-lo e torná-lo tracejado. Vou definir o tipo da linha
+
+00:02:07.050 --> 00:02:08.860
+como dois para torná-lo tracejado e vou definir a
+
+00:02:08.860 --> 00:02:13.114
+cor como azul. Aí está, está muito melhor. Agora para adicionar
+
+00:02:13.114 --> 00:02:16.029
+o quantil de 90%, eu preciso alterar apenas a probabilidade
+
+00:02:16.029 --> 00:02:19.130
+aqui para 0,9, vem vez de 0,1. Portanto, vou adicionar outra
+
+00:02:19.130 --> 00:02:22.660
+linha. Usarei os mesmos parâmetros de antes e então apenas
+
+00:02:22.660 --> 00:02:26.080
+alterarei a probabilidade. Aqui, podemos ver que 90% dos
+
+00:02:26.080 --> 00:02:29.090
+usuários têm friend_counts abaixo desta linha. A última coisa que farei
+
+00:02:29.090 --> 00:02:32.670
+é adicionar a marca de 50%, que é o mediano. Agora,
+
+00:02:32.670 --> 00:02:36.310
+não tornarei a geom_line tracejada, mas a tornarei azul.
+
+00:02:36.310 --> 00:02:38.950
+Agora este é um gráfico completo. Quero que você tente criar este
+
+00:02:38.950 --> 00:02:42.890
+mesmo gráfico no R e tente adicionar uma camada coord_cartesian para aplicar zoom em
+
+00:02:42.890 --> 00:02:44.490
+diferentes partes deste gráfico.
+
+00:02:44.490 --> 00:02:46.600
+Examine a documentação de coord_cartesian se
+
+00:02:46.600 --> 00:02:49.870
+precisar de ajuda. E, definitivamente, certifique-se de que você compreende todo este
+
+00:02:49.870 --> 00:02:52.600
+código. Eu sei que há muita coisa acontecendo aqui. Quando você
+
+00:02:52.600 --> 00:02:55.420
+tiver uma noção forte deste gráfico e o tiver explorado um pouco,
+
+00:02:55.420 --> 00:02:58.140
+quero que você faça algumas observações sobre o gráfico. O que você observa?
+

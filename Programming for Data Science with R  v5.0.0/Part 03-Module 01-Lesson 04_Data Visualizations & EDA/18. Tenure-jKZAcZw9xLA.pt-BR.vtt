@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.290 --> 00:00:02.710
+Vamos continuar observando algumas outras variáveis para que possamos
+
+00:00:02.710 --> 00:00:06.080
+entender melhor os usuários em nossa amostra de conjunto de dados. Desta vez, vou
+
+00:00:06.080 --> 00:00:09.560
+examinar a distribuição de duração ou quantos dias alguém vem
+
+00:00:09.560 --> 00:00:13.910
+usando o Facebook. Também vou começar a inserir cor para animar
+
+00:00:13.910 --> 00:00:15.790
+nossos gráficos um pouco. Para fazer isso, irei usar
+
+00:00:15.790 --> 00:00:19.400
+a cor e o parâmetro de preenchimento. Agora, não irei explicar
+
+00:00:19.400 --> 00:00:22.610
+este código em detalhes. Verifique as Notas do instrutor para obter uma explicação
+
+00:00:22.610 --> 00:00:25.440
+sobre este código. Também há um link para os temas de ggplot para conhecer
+
+00:00:25.440 --> 00:00:28.960
+todas as diferenças de ajustes além da cor que você pode fazer. Agora,
+
+00:00:28.960 --> 00:00:31.410
+se este código levar você para um loop, não quero que
+
+00:00:31.410 --> 00:00:33.790
+você foque nele por muito tempo. Você pode
+
+00:00:33.790 --> 00:00:37.240
+ignorá-lo. Normalmente eu irei incluí-lo como a segunda linha de parâmetros dentro de
+
+00:00:37.240 --> 00:00:41.070
+qplot. Ao executar este código, você pode ver que temos um bonito histograma.
+
+00:00:41.070 --> 00:00:44.990
+E novamente, aqui o histograma tem a largura de compartimento automática padronizada. Eu
+
+00:00:44.990 --> 00:00:48.300
+farei um último ajuste e configurarei para nós. Ao definir
+
+00:00:48.300 --> 00:00:50.640
+a largura de compartimento igual a 30, podemos ver que temos uma visualização
+
+00:00:50.640 --> 00:00:52.870
+melhor da distribuição. Vejamos se você tem
+
+00:00:52.870 --> 00:00:55.270
+como lidar com histogramas e largura de compartimento. Veremos
+
+00:00:55.270 --> 00:00:57.370
+se você pode mudar a distribuição neste
+
+00:00:57.370 --> 00:01:00.350
+próximo exercício de programação. Nele, você criará um histograma
+
+00:01:00.350 --> 00:01:03.090
+de duração que é medido em anos, em vez de
+
+00:01:03.090 --> 00:01:05.883
+dias. Você também desejará pensar sobre uma largura de compartimento
+
+00:01:05.883 --> 00:01:08.590
+apropriada para os dados. 30 aqui se encaixa perfeitamente, como
+
+00:01:08.590 --> 00:01:11.080
+estou medindo em dias, e 30 dias é cerca de um mês.
+

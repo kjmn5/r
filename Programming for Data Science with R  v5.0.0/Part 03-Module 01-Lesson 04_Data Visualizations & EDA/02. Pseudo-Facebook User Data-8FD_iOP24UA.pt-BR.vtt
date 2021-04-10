@@ -1,0 +1,112 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.380 --> 00:00:03.719
+Obrigado, Dean. Ao longo desta lição e outras, Dean vai nos dar mais
+
+00:00:03.719 --> 00:00:07.850
+orientações e falar sobre o panorama geral ao fazer EDA. Por enquanto, vamos
+
+00:00:07.850 --> 00:00:10.700
+começar carregando alguns dados. Você pode encontrar um arquivo de dados
+
+00:00:10.700 --> 00:00:14.030
+nas Notas do instrutor. Este arquivo contém todos os dados do Facebook
+
+00:00:14.030 --> 00:00:16.920
+com os quais vamos trabalhar. Para carregar os dados, vamos
+
+00:00:16.920 --> 00:00:19.526
+primeiro verificar se estamos no diretório certo. Este é meu
+
+00:00:19.526 --> 00:00:21.970
+diretório atual e posso ver que estou em uma pasta que
+
+00:00:21.970 --> 00:00:25.410
+tem os conjuntos de dados. Posso usar o comando list.files para descobrir
+
+00:00:25.410 --> 00:00:28.640
+quais são os arquivos dentro deste diretório e este é
+
+00:00:28.640 --> 00:00:32.600
+o conjunto de dados que quero, o conjunto de dados pseudo_facebook. Para ler
+
+00:00:32.600 --> 00:00:36.110
+o conjunto de dados vou usar o comando read.csv. Mas
+
+00:00:36.110 --> 00:00:38.260
+preciso ter um pouco de cuidado. Preciso indicar
+
+00:00:38.260 --> 00:00:41.280
+que o separador é realmente uma tabulação. Isso porque estamos
+
+00:00:41.280 --> 00:00:44.960
+trabalhando com um arquivo de valores separados por tabulação. Executando o comando, posso
+
+00:00:44.960 --> 00:00:47.840
+ver que tenho meu conjunto de dados em R. Agora, este
+
+00:00:47.840 --> 00:00:50.530
+conjunto de dados é similar ao tipo que os cientistas de dados veem
+
+00:00:50.530 --> 00:00:52.900
+de vez em quando no Facebook. E esse é especialmente o tipo
+
+00:00:52.900 --> 00:00:55.800
+de dados que eles vão usar ao fazer EDA. Este arquivo
+
+00:00:55.800 --> 00:01:00.070
+tem aproximadamente 99.000 linhas ou observações com
+
+00:01:00.070 --> 00:01:04.030
+15 variáveis. Cada observação representa um usuário e esse usuário
+
+00:01:04.030 --> 00:01:06.660
+terá informações diferentes, como idade, nome ou
+
+00:01:06.660 --> 00:01:09.042
+data de nascimento. Podemos ver todas estas variáveis
+
+00:01:09.042 --> 00:01:12.760
+executando o comando names. Agora, em todo este processo
+
+00:01:12.760 --> 00:01:17.268
+nosso objetivo é entender o comportamento de nossos usuários e seus dados demográficos.
+
+00:01:17.268 --> 00:01:19.840
+Vamos querer entender o que estão fazendo no Facebook
+
+00:01:19.840 --> 00:01:22.330
+e o que eles usam. É por isso que você vê coisas
+
+00:01:22.330 --> 00:01:27.750
+como friend_count, www_likes e mobile_likes. Criamos este conjunto de
+
+00:01:27.750 --> 00:01:30.850
+dados especificamente para este curso para ter muitas características comuns
+
+00:01:30.850 --> 00:01:34.305
+aos dados comportamentais e demográficos de nível de usuário. Mas
+
+00:01:34.305 --> 00:01:36.615
+preciso dizer que esses dados não são dados reais
+
+00:01:36.615 --> 00:01:39.770
+do Facebook. Então, nem todas as estatísticas neste conjunto de dados
+
+00:01:39.770 --> 00:01:42.610
+serão representações precisas de como as pessoas usam o
+
+00:01:42.610 --> 00:01:45.310
+Facebook no dia a dia. Por isso, nossos advogados querem
+
+00:01:45.310 --> 00:01:48.460
+que eu faça o alerta de que estes não são dados reais
+
+00:01:48.460 --> 00:01:51.480
+de usuários do Facebook. Mas usamos um modelo complexo para gerá-los,
+
+00:01:51.480 --> 00:01:53.670
+e acho que podemos aprender algumas coisas muito interessantes sobre isso.
+
