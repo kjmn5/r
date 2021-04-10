@@ -1,0 +1,16 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.069 --> 00:00:05.082
+In this quiz, use a for
+loop to write an R program that adds
+
+00:00:05.082 --> 00:00:10.522
+the numbers 1 to 100 and
+store it in a variable called sum.
+
+00:00:10.522 --> 00:00:16.450
+We're going to refer to the iteration
+variable, using the variable name num.
+

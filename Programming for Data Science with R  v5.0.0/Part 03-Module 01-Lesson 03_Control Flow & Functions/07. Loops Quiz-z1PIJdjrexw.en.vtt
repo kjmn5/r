@@ -1,0 +1,37 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.141 --> 00:00:05.619
+We have a for loop that iterates over
+every element of that vector here.
+
+00:00:05.619 --> 00:00:09.620
+The vector is seq(1, 100, by=1),
+
+00:00:09.620 --> 00:00:16.480
+which is a vector of values between
+1 and 100 separated by distance of 1.
+
+00:00:16.480 --> 00:00:20.250
+That's basically 1, 2, 3,
+4, all the way to 100.
+
+00:00:20.250 --> 00:00:24.180
+So the for loop with iterate over
+every value in that vector, and
+
+00:00:24.180 --> 00:00:25.820
+every iteration,
+
+00:00:25.820 --> 00:00:30.480
+the corresponding value will be
+assigned to the iteration variable num.
+
+00:00:30.480 --> 00:00:31.940
+Within the for loop,
+
+00:00:31.940 --> 00:00:36.640
+we're going to increment the variable
+sum with the iteration variable num.
+

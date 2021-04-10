@@ -1,0 +1,43 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.210 --> 00:00:04.380
+When we have a function in R,
+we can pass arguments
+
+00:00:04.380 --> 00:00:09.320
+in the default order in which they're
+specified in the function definition.
+
+00:00:09.320 --> 00:00:13.772
+But if we provide names
+associated with these parameters,
+
+00:00:13.772 --> 00:00:17.244
+we can change the order
+of the parameters, and
+
+00:00:17.244 --> 00:00:23.290
+we can only pass a subset of
+the parameters potentially out of order.
+
+00:00:23.290 --> 00:00:30.790
+In this quiz, let's call this function
+foo with a variable x,y,z in that order.
+
+00:00:30.790 --> 00:00:33.230
+In the order y,x,z.
+
+00:00:33.230 --> 00:00:37.550
+And only with the variable z with x and
+y set to default.
+
+00:00:37.550 --> 00:00:41.000
+The past values should be 10,
+20, and 30,
+
+00:00:41.000 --> 00:00:43.820
+assigned to the corresponding variables,
+x, y, and z.
+

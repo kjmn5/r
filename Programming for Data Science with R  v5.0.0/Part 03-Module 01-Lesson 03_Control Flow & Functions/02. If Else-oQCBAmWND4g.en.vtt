@@ -1,0 +1,49 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.100 --> 00:00:05.450
+Control flow using if-else in R is
+pretty similar to other languages.
+
+00:00:05.450 --> 00:00:06.420
+Here is an example.
+
+00:00:06.420 --> 00:00:11.490
+We first have an if clause
+followed by else if
+
+00:00:11.490 --> 00:00:16.520
+that is executed,
+if the first if clause is not correct.
+
+00:00:16.520 --> 00:00:19.590
+We can have multiple else if clauses.
+
+00:00:19.590 --> 00:00:24.900
+At the end we have an optional
+else clause that is executed,
+
+00:00:24.900 --> 00:00:27.950
+if none of the previous
+clauses are executed.
+
+00:00:27.950 --> 00:00:34.520
+Logical operators in R are similar to
+the logical operators in C++ or Java.
+
+00:00:34.520 --> 00:00:40.495
+An AND operator is basically &amp;&amp;,
+OR operator is ||,
+
+00:00:40.495 --> 00:00:45.105
+equality is = =, and inequality is !=.
+
+00:00:45.105 --> 00:00:50.908
+These operators take two values and
+return true or
+
+00:00:50.908 --> 00:00:57.690
+false based on the logical
+condition that they describe.
+

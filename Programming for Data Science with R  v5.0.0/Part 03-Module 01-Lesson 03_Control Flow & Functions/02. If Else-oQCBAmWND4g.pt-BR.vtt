@@ -1,0 +1,68 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.033 --> 00:00:02.534
+O fluxo de controle
+usando o If Else no R
+
+00:00:02.567 --> 00:00:05.167
+é muito parecido
+com o de outras linguagens.
+
+00:00:05.200 --> 00:00:07.000
+Aqui temos um exemplo.
+
+00:00:07.033 --> 00:00:11.434
+Temos uma cláusula If,
+seguida da Else If,
+
+00:00:11.467 --> 00:00:16.033
+que vai ser executada
+se a 1ª cláusula estiver errada.
+
+00:00:16.267 --> 00:00:19.400
+Podemos usar várias cláusulas
+Else If.
+
+00:00:19.434 --> 00:00:22.868
+No fim temos
+uma cláusula Else opcional,
+
+00:00:22.901 --> 00:00:24.801
+que vai ser executada
+
+00:00:24.834 --> 00:00:27.734
+se as cláusulas anteriores
+não forem executadas.
+
+00:00:27.767 --> 00:00:30.767
+Os operadores lógicos no R
+são parecidos
+
+00:00:30.801 --> 00:00:34.300
+com o do C++ e do Java.
+
+00:00:34.334 --> 00:00:38.968
+O operador And
+é basicamente &amp;&amp;,
+
+00:00:39.000 --> 00:00:43.033
+o operador Or é ||,
+
+00:00:43.067 --> 00:00:48.334
+o Equality é ==
+e o Inequality é !=.
+
+00:00:48.634 --> 00:00:52.968
+Esses operadores
+têm dois valores
+
+00:00:53.000 --> 00:00:55.000
+e retornam
+verdadeiros ou falsos
+
+00:00:55.033 --> 00:00:57.567
+com base na condição lógica
+que descrevem.
+

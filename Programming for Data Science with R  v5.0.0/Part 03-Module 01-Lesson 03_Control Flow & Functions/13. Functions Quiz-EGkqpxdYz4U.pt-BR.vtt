@@ -1,0 +1,53 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.080 --> 00:00:04.156
+Quando temos uma função em R,
+podemos passar argumentos
+
+00:00:04.190 --> 00:00:07.123
+na ordem padrão
+em que eles foram especificados
+
+00:00:07.157 --> 00:00:08.716
+na definição da função.
+
+00:00:09.260 --> 00:00:13.201
+Se fornecermos nomes
+associados a esses parâmetros,
+
+00:00:13.235 --> 00:00:16.723
+podemos mudar a ordem
+dos parâmetros
+
+00:00:16.757 --> 00:00:20.621
+e podemos passar apenas
+um subconjunto de parâmetros
+
+00:00:20.655 --> 00:00:22.732
+potencialmente fora de ordem.
+
+00:00:23.208 --> 00:00:26.208
+Neste teste,
+vamos chamar esta função "foo"
+
+00:00:26.242 --> 00:00:30.145
+com variáveis X, Y e Z,
+nessa ordem.
+
+00:00:30.617 --> 00:00:33.025
+Na ordem Y, X e Z.
+
+00:00:33.059 --> 00:00:37.008
+E apenas com a variável Z,
+com X e Y definidas como o padrão.
+
+00:00:37.472 --> 00:00:40.611
+Os valores anteriores
+deveriam ser 10, 20 e 30,
+
+00:00:40.645 --> 00:00:44.037
+atribuídos às variáveis
+correspondentes, X, Y e Z.
+

@@ -1,0 +1,39 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.150 --> 00:00:04.570
+In the first case, we want to
+call foo with the variables 10,
+
+00:00:04.570 --> 00:00:07.410
+20, 30 passed in that order.
+
+00:00:08.530 --> 00:00:13.400
+We don't need to provide any names
+because we just passed the parameters
+
+00:00:13.400 --> 00:00:18.020
+in the default order specified
+in the function definition.
+
+00:00:18.020 --> 00:00:22.840
+In the second case, we want to pass this
+values in a different order, so we have
+
+00:00:22.840 --> 00:00:28.320
+to specify names of the variables that
+these values will be assigned to.
+
+00:00:28.320 --> 00:00:32.090
+In the third case we
+only passed the value 30.
+
+00:00:32.090 --> 00:00:36.470
+Implying to the variable Z,
+we omit the variables X and
+
+00:00:36.470 --> 00:00:39.280
+Y because they're going
+to get the default value.
+

@@ -1,0 +1,326 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>If/Else [Text]</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Control Flow &amp; Functions</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. What&#x27;s Ahead.html">01. What&#x27;s Ahead</a>
+    </li>
+    <li class="">
+      <a href="02. If Else.html">02. If Else</a>
+    </li>
+    <li class="">
+      <a href="03. IfElse [Text].html">03. If/Else [Text]</a>
+    </li>
+    <li class="">
+      <a href="04. IfElse Statements [Graffiti].html">04. If/Else Statements [Graffiti]</a>
+    </li>
+    <li class="">
+      <a href="05. Loops [Text].html">05. Loops [Text]</a>
+    </li>
+    <li class="">
+      <a href="06. Loops [Graffiti].html">06. Loops [Graffiti]</a>
+    </li>
+    <li class="">
+      <a href="07. Loops Quiz.html">07. Loops Quiz</a>
+    </li>
+    <li class="">
+      <a href="08. Functions.html">08. Functions</a>
+    </li>
+    <li class="">
+      <a href="09. Functions [Text].html">09. Functions [Text]</a>
+    </li>
+    <li class="">
+      <a href="10. Functions Notebook [Graffiti].html">10. Functions Notebook [Graffiti]</a>
+    </li>
+    <li class="">
+      <a href="11. Passing And Creating Arguments [Text].html">11. Passing And Creating Arguments [Text]</a>
+    </li>
+    <li class="">
+      <a href="12. Passing And Creating Arguments [Quiz].html">12. Passing And Creating Arguments [Quiz]</a>
+    </li>
+    <li class="">
+      <a href="13. Functions Quiz.html">13. Functions Quiz</a>
+    </li>
+    <li class="">
+      <a href="14. Recap.html">14. Recap</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">03. If/Else [Text]</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="ifelse">If/Else</h1>
+<p>If/else logic is used in code and in the world all around us.  Imagine we are pre-heating our oven to 425 degrees F.  When the temperature of the oven hits 425, we want to know.  However, if it isn't that hot yet, we will keep waiting.</p>
+<h1 id="example">Example</h1>
+<p>First, we might create a couple of variables:</p>
+<pre><code class="undefined language-undefined">oven.temp = NULL
+is.it.ready.result1 = "It is ready!!!"
+is.it.ready.result2 = "It isn't ready yet :("</code></pre>
+<p>I have stored <code>NULL</code> in our variables, as values that we will update later.</p>
+<p>Now our if/else logic could be used in the following way:</p>
+<pre><code class="undefined language-undefined">if (oven.temp == 425){
+    print(is.it.ready.result1)
+} else {
+    print(is.it.ready.result2)
+}</code></pre>
+<p>You can see the first thing we will do is check if the <code>oven.temp == 425</code>.  If it is, we print the first result, which I have created using </p>
+<pre><code class="undefined language-undefined">is.it.ready.result1 = "It is ready!!!"</code></pre>
+<p>If the temp isn't 425, then I print the second result</p>
+<pre><code class="undefined language-undefined">is.it.ready.result2 = "It isn't ready yet :("</code></pre>
+<h1 id="testing-example-1-code">Testing Example 1 Code</h1>
+<p>We could test to make sure our if/else statement works correctly by updating our NULL place holder with some other value.</p>
+<pre><code class="undefined language-undefined">oven.temp = 385
+is.it.ready.result1 = "It is ready!!!"
+is.it.ready.result2 = "It isn't ready yet :("
+
+if (oven.temp == 425){
+    print(is.it.ready.result1)
+} else {
+    print(is.it.ready.result2)
+}</code></pre>
+<p>This provides the output of </p>
+<pre><code class="undefined language-undefined">"It isn't ready yet :("</code></pre>
+<p>If you change the <code>oven.temp = 425</code>, you will see the correct result as: </p>
+<pre><code class="undefined language-undefined">"It is ready!!!"</code></pre>
+<h1 id="example-2">Example 2</h1>
+<p>We could add to this example by adding logic for if the <code>oven is too hot</code> (if it is hotter than 425), <code>not hot enough</code> (if it is less than 425), or <code>just right</code> (if it is equal to 425).</p>
+<p>Updating our code for this example we might change our results to the following three</p>
+<pre><code class="undefined language-undefined">is.it.ready.result1 = "oven is just right"
+is.it.ready.result2 = "oven is too hot"
+is.it.ready.result3 = "oven is not hot enough"</code></pre>
+<p>And then our logic might also be updated:</p>
+<pre><code class="undefined language-undefined">if (oven.temp == 425){
+    print(is.it.ready.result1)
+} else if (oven.temp &gt; 425) {
+    print(is.it.ready.result2)
+} else {
+    print(is.it.ready.result3)
+}</code></pre>
+<h1 id="testing-example-2-code">Testing Example 2 Code</h1>
+<p>We could test to make sure our if/else statement works correctly by trying a few examples</p>
+<pre><code class="undefined language-undefined">oven.temp = 385
+is.it.ready.result1 = "oven is just right"
+is.it.ready.result2 = "oven is too hot"
+is.it.ready.result3 = "oven is not hot enough"
+
+if (oven.temp == 425){
+    print(is.it.ready.result1)
+} else if (oven.temp &gt; 425) {
+    print(is.it.ready.result2)
+} else {
+    print(is.it.ready.result3)
+}</code></pre>
+<p>This provides the output of </p>
+<pre><code class="undefined language-undefined">"oven is not hot enough"</code></pre>
+<p>If you change the <code>oven.temp = 425</code>, you will see the correct result as: </p>
+<pre><code class="undefined language-undefined">"oven is just right"</code></pre>
+<h1 id="modular">Modular</h1>
+<p>Though not specifically related to if/else statements, understanding modular functionality is beneficial for the questions on the next page.  The modular command has the syntax of <code>%%</code>, and it is used to identify the remainder when one number is divided by another number.</p>
+<p>For example, the result of the below is zero, because 15 is exactly divisible by 3.</p>
+<pre><code class="undefined language-undefined">[Input]:  15 %% 3
+[Output]: 0</code></pre>
+<p>However, the result of this is not zero, because 10 is not exactly divisible by 3</p>
+<pre><code class="undefined language-undefined">[Input]:  10 %% 3
+[Output]: 1</code></pre>
+<p>It is common to check if a value is exactly divisible by another using <code>%%</code> along with  <code>==</code>.</p>
+<pre><code class="undefined language-undefined">[Input]:  10 %% 3 == 0
+[Output]: FALSE
+[Input]:  6 %% 3 == 0
+[Output]: TRUE</code></pre>
+<p>This may come in handy for the second example on the next page!</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="remember">Remember</h1>
+<p>You can get a walkthrough of the notebooks by clicking on the green text.  There are multiple walkthroughs (actually 4 different videos as shown in the images below) on the next page, which are all related to the ideas on this page and in the overall lesson. </p>
+<p>Additionally, as you go about writing your solutions - note that there <strong>is no one right answer.  If you watch my solution, it is just one way about solving the problem.  Your solution might even be better!</strong></p>
+<p>You may also want to use the code on this page to assist with your solutions on the next page.  The syntax of where a <code>(</code> or <code>}</code> is can break your code, and most programmers in the real world copy and paste these items from elsewhere to simplify what logic they need to change.  No time to start these practices like the present!</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/download-12.38.04-pm.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/download.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>Additionally, as you go about writing your solutions - note that there <strong>is no one right answer.  If you watch my solution, it is just one way about solving the problem.  Your solution might even be better!</strong></p>
+<p>You may also want to use the code on this page to assist with your solutions on the next page.  The syntax of where a <code>(</code> or <code>}</code> is can break your code, and most programmers in the real world copy and paste these items from elsewhere to simplify what logic they need to change.  No time to start these practices like the present!</p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="04. IfElse Statements [Graffiti].html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('03. If/Else [Text]')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

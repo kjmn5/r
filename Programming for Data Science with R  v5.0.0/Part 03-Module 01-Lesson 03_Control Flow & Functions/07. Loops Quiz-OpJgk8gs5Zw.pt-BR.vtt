@@ -1,0 +1,24 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.017 --> 00:00:03.819
+Neste teste, use um loop do tipo for
+para escrever um programa em R
+
+00:00:03.853 --> 00:00:07.384
+que some os números
+de 1 a 100
+
+00:00:07.418 --> 00:00:10.255
+e os armazene
+numa variável "sum".
+
+00:00:10.663 --> 00:00:13.582
+Vamos fazer referência
+à variável de iteração
+
+00:00:13.616 --> 00:00:16.652
+usando a variável
+chamada "num".
+
