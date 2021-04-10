@@ -1,0 +1,82 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.280 --> 00:00:02.620
+Durante o curso, você poderá encontrar comandos que
+
+00:00:02.620 --> 00:00:06.080
+você nunca viu antes. Não esperamos que você saiba tudo,
+
+00:00:06.080 --> 00:00:07.970
+mas queremos que você tenha algumas coisas em mente
+
+00:00:07.970 --> 00:00:11.910
+quando encontrar qualquer tipo de desafio ou dificuldade. Primeiro, tenha um papel
+
+00:00:11.910 --> 00:00:14.800
+ativo na solução de problemas e conheça os recursos
+
+00:00:14.800 --> 00:00:17.600
+à sua disposição. Você pode digitar um ponto de interrogação e o nome
+
+00:00:17.600 --> 00:00:21.690
+de qualquer função para obter a documentação de ajuda no r.
+
+00:00:21.690 --> 00:00:25.590
+Por exemplo, posso procurar a documentação da função mean.
+
+00:00:25.590 --> 00:00:28.590
+Aqui terei todos os parâmetros aceitos por mean. E
+
+00:00:28.590 --> 00:00:32.549
+normalmente há exemplos no final da documentação.
+
+00:00:32.549 --> 00:00:35.330
+Posso copiar e colar isso no console e pressionar
+
+00:00:35.330 --> 00:00:38.800
+enter para ver o que a função faz. Aqui, criei algo denominado
+
+00:00:38.800 --> 00:00:41.470
+x. Se eu pressionar x no console,
+
+00:00:41.470 --> 00:00:44.598
+poderei ver o que é. É o vetor dos números
+
+00:00:44.598 --> 00:00:47.520
+0 a 10 e o número 50. Posso imprimir
+
+00:00:47.520 --> 00:00:50.600
+a média de x. Por fim, tenho
+
+00:00:50.600 --> 00:00:52.870
+um tipo de parâmetro de tendência. Talvez você possa descobrir
+
+00:00:52.870 --> 00:00:55.260
+o que ele faz. Se você não conseguir resolver seu
+
+00:00:55.260 --> 00:00:58.940
+problema usando a documentação, sugiro que pesquise no Google.
+
+00:00:58.940 --> 00:01:02.840
+StackOverflow também é outro ótimo site para procurar ajuda.
+
+00:01:02.840 --> 00:01:05.260
+Forneci links de alguns sites bem úteis
+
+00:01:05.260 --> 00:01:07.550
+nas Notas do instrutor, e você também pode encontrá-los
+
+00:01:07.550 --> 00:01:10.970
+nos materiais do curso em Our Resources. Um dos meus
+
+00:01:10.970 --> 00:01:16.110
+favoritos quando aprendi sobre o R foi o Quick-R ou statmethods.net.
+
+00:01:16.110 --> 00:01:19.550
+Esse site tem exemplos excelentes e breves códigos que
+
+00:01:19.550 --> 00:01:22.510
+podem atualizar sua memória e ensiná-lo sobre análise de dados.
+

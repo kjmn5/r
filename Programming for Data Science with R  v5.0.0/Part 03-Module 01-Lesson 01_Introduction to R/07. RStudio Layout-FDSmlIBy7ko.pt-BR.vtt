@@ -1,0 +1,136 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.440 --> 00:00:03.138
+Este é o R studio. É uma ID ou Ambiente
+
+00:00:03.138 --> 00:00:07.043
+de desenvolvimento integrado, que vamos usar para criar
+
+00:00:07.043 --> 00:00:09.810
+scripts R e gráficos. É um sistema do tipo
+
+00:00:09.810 --> 00:00:12.580
+apontar e clicar que organiza o espaço de trabalho e tem
+
+00:00:12.580 --> 00:00:15.530
+alguns recursos legais para criar e compartilhar trabalho. Aqui vai um roteiro
+
+00:00:15.530 --> 00:00:18.920
+para ele. Na interface principal, há 4 painéis que
+
+00:00:18.920 --> 00:00:22.150
+podem ser redimensionados quando necessário. É possível que você só veja
+
+00:00:22.150 --> 00:00:25.580
+3 painéis quando abrir o R studio. Se sim, abra
+
+00:00:25.580 --> 00:00:28.610
+um novo script R clicando no arquivo e, depois,
+
+00:00:28.610 --> 00:00:32.060
+New File &gt; Rscript. Aqui na parte superior esquerda,
+
+00:00:32.060 --> 00:00:35.070
+temos scripts R. Estes são os arquivos onde vamos digitar
+
+00:00:35.070 --> 00:00:38.430
+os comandos R. Também vamos salvar esses arquivos para
+
+00:00:38.430 --> 00:00:41.130
+alterá-los ou compartilhá-los depois. Na parte inferior
+
+00:00:41.130 --> 00:00:43.520
+esquerda, temos o R Console. Você pode digitar
+
+00:00:43.520 --> 00:00:46.810
+os comandos R aqui. Mas os comandos R serão salvos apenas
+
+00:00:46.810 --> 00:00:50.870
+temporariamente no histórico. Eles não serão salvos em um arquivo, como
+
+00:00:50.870 --> 00:00:53.240
+aqui em cima, que pode ser revisado
+
+00:00:53.240 --> 00:00:56.630
+depois. Na parte superior direita do R Studio, há duas
+
+00:00:56.630 --> 00:01:01.690
+guias. Uma chamada Environment e a outra, History. A Environment conterá
+
+00:01:01.690 --> 00:01:04.620
+todos os objetos, funções e valores que estão
+
+00:01:04.620 --> 00:01:07.580
+na memória de trabalho atual do R. A History, por outro lado,
+
+00:01:07.580 --> 00:01:09.870
+manterá um log de execução de qualquer comando R
+
+00:01:09.870 --> 00:01:12.880
+que executarmos. Agora podemos executar scripts R diretamente
+
+00:01:12.880 --> 00:01:15.980
+de nossos arquivos ou digitá-los no console.
+
+00:01:15.980 --> 00:01:18.600
+Independentemente da forma como digitar na History,
+
+00:01:18.600 --> 00:01:21.570
+eles serão capturados. E, por fim, na parte inferior direita, temos
+
+00:01:21.570 --> 00:01:25.890
+as seções Files, Plots, Packages, Help e Viewer. Você aprenderá mais sobre
+
+00:01:25.890 --> 00:01:28.800
+elas depois, mas é nelas que nossos gráficos aparecerão
+
+00:01:28.800 --> 00:01:31.710
+primeiro quando executarmos um comando R que crie uma
+
+00:01:31.710 --> 00:01:35.140
+visualização. Agora que já vimos o layout do R Studio,
+
+00:01:35.140 --> 00:01:37.450
+gostaria que você repetisse algumas ações que podem ser feitas
+
+00:01:37.450 --> 00:01:41.134
+em cada painel do R. Lembre-se: este primeiro painel é para
+
+00:01:41.134 --> 00:01:44.155
+arquivos R ou scripts R. Este segundo espaço é para
+
+00:01:44.155 --> 00:01:47.760
+a área de trabalho ou histórico. Este terceiro espaço é o Console onde
+
+00:01:47.760 --> 00:01:50.690
+obtemos nossa saída. E este quarto painel é para Files,
+
+00:01:50.690 --> 00:01:54.460
+Packages, Plots e Help. Por exemplo, se eu pedisse para você
+
+00:01:54.460 --> 00:01:56.680
+repetir a atividade em um desses painéis, como
+
+00:01:56.680 --> 00:02:00.380
+salvar um script R, isso corresponderia à caixa número 1.
+
+00:02:00.380 --> 00:02:03.690
+Você pode salvá-los clicando neste botão. Poderíamos,
+
+00:02:03.690 --> 00:02:06.530
+é claro, usar o menu principal, mas é provável que eu inclua isso
+
+00:02:06.530 --> 00:02:09.740
+como qualquer uma das suas opções aqui. O principal objetivo deste teste é
+
+00:02:09.740 --> 00:02:14.140
+fazer você se familiarizar com o R Studio. Então aqui está sua lista de atividades.
+
+00:02:14.140 --> 00:02:16.740
+Quero que indique o painel do R Studio onde cada atividade
+
+00:02:16.740 --> 00:02:21.320
+seria realizada. Coloque o número do painel correspondente em cada uma das caixas.
+

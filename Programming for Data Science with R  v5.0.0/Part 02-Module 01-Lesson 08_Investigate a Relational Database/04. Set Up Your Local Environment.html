@@ -1,0 +1,519 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Set Up Your Local Environment</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Investigate a Relational Database</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Project Overview.html">01. Project Overview</a>
+    </li>
+    <li class="">
+      <a href="02. Project Details.html">02. Project Details</a>
+    </li>
+    <li class="">
+      <a href="03. Workspace vs. Local environment.html">03. Workspace vs. Local environment</a>
+    </li>
+    <li class="">
+      <a href="04. Set Up Your Local Environment.html">04. Set Up Your Local Environment</a>
+    </li>
+    <li class="">
+      <a href="05. Composite Key.html">05. Composite Key</a>
+    </li>
+    <li class="">
+      <a href="06. Workspace DVD Rental Database.html">06. Workspace: DVD Rental Database</a>
+    </li>
+    <li class="">
+      <a href="07. Understanding the database.html">07. Understanding the database</a>
+    </li>
+    <li class="">
+      <a href="08. Practice Quiz #1.html">08. Practice Quiz #1</a>
+    </li>
+    <li class="">
+      <a href="09. Practice Solution #1.html">09. Practice Solution #1</a>
+    </li>
+    <li class="">
+      <a href="10. Practice Quiz #2.html">10. Practice Quiz #2</a>
+    </li>
+    <li class="">
+      <a href="11. Practice Solution #2.html">11. Practice Solution #2</a>
+    </li>
+    <li class="">
+      <a href="12. Workspace + Question Set #1.html">12. Workspace + Question Set #1</a>
+    </li>
+    <li class="">
+      <a href="13. Workspace + Question Set #2.html">13. Workspace + Question Set #2</a>
+    </li>
+    <li class="">
+      <a href="14. Project Submission.html">14. Project Submission</a>
+    </li>
+    <li class="">
+      <a href="15. Common Mistakes.html">15. Common Mistakes</a>
+    </li>
+    <li class="">
+      <a href="16. Helpful strategies.html">16. Helpful strategies</a>
+    </li>
+    <li class="">
+      <a href="Project Description - Investigate a Relational Database.html">Project Description - Investigate a Relational Database</a>
+    </li>
+    <li class="">
+      <a href="Project Rubric - Investigate a Relational Database.html">Project Rubric - Investigate a Relational Database</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">04. Set Up Your Local Environment</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="lets-set-up-your-local-environment">Let's set up your local environment</h2>
+<h3 id="what-is-postgresql">What is PostgreSQL?</h3>
+<p>PostgreSQL is an object-relational database management system. Object-relational databases use a hybrid approach to databases.  </p>
+<ol>
+<li>In **object databases**, information is stored as objects, much like object-oriented programming.
+<li>In **relational databases**, information is stored in tables with relationships between tables defined by primary and foreign keys.
+</ol>
+<p>Importantly, PostgreSQL allows the use of advanced functions (such as Window Functions), and even development and use of custom functions written in different programming languages. Here is a link to better understand what is meant by an object-relational database, and how it differs from a relational database. </p>
+<p><a href = "https://en.wikipedia.org/wiki/Object-relational_database" title="Link to Object-relational database">https://en.wikipedia.org/wiki/Object-relational_database</a></p>
+<p>Ready to proceed with PostgreSQL? Follow along!</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="step-1-downloading-postgresql">Step 1. Downloading PostgreSQL</h2>
+<p>First, you will need to install PostgreSQL on your local machine. Select the following three components during installation - PostgreSQL server, pgAdmin, and command-line tools. pgAdmin is a GUI tool for managing the database. Download the installer from the link below, and install with the admin privileges:<br></p>
+<ul>
+<li><p><strong>Installing PostgreSQL for Windows</strong>:<br><a href="https://www.postgresql.org/download/windows/" rel="noopener noreferrer" target="_blank">https://www.postgresql.org/download/windows/</a>  and follow the steps mentioned <a href="http://www.postgresqltutorial.com/install-postgresql/" rel="noopener noreferrer" target="_blank">here</a> <br><br></p></li>
+<li><p><strong>Installing PostgreSQL for Mac OS</strong>:<br><br />
+<a href="https://www.postgresql.org/download/macosx/" rel="noopener noreferrer" target="_blank">https://www.postgresql.org/download/macosx/</a> and follow the steps mentioned <a href="https://www.postgresqltutorial.com/install-postgresql-macos/" rel="noopener noreferrer" target="_blank">here</a></p></li>
+</ul>
+<p>Friendly reminder! Please <strong>write down the database superuser (postgres) password</strong> as you will need it to create the Sakila database once you have installed the PostgreSQL server. </p>
+<ul>
+<li>Optionally, you can verify the successful installation of PostgreSQL using the following commands in your terminal:</li>
+</ul>
+<pre><code class="bash language-bash"># Server version:
+pg_config --version
+# Client version:
+psql --version</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="step-2-downloading-sakila-database">Step 2. Downloading Sakila database</h2>
+<p>Once PostgreSQL server is installed, you will need to download the Movie database from this page: <a href="http://www.postgresqltutorial.com/postgresql-sample-database/" rel="noopener noreferrer" target="_blank">PostgreSQL Sample Database</a></p>
+<p>Scroll down and click on the orange "Download DVD Rental Sample Database" button. </p>
+<p>This will download a zipped file, and you will need to extract the ** dvdrental.tar file**.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/download-sampledatabase.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="step-3-connect-to-the-postgresql-server">Step 3. Connect to the PostgreSQL server</h2>
+<p>Launch pgAdmin tool, a graphical tool for managing and developing PostgreSQL databases. The PostgreSQL interactive installer by EDB includes the pgAdmin by default. If you have a native PostgreSQL installation, you can download pgAdmin from <a href="https://www.pgadmin.org/download/" rel="noopener noreferrer" target="_blank">here</a>. It will take some time to launch the pgAdmin tool. Let's connect the pgAdmin to the PostgreSQL server. </p>
+<ul>
+<li>Within the Object browser (left-navigation pane), right-click on the <em>Servers</em> &#8594; <em>Create</em> &#8594; <em>Server…</em> option.</li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/screenshot-2021-03-17-at-3.03.23-pm.png" alt="Connect to a PostgreSQL server" class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>Connect to a PostgreSQL server</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>*&nbsp;It will open up a dialog box asking for the PostgreSQL server name, and credentials for the “postgres" superuser. See the snapshot below.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/screenshot-2021-03-17-at-3.04.14-pm.png" alt="Provide server details" class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>Provide server details</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <ul>
+<li>Provide the following details, and leave the other fields as default. </li>
+</ul>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th id="**tab**"><strong>Tab</strong></th>
+<th id="**field**"><strong>Field</strong></th>
+<th id="**value**"><strong>Value</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>General</td>
+<td>Name</td>
+<td><code>PostgreSQL</code></td>
+</tr>
+<tr>
+<td>Connection</td>
+<td>Host name</td>
+<td><code>localhost</code></td>
+</tr>
+<tr>
+<td></td>
+<td>Post</td>
+<td><code>5432</code> (default)</td>
+</tr>
+<tr>
+<td></td>
+<td>Username</td>
+<td><code>postgres</code></td>
+</tr>
+<tr>
+<td></td>
+<td>Password</td>
+<td>As you have chosen <br>while installation</td>
+</tr>
+<tr>
+<td></center></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; All steps are also mentioned here - <a href="https://www.postgresqltutorial.com/connect-to-postgresql-database/" rel="noopener noreferrer" target="_blank">connect to the PostgreSQL server</a>.</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="step-4-loading-database">Step 4. Loading database</h2>
+<p>The next step is to load the DVD Rental database into your PostgreSQL server on your machine. <br />
+Follow the instructions on the page - <a href="http://www.postgresqltutorial.com/load-postgresql-sample-database/" rel="noopener noreferrer" target="_blank">Load PostgreSQL Sample Database</a> (scroll down ⅓ on this page). There are two ways to load the database:</p>
+<ol>
+<li>Load the sample database using psql tool</li>
+<li>Load the DVD Rental database using the pgAdmin</li>
+</ol>
+<p>We will use the <em>Load the DVD Rental database using pgAdmin tool</em> method. See the snapshot below. </p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/screenshot-2021-03-17-at-11.48.40-am.png" alt="A snapshot from https://www.postgresqltutorial.com/load-postgresql-sample-database/ " class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>A snapshot from <a href="https://www.postgresqltutorial.com/load-postgresql-sample-database/" rel="noopener noreferrer" target="_blank">https://www.postgresqltutorial.com/load-postgresql-sample-database/</a> </p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>The general steps to load the sample database into your local PostgreSQL database server are:</p>
+<ol>
+<li>Create a blank database, with the name <code>dvdrental</code>.</li>
+</ol>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/screenshot-2021-03-17-at-3.19.29-pm.png" alt="Create an empty database" class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>Create an empty database</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <ol start="2">
+<li>Restore the data from the locally downloaded Sakila database.</li>
+</ol>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/screenshot-2021-03-17-at-3.20.35-pm.png" alt="Restore the database" class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>Restore the database</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <ol start="3">
+<li>You need to have either the unzipped data folder or the tar format file locally. Choose the desired source format and the path of the file/folder. </li>
+</ol>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/screenshot-2021-03-17-at-3.21.04-pm.png" alt="Provide source format and path" class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>Provide source format and path</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="step-5-choose-the-dvd-rental-database">Step 5. Choose the DVD Rental database</h2>
+<p>Once, you have restored the database, you are all set to use it. Choose the <em>dvdrental</em> database under Databases (left-navigation pane). </p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/screenshot-2021-03-17-at-2.51.31-pm.png" alt="Choose the database" class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>Choose the database</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="step-6-running-queries-on-your-dvdrental-database">Step 6. Running Queries on your dvdrental database</h2>
+<p>Ready to run some queries??<br> <br />
+Open the <em>Query tool</em>, write your queries in the <em>Query editor</em>, and run them to see your data output. See the snapshots below. </p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/screenshot-2021-03-17-at-2.42.19-pm.png" alt="Open Query tool" class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>Open Query tool</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/screenshot-2021-03-17-at-2.45.12-pm.png" alt="Query editor pane" class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>Query editor pane</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="05. Composite Key.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('04. Set Up Your Local Environment')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

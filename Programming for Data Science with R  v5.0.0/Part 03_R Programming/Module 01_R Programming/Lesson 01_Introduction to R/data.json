@@ -1,0 +1,641 @@
+{
+  "data": {
+    "lesson": {
+      "id": 818164,
+      "key": "ac5131a3-1f8f-45a3-82cd-3f3012c31bf5",
+      "title": "Introduction to R",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "In this lesson, you will learn about why R is so popular for Data Analysis, learn how to set up R on your own machine, and see how you can use R directly within the classroom.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/ac5131a3-1f8f-45a3-82cd-3f3012c31bf5/818164/1553124660536/Introduction+to+R+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/ac5131a3-1f8f-45a3-82cd-3f3012c31bf5/818164/1553124658135/Introduction+to+R+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 31437,
+          "key": "8041293090923",
+          "title": "Why R",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8041293090923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 830429,
+              "key": "b45007a3-b3af-4772-b7f9-e9a0ec7e5324",
+              "title": "Why R",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "El7t-WtKGA8",
+                "china_cdn_id": "El7t-WtKGA8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 818168,
+          "key": "f9b68bd9-5df9-427b-8a21-2e0d1a8eddb0",
+          "title": "What's Ahead",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f9b68bd9-5df9-427b-8a21-2e0d1a8eddb0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 818173,
+              "key": "35b2a029-fc6e-4949-bb54-80c76f2f652a",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/October/59e651de_3-3-data-analysis-process2x/3-3-data-analysis-process2x.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/35b2a029-fc6e-4949-bb54-80c76f2f652a",
+              "caption": "",
+              "alt": "",
+              "width": 200,
+              "height": 200,
+              "instructor_notes": null
+            },
+            {
+              "id": 818172,
+              "key": "9ca77e89-fbae-4623-827f-cd7a0c2c1c80",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### What's Ahead\n\nIn this lesson, there are three main things to take away.\n\n1. Get R and R Studio set up on your local computer if you want to use the software locally.\n2. Understand how you can interact with R within the classroom.\n3. Get a little comfortable with the R environment, and what you might use R to do (but more on this in the upcoming lessons!)\n\nIf you get these three things from this lesson, then you are ready to take on the rest of this course on R!",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 818169,
+          "key": "ea6fefd8-96f7-4626-8c56-529c19a8d53f",
+          "title": "Instructors",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ea6fefd8-96f7-4626-8c56-529c19a8d53f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 818176,
+              "key": "f5ff57b0-deb6-416a-8b2b-6a778a87bb14",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Meet Your Instructors\n\nThere are two instructors for this course, who will be your incredible guides in learning R.  Chris Saden (top) is currently a Full Stack Developer at Udacity, while Guy Lebanon (bottom) leads many of the Artificial Intelligence efforts as a director at Amazon.\n\n\n#### <center>Chris Saden ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 818174,
+              "key": "b539d6d2-0708-435b-9bbf-0dbbd9446ef7",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c5bc866_chris-saden2x-0fcbd32/chris-saden2x-0fcbd32.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/b539d6d2-0708-435b-9bbf-0dbbd9446ef7",
+              "caption": "",
+              "alt": "",
+              "width": 320,
+              "height": 320,
+              "instructor_notes": null
+            },
+            {
+              "id": 818177,
+              "key": "7ca2bfbf-7146-4ad5-a712-bdb7996d307e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#### <center>Guy Lebanon",
+              "instructor_notes": ""
+            },
+            {
+              "id": 818175,
+              "key": "164be5dc-b9e9-4d86-b8e2-d663e9c45849",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c5bc879_rinstructor/rinstructor.jpeg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/164be5dc-b9e9-4d86-b8e2-d663e9c45849",
+              "caption": "",
+              "alt": "",
+              "width": 300,
+              "height": 168,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 6731,
+          "key": "8663999930923",
+          "title": "Using Windows?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8663999930923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 109601,
+              "key": "866399993",
+              "title": "Using Windows?",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "866399993",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Using Windows?",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/AkfdkSob2Cd7v25-uiYp0I4rNRvlHnnREEjqftJoi7XsTnvpjjAvLSyhYy4WnAjJ6dKKzCx9kQQLE2XklCSO=s0#w=1343&h=817",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/866399993",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "870048987",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.3573488154613466,
+                      "y": 0.4201080931263858
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5717152431421446,
+                      "y": 0.4190340909090909
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 103139,
+          "key": "8628710190923",
+          "title": "Install RStudio on Windows",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8628710190923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 58866,
+              "key": "862871019",
+              "title": "Install RStudio on Windows",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Download and install the R programming language **FIRST** at <a href=\"http://cran.rstudio.com\" target=\"_blank\">http://cran.rstudio.com</a>.\n<br>\n<br>\nAfter you install R, you can download and install RStudio from <a href=\"http://www.rstudio.com/\" target=\"_blank\">http://www.rstudio.com</a>.",
+              "video": {
+                "youtube_id": "5ZbjUEg4a1g",
+                "china_cdn_id": "5ZbjUEg4a1g.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 85400,
+          "key": "8041293100923",
+          "title": "Install RStudio on a Mac",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8041293100923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 31448,
+              "key": "804129310",
+              "title": "Install RStudio on a Mac",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Download and install the R programming language **FIRST** at <a href=\"http://cran.rstudio.com\" target=\"_blank\">http://cran.rstudio.com</a>.\n<br>\n<br>\nAfter you install R, you can download and install RStudio from <a href=\"http://www.rstudio.com/\" target=\"_blank\">http://www.rstudio.com</a>.\n<br>\n<br>\n\nIf you have trouble installing RStudio, please google your problem first to get help. After that, we recommend posting a discussion. Be as specific as possible with your problem and include the current version of your operating system.\n\n**We do not recommend installing R and RStudio using Homebrew or MacPorts**.",
+              "video": {
+                "youtube_id": "buCEFFuLpYo",
+                "china_cdn_id": "buCEFFuLpYo.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 123491,
+          "key": "8041293110923",
+          "title": "RStudio Layout",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8041293110923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 72410,
+              "key": "804129311",
+              "title": "RStudio Layout",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "All four panels are configurable. The layout discussed is the default layout for RStudio.\n<br>\nYou can change the default layout by going to Tools -> Options…\n\nThis quiz assumes the default layout.\n\n<a href=\"http://www.computerworld.com/article/2497143/business-intelligence-beginner-s-guide-to-r-introduction.html?null\" target=\"_blank\">A Beginner's Guide to R: Introduction</a> by Sharon Machlis  \n<a href=\"http://dss.princeton.edu/training/RStudio101.pdf\" target=\"_blank\">Quick Guide to R Layout</a> by Oscar Torres-Reyna.\n-----\nQuiz clarification:\n\"Clear the workspace\" means removing all variables from the current working memory.",
+              "user_state": {
+                "node_key": "804129311",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "FDSmlIBy7ko",
+                  "china_cdn_id": "FDSmlIBy7ko.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "RStudio Layout",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/-2GkX6cPEhEZ8segz1rt72nsMaTU2iwG-vquNLNE4qd4SW5isc8XeG2X3aqk8vUShmKhzACAW-4HJg7sQYo=s0#w=1920&h=1076",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/804129311",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "805108698",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07317073170731707,
+                      "width": 0.04488778054862843,
+                      "x": 0.017592736907730673,
+                      "y": 0.6105182926829268
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric2",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.04239401496259352,
+                      "x": 0.01891754987531172,
+                      "y": 0.7605321507760532
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric3",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.04239401496259352,
+                      "x": 0.01942409600997506,
+                      "y": 0.8802314301552107
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric4",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07317073170731707,
+                      "width": 0.0399002493765586,
+                      "x": 0.4530860349127182,
+                      "y": 0.45863359201773835
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric5",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07538802660753881,
+                      "width": 0.04114713216957606,
+                      "x": 0.4522872506234414,
+                      "y": 0.5760462860310421
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric6",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.0399002493765586,
+                      "x": 0.45347568578553615,
+                      "y": 0.7006651884700665
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric7",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07760532150776053,
+                      "width": 0.046134663341645885,
+                      "x": 0.4504948566084788,
+                      "y": 0.8203991130820399
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "LcHWlS84sao",
+                  "china_cdn_id": "LcHWlS84sao.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85085,
+          "key": "8041293170923",
+          "title": "Getting Help",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8041293170923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 68564,
+              "key": "804129317",
+              "title": "Getting Help",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"http://www.statmethods.net/\" target=\"_blank\">Quick R</a>\n<br>\n<a href=\"http://www.cookbook-r.com/\" target=\"_blank\">R Cookbook</a>\n<br>\n<a href=\"http://www.r-bloggers.com/\" target=\"_blank\">R-Bloggers</a>\n<br>\n<a href=\"http://stackoverflow.com/tags/r/info\" target=\"_blank\">StackOverflow About R</a>\n<br>\n<a href=\"http://stackoverflow.com/questions/tagged/r-faq%20\" target=\"_blank\">StackOverflow R FAQ</a>\n<br>\n<a href=\"https://google.github.io/styleguide/Rguide.xml\" target=\"_blank\">Google's R Style Guide</a>",
+              "video": {
+                "youtube_id": "ABVX527RODE",
+                "china_cdn_id": "ABVX527RODE.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 818170,
+          "key": "1b862837-5eca-4d7e-bf61-feeb1f8136b4",
+          "title": "Classroom Notebooks",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1b862837-5eca-4d7e-bf61-feeb1f8136b4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826091,
+              "key": "97b21fd5-6370-4023-b7bc-a1ec5aade228",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r817744c818170xJUPYTERtvshdoj1",
+              "pool_id": "jupyterbyoc",
+              "view_id": "jupyter-2sjre",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": {
+                      "id": "jupyter-envs",
+                      "paths": [
+                        {
+                          "src": "/conda-with-r/conda",
+                          "dest": "/opt/conda"
+                        }
+                      ],
+                      "mountWarnUntil": 0
+                    },
+                    "ports": [],
+                    "allowGrade": false,
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/Example%20Notebook.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        },
+        {
+          "id": 107538,
+          "key": "8972509370923",
+          "title": "Advice for Data Scientists",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8972509370923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 55839,
+              "key": "897250937",
+              "title": "Advice for Data Scientists",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"http://www-personal.umich.edu/~ebakshy/\" target=\"_blank\">Eytan Bakshy</a>\n<br>\n<br>\n<a href=\"http://seanjtaylor.com/\" target=\"_blank\">Sean Taylor</a>",
+              "video": {
+                "youtube_id": "FdkhUOtHIFg",
+                "china_cdn_id": "FdkhUOtHIFg.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 818171,
+          "key": "3352b0af-3ec7-45cd-8e8a-c45932d8c92e",
+          "title": "Recap",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3352b0af-3ec7-45cd-8e8a-c45932d8c92e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 818178,
+              "key": "74afc424-073d-47fe-983b-662f802cfe63",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Recap\n\nYou are now ready to take on this adventure in learning to use R for both general purposes, as well as for data analysis!  You should have the following tasks complete:\n\n1. You have R and R Studio set up on your local computer (if you want to use the software locally).\n2. You understand how you can interact with R within the classroom.\n3. You are excited to learn more about how you can use R for your own projects!\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 818179,
+              "key": "6d5da28d-80ae-4334-99c1-21ed35c802bb",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/May/5af4778b_congrats/congrats.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6d5da28d-80ae-4334-99c1-21ed35c802bb",
+              "caption": "",
+              "alt": "",
+              "width": 200,
+              "height": 200,
+              "instructor_notes": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "starter_files",
+      "reason": "prefer master_archive_id"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

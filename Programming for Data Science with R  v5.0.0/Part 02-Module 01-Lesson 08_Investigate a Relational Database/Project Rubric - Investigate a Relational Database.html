@@ -1,0 +1,352 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Investigate a Relational Database</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Investigate a Relational Database</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Project Overview.html">01. Project Overview</a>
+    </li>
+    <li class="">
+      <a href="02. Project Details.html">02. Project Details</a>
+    </li>
+    <li class="">
+      <a href="03. Workspace vs. Local environment.html">03. Workspace vs. Local environment</a>
+    </li>
+    <li class="">
+      <a href="04. Set Up Your Local Environment.html">04. Set Up Your Local Environment</a>
+    </li>
+    <li class="">
+      <a href="05. Composite Key.html">05. Composite Key</a>
+    </li>
+    <li class="">
+      <a href="06. Workspace DVD Rental Database.html">06. Workspace: DVD Rental Database</a>
+    </li>
+    <li class="">
+      <a href="07. Understanding the database.html">07. Understanding the database</a>
+    </li>
+    <li class="">
+      <a href="08. Practice Quiz #1.html">08. Practice Quiz #1</a>
+    </li>
+    <li class="">
+      <a href="09. Practice Solution #1.html">09. Practice Solution #1</a>
+    </li>
+    <li class="">
+      <a href="10. Practice Quiz #2.html">10. Practice Quiz #2</a>
+    </li>
+    <li class="">
+      <a href="11. Practice Solution #2.html">11. Practice Solution #2</a>
+    </li>
+    <li class="">
+      <a href="12. Workspace + Question Set #1.html">12. Workspace + Question Set #1</a>
+    </li>
+    <li class="">
+      <a href="13. Workspace + Question Set #2.html">13. Workspace + Question Set #2</a>
+    </li>
+    <li class="">
+      <a href="14. Project Submission.html">14. Project Submission</a>
+    </li>
+    <li class="">
+      <a href="15. Common Mistakes.html">15. Common Mistakes</a>
+    </li>
+    <li class="">
+      <a href="16. Helpful strategies.html">16. Helpful strategies</a>
+    </li>
+    <li class="">
+      <a href="Project Description - Investigate a Relational Database.html">Project Description - Investigate a Relational Database</a>
+    </li>
+    <li class="">
+      <a href="Project Rubric - Investigate a Relational Database.html">Project Rubric - Investigate a Relational Database</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">Investigate a Relational Database</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            
+      <div>
+        <h2><p>Queries</p></h2>
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr class="thead-dark">
+              <th>Criteria</th>
+              <th>Meet Specification</th>
+            </tr>
+          </thead>
+          
+    <tbody>
+      
+      <tr scope="row">
+        <td>
+          <p>The student can write error-free SQL queries.</p>
+        </td>
+        <td>
+          <p>All SQL queries run without errors and produce the intended results.</p>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>The student can use JOINs correctly in SQL queries.</p>
+        </td>
+        <td>
+          <p>Each SQL query needs to include one or more explicit JOINs. The JOIN or JOINs should be necessary to the query. </p>
+<p>If a question does not require a JOIN please change the question to be one that does.</p>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>The student can use aggregations correctly in SQL queries.</p>
+        </td>
+        <td>
+          <p>Each SQL query needs to include one or more aggregations. This could be a COUNT, AVG, SUM, or other aggregation.</p>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>The student can use subqueries and Common Table Expressions.</p>
+        </td>
+        <td>
+          <p>At least 2 of the 4 SQL queries need to include either a subquery OR a CTE.</p>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>The student can use Window Functions.</p>
+        </td>
+        <td>
+          <p>At least 1 of the 4 queries should use a Window Function.</p>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>The SQL queries are well formatted.</p>
+        </td>
+        <td>
+          <p>The SQL queries are well formatted and use aliases.</p>
+        </td>
+      </tr>
+    
+    </tbody>
+  
+        </table>
+
+      </div>
+    
+      <div>
+        <h2><p>Presentation</p></h2>
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr class="thead-dark">
+              <th>Criteria</th>
+              <th>Meet Specification</th>
+            </tr>
+          </thead>
+          
+    <tbody>
+      
+      <tr scope="row">
+        <td>
+          <p>The student’s slides are organized well and are easy to read and understand.</p>
+        </td>
+        <td>
+          <p>Each slide should have a question and an appropriate visualization descriptions to address the question. The slides should be free of significant factual, spelling and grammatical mistakes.</p>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>The student can create data visualizations that provide useful information.</p>
+        </td>
+        <td>
+          <p>All visualizations should make logical sense and provide accurate analysis based on their query results.</p>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>The student can format data visualizations clearly and make good use of labeling.</p>
+        </td>
+        <td>
+          <ol>
+<li>All visualizations include a title and axis labels, have a legend where applicable, and are easily understood.</li>
+<li>Every visualization should have:</li>
+</ol>
+<ul>
+<li>chart title</li>
+<li>x axis title</li>
+<li>x axis label</li>
+<li>y axis title</li>
+<li>y axis labels</li>
+</ul>
+        </td>
+      </tr>
+    
+    </tbody>
+  
+        </table>
+
+      </div>
+    
+      <div class="jumbotron">
+        <h3>Tips to make your project standout:</h3>
+        <p><p>** Submission Phase**<br />
+<em>Reviewer Tips</em> </p>
+<ol>
+<li>Even if the student does not upload the correct file types please try and open what they have submitted and give them as much feedback as possible.  Please include a screenshot of how to save to .txt if the student saves the queries as a different file type not do this correctly.</li>
+<li>Look for interesting patterns and insights in the data rather than simply providing summary statistics.</li>
+</ol>
+<ul>
+<li>Use other advanced SQL functions, such as the CASE function, DATE functions; as well as other SQL data cleaning functions, such as the CONCAT function.</li>
+<li>Use a combination of Window functions, CTE and/or subqueries in your SQL queries.</li>
+<li>Make good use of color, size, and shape in your visualizations.</li>
+<li>Use the slide title and/or chart description on each slide to state the key insight of the visualization.</li>
+</ul></p>
+      </div>
+    
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('Investigate a Relational Database')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

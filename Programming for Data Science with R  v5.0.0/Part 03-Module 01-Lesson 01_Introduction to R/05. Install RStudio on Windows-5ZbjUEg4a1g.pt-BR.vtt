@@ -1,0 +1,121 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.390 --> 00:00:02.630
+Neste vídeo, mostrarei como instalar o R
+
+00:00:02.630 --> 00:00:06.025
+e o R Studio. Para começar você deve ir para
+
+00:00:06.025 --> 00:00:10.460
+cran.rstudio.com e clicar no link para baixar o
+
+00:00:10.460 --> 00:00:14.560
+R para Windows. Se você nunca tiver instalado a linguagem de programação R
+
+00:00:14.560 --> 00:00:17.030
+antes, clique neste primeiro link. Uma vez que esta é a
+
+00:00:17.030 --> 00:00:20.380
+primeira vez que você a está baixando. Agora, dependendo de sua versão do Windows,
+
+00:00:20.380 --> 00:00:22.920
+você pode precisar ver as perguntas frequentes. Estou
+
+00:00:22.920 --> 00:00:25.460
+com meu computador configurado, portanto, vou continuar e baixar o
+
+00:00:25.460 --> 00:00:28.610
+R para Windows. Obtenho uma mensagem de erro
+
+00:00:28.610 --> 00:00:31.120
+e quero manter o arquivo. Isso pode demorar
+
+00:00:31.120 --> 00:00:34.090
+algum tempo para baixar, portanto, seja paciente. |Em seguida,
+
+00:00:34.090 --> 00:00:38.200
+abra o arquivo e execute o programa.
+
+00:00:38.200 --> 00:00:39.970
+Um assistente de configuração deve aparecer e por enquanto
+
+00:00:39.970 --> 00:00:42.260
+você só quer percorrer todas as etapas. Vou definir
+
+00:00:42.260 --> 00:00:45.790
+meu idioma e continuar a instalação
+
+00:00:45.790 --> 00:00:51.530
+clicando em Next. Vou apenas aceitar os padrões aqui e
+
+00:00:51.530 --> 00:00:54.860
+instalá-los no R. Vou deixar isso como está,
+
+00:00:54.860 --> 00:00:58.010
+portanto, dessa maneira, um ícone de área de trabalho será criado. E
+
+00:00:58.010 --> 00:01:01.890
+ele está continuando. Ótimo. Agora concluí minha configuração.
+
+00:01:01.890 --> 00:01:04.420
+Isso era apenas a parte um do processo de instalação.
+
+00:01:04.420 --> 00:01:07.210
+Isso nos deu apenas a linguagem de programação R. Agora,
+
+00:01:07.210 --> 00:01:10.990
+precisamos instalar o R Studio. O R Studio é uma interface gráfica
+
+00:01:10.990 --> 00:01:14.630
+do usuário para a programação R. Basicamente, ele é um sistema
+
+00:01:14.630 --> 00:01:17.120
+de apontar e clicar que permite trabalhar com dados de maneira muito fácil.
+
+00:01:18.300 --> 00:01:21.460
+Portanto, primeiro, vamos para o download agora para obter o R Studio.
+
+00:01:21.460 --> 00:01:24.170
+Vamos baixar o R Studio para nossa área de trabalho. Portanto, basta clicar neste primeiro
+
+00:01:24.170 --> 00:01:27.220
+botão. Haverá muitos links aqui, mas você
+
+00:01:27.220 --> 00:01:29.700
+quer apenas este primeiro link. Esta é a versão do
+
+00:01:29.700 --> 00:01:34.150
+R Studio que é recomendada para seu computador e para seu sistema operacional.
+
+00:01:34.150 --> 00:01:37.740
+Observe como este é para Windows XP, Vista, Windows 7 ou Windows
+
+00:01:37.740 --> 00:01:41.240
+8, portanto, eu clicarei nele e, em seguida, manterei o arquivo.
+
+00:01:41.240 --> 00:01:43.580
+E você pode ver o download no canto inferior esquerdo, aqui.
+
+00:01:43.580 --> 00:01:45.890
+Parece que ele está pronto, portanto, vou
+
+00:01:45.890 --> 00:01:49.540
+abri-lo. Em seguida, instalarei o R Studio neste caminho
+
+00:01:51.640 --> 00:01:56.730
+e criar uma pasta Start Menu também. Ótimo. Feito. E esta é
+
+00:01:56.730 --> 00:01:59.180
+a aparência do R Studio. A sua pode ser
+
+00:01:59.180 --> 00:02:01.300
+um pouco diferentes da minha e isso pode ser
+
+00:02:01.300 --> 00:02:04.610
+porque o arquivo está aberto. Portanto, se eu for para File &gt; New File
+
+00:02:04.610 --> 00:02:09.639
+&gt; RScript, isso abrirá o RScript básico que permite que eu comece a programar em R.
+

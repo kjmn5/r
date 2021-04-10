@@ -1,0 +1,190 @@
+{
+  "data": {
+    "lesson": {
+      "id": 825049,
+      "key": "cf989766-615b-48fc-b448-2fffeaccd072",
+      "title": "Explore Bikeshare Data",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "You will now use your R skills to explore bikeshare data and report your findings!",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Chicago",
+            "uri": "https://video.udacity-data.com/topher/2019/February/5c747ce1_chicago/chicago.csv"
+          },
+          {
+            "name": "New York City",
+            "uri": "https://video.udacity-data.com/topher/2019/February/5c747d01_new-york-city/new-york-city.csv"
+          },
+          {
+            "name": "Washington",
+            "uri": "https://video.udacity-data.com/topher/2019/February/5c747d10_washington/washington.csv"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": {
+        "key": "400d173d-2bab-4c83-9ac3-a59821c91624",
+        "version": "1.0.0",
+        "locale": "en-us",
+        "duration": 36000,
+        "semantic_type": "Project",
+        "title": "Explore Bikeshare Data - R",
+        "description": "## Overview\n\nIn this project, you will make use of R to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. You will write code to import the data and answer interesting questions about it by computing descriptive statistics and making visualizations!\n\n## What Software Do I Need?\n\nYou can perform all operations directly within the classroom.  However, if you would like to work on your local machine, you will need to install R.\n\n## What Does A Submission Look Like?\n\nThere are two possible ways to submit your work.  You may submit your work using the classroom notebook, which you will find in the `Project Workspace` part of this lesson.  The details of what should be in your notebook are shared on the next pages of this lesson.\n\nWe recommend that you submit via the classroom workspace on the previous page.  However, you can also submit your work by uploading your notebook or a link to a Github repository using this page.\n\nBefore submitting, check your solution against the [Rubric](https://review.udacity.com/#!/rubrics/2508/view).",
+        "is_public": true,
+        "summary": null,
+        "forum_path": "",
+        "rubric_id": "2508",
+        "terminal_project_id": null,
+        "resources": null,
+        "image": null
+      },
+      "lab": null,
+      "concepts": [
+        {
+          "id": 825050,
+          "key": "d118d7d3-7b27-4871-b1ef-e4e50cfb0111",
+          "title": "Project Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d118d7d3-7b27-4871-b1ef-e4e50cfb0111",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 825054,
+              "key": "2159db08-6ea3-4fea-9084-71b3849d3d82",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Overview\n\nIn this project, you will make use of R to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. You will write code to import the data and answer interesting questions about it by computing descriptive statistics and making visualizations!\n\n## What Software Do I Need?\n\nYou can perform all operations directly within the classroom.  However, if you would like to work on your local machine, you will need to install R.\n\n## What Does A Submission Look Like?\n\nThere are two possible ways to submit your work.  You may submit your work using the classroom notebook, which you will find in the `Project Workspace` part of this lesson.  The details of what should be in your notebook are shared on the next pages of this lesson.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 825051,
+          "key": "db388346-2ce1-44a4-a800-fb4c1204de9f",
+          "title": "Project Details",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "db388346-2ce1-44a4-a800-fb4c1204de9f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 825055,
+              "key": "5eb22b47-d160-4854-8667-0cfe9f6436df",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Bike Share Data\n\nOver the past decade, bicycle-sharing systems have been growing in number and popularity in cities across the world. Bicycle-sharing systems allow users to rent bicycles on a very short-term basis for a price. This allows people to borrow a bike from point A and return it at point B, though they can also return it to the same location if they'd like to just go for a ride. Regardless, each bike can serve several users per day.\n\nThanks to the rise in information technologies, it is easy for a user of the system to access a dock within the system to unlock or return bicycles. These technologies also provide a wealth of data that can be used to explore how these bike-sharing systems are used.\n\nIn this project, you will use data provided by [Motivate](https://www.motivateco.com/), a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. You will compare the system usage between three large cities: Chicago, New York City, and Washington, DC.\n\n## The Datasets\n\nRandomly selected data for the first six months of 2017 are provided for all three cities. All three of the data files contain the same core **six (6)** columns:\n\n- Start Time (e.g., 2017-01-01 00:07:57)\n- End Time (e.g., 2017-01-01 00:20:53)\n- Trip Duration (in seconds - e.g., 776)\n- Start Station (e.g., Broadway & Barry Ave)\n- End Station (e.g., Sedgwick St & North Ave)\n- User Type (Subscriber or Customer)\n\nThe Chicago and New York City files also have the following two columns:\n\n- Gender\n- Birth Year",
+              "instructor_notes": ""
+            },
+            {
+              "id": 825057,
+              "key": "0962f322-5b41-4869-9708-c10cf957c41e",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/April/5acd7edd_nyc-data/nyc-data.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/0962f322-5b41-4869-9708-c10cf957c41e",
+              "caption": "",
+              "alt": "",
+              "width": 2152,
+              "height": 656,
+              "instructor_notes": null
+            },
+            {
+              "id": 825056,
+              "key": "d4325e13-167c-4e49-8bdd-be3168cc2abe",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The original files are much larger and messier, and you don't need to download them, but they can be accessed here if you'd like to see them ([Chicago](https://www.divvybikes.com/system-data), [New York City](https://www.citibikenyc.com/system-data), [Washington](https://www.capitalbikeshare.com/system-data)). These files had more columns and they differed in format in many cases. Some [data wrangling](https://en.wikipedia.org/wiki/Data_wrangling) has been performed to condense these files to the above core six columns to make your analysis and the evaluation of your R skills more straightforward. \n\n## Statistics Computed\n\nThere are a number of different areas of interest available in this dataset.  Here are some ideas we came up with for exploration, but feel free to explore any question you are interested in.  \n\n__#1 Popular times of travel__ (i.e., occurs most often in the start time) \n  -  What is the most common month?\n  - What is the most common day of week?\n  - What is the most common hour of day?\n\n__#2 Popular stations and trip__\n  - What is the most common start station?\n  - What is the most common end station?\n  - What is the most common trip from start to end (i.e., most frequent combination of start station and end station)?\n\n__#3 Trip duration__\n  -  What is the total travel time for users in different cities?\n  - What is the average travel time for users in different cities?\n\n__#4 User info__\n  - What are the counts of each user type?\n  - What are the counts of each gender (only available for NYC and Chicago)?\n  - What are the earliest, most recent, most common year of birth (only available for NYC and Chicago)?\n\n## The Files\n\nYou will answer your questions of interest about the Motivate datasets using R. To help guide your work in this project, a template with helper code and comments is provided in a **notebook** file on the next page. You will need the three city dataset files too: \n- **chicago.csv**\n- **new_york_city.csv**\n- **washington.csv**\n\nAll three of these data files are zipped up in the **Bikeshare** file in the resource tab in the sidebar on the left side of this page. You may download and open up that zip file if you want to do your project work on your local machine.  Otherwise, they are also available directly in the workspace.\n\nAt the end of your completion of the project, make sure to check your solution against the project [Rubric](https://review.udacity.com/#!/rubrics/2508/view).",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 825052,
+          "key": "32a5db94-1059-4e99-87ad-329e3f7a60df",
+          "title": "Project Workspace",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "32a5db94-1059-4e99-87ad-329e3f7a60df",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826613,
+              "key": "1541bbfa-1a6b-4e9a-9f12-aa50dc87f87e",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r817744c825052xJUPYTERcxk7aust",
+              "pool_id": "jupyter",
+              "view_id": "jupyter-ktznd",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": {
+                      "id": "jupyter-envs",
+                      "paths": [
+                        {
+                          "src": "/conda-with-r/conda",
+                          "dest": "/opt/conda"
+                        }
+                      ],
+                      "mountWarnUntil": 0
+                    },
+                    "ports": [],
+                    "allowGrade": false,
+                    "allowSubmit": true,
+                    "defaultPath": "/notebooks/Explore_bikeshare_data.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "starter_files",
+      "reason": "prefer master_archive_id"
+    }
+  ]
+}

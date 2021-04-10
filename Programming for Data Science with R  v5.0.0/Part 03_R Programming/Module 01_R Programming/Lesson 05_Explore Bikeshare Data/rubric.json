@@ -1,0 +1,171 @@
+{
+  "id": 2508,
+  "project_id": 585,
+  "upload_types": [
+    "file",
+    "repo",
+    "zip"
+  ],
+  "file_filter_regex": "\\A(?!(((.*/)?(__MACOSX|\\.git|node_modules|bower_components|jspm_packages|\\.idea|build|.ipynb_checkpoints|\\.Trash-0|logs)(\\Z|/))))((.*\\.(js|css|py|html|htm|txt|md|markdown|sql|swift|java|gradle|xml|rst|yml|yaml|rmd|pdf|docx)\\Z)|((.*/)?(README|Readme|readme|Makefile)\\Z))",
+  "nomination_eligible": false,
+  "stand_out": "* During the exploration, use a variety of plot types to explore different relationships in the dataset. Be willing to investigate unexpected relationships and don’t be afraid of finding a dead-end in your exploration.\n* As part of your exploration, document your thought processes to justify the steps you take.\n* When you select key insights for your explanatory presentation, focus on one or two paths that tell a compelling story.\n* When planning your explanation’s flow, document design decisions that make your visualizations information-rich but still easy to read.\n* Gather feedback from others to get a different perspective on your explanatory presentation. Document that feedback and note any changes in your designs based on that feedback.\n",
+  "hide_criteria": false,
+  "created_at": "2019-02-18T19:04:18.828Z",
+  "updated_at": "2019-07-14T21:44:24.243Z",
+  "hashtag": "",
+  "max_upload_size_mb": 500,
+  "estimated_sla": null,
+  "project_assistant_enabled": false,
+  "available_for_cert_project": false,
+  "language": "en-us",
+  "ndkeys": [
+    "nd118",
+    "nd118-beta",
+    "nd118-ent"
+  ],
+  "coursekeys": [],
+  "is_career": false,
+  "sections": [
+    {
+      "id": 5352,
+      "name": "Code Quality",
+      "created_at": "2019-02-18T19:06:04.178Z",
+      "updated_at": "2019-02-18T19:06:44.866Z",
+      "deleted_at": null,
+      "position": 0,
+      "rubric_id": 2508,
+      "rubric_items": [
+        {
+          "id": 15454,
+          "section_id": 5352,
+          "passed_description": "All code is functional (i.e. no errors are thrown by the code). Warnings are okay.",
+          "exceeded_description": null,
+          "created_at": "2019-02-18T19:06:53.558Z",
+          "updated_at": "2019-02-18T19:07:05.853Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "The student writes error free R code.",
+          "exceedable": false
+        },
+        {
+          "id": 15455,
+          "section_id": 5352,
+          "passed_description": "The project uses functions and loops where possible to reduce repetitive code. Comments and docstrings are used as needed to document code functionality.",
+          "exceeded_description": null,
+          "created_at": "2019-02-18T19:07:06.020Z",
+          "updated_at": "2019-02-18T19:07:48.406Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "The student’s R code has appropriate comments, functions, and loops.",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 5353,
+      "name": "Data Visualizations",
+      "created_at": "2019-02-18T19:06:06.125Z",
+      "updated_at": "2019-02-18T19:06:44.873Z",
+      "deleted_at": null,
+      "position": 1,
+      "rubric_id": 2508,
+      "rubric_items": [
+        {
+          "id": 15456,
+          "section_id": 5353,
+          "passed_description": "Questions and observations are well documented in a way that is easy to understand for any audience. At least three questions of interest that are explored.",
+          "exceeded_description": null,
+          "created_at": "2019-02-18T19:07:48.557Z",
+          "updated_at": "2019-02-18T19:08:53.332Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "The student asks questions which can be explored and answered with the data.",
+          "exceedable": false
+        },
+        {
+          "id": 15457,
+          "section_id": 5353,
+          "passed_description": "At least three visualizations are used in the presentation to convey key insights. These key insights match those documented in the summary. Each visualization is associated with comments that accurately depict their purpose.",
+          "exceeded_description": null,
+          "created_at": "2019-02-18T19:08:53.459Z",
+          "updated_at": "2019-02-18T19:09:22.333Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "The insights are clearly conveyed for each question.",
+          "exceedable": false
+        },
+        {
+          "id": 15458,
+          "section_id": 5353,
+          "passed_description": "* All visualizations include a title and axis labels, have a legend where applicable, and are easily understood.\n* Every visualization should have a chart title, X-axis label, and a Y-axis label.\n",
+          "exceeded_description": null,
+          "created_at": "2019-02-18T19:09:22.576Z",
+          "updated_at": "2019-02-18T19:10:02.875Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 2,
+          "criteria": "All of the plots have appropriate labels.",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 5354,
+      "name": "Summary Statistics",
+      "created_at": "2019-02-18T19:06:10.590Z",
+      "updated_at": "2019-02-18T19:06:44.876Z",
+      "deleted_at": null,
+      "position": 2,
+      "rubric_id": 2508,
+      "rubric_items": [
+        {
+          "id": 15459,
+          "section_id": 5354,
+          "passed_description": "For each question appropriate summary statistics are used to support each plot.  Questions comparing groups have visualizations that compare as well compare means, medians, and other summaries.",
+          "exceeded_description": null,
+          "created_at": "2019-02-18T19:10:03.038Z",
+          "updated_at": "2019-02-18T19:10:16.742Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "All questions are answered using numeric summaries.",
+          "exceedable": false
+        },
+        {
+          "id": 15460,
+          "section_id": 5354,
+          "passed_description": "Any summary statistics that are used in answering the main questions of interest are described appropriately. ",
+          "exceeded_description": null,
+          "created_at": "2019-02-18T19:10:17.459Z",
+          "updated_at": "2019-02-18T19:11:28.576Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "Descriptions of summary statistics are accurate.",
+          "exceedable": false
+        }
+      ]
+    }
+  ],
+  "project": {
+    "id": 585,
+    "name": "Explore Bikeshare Data - R",
+    "nanodegree_key": "nd118",
+    "is_cert_project": false,
+    "audit_project_id": null,
+    "hashtag": null,
+    "audit_rubric_id": 2899,
+    "entitlement_required": false,
+    "is_career": false,
+    "recruitment_family_id": 5,
+    "created_at": "2019-02-20T18:46:10.127Z",
+    "updated_at": "2021-04-08T23:41:13.611Z",
+    "price": "5.0",
+    "ungradeable_price": "3.0",
+    "audit_price": "0.0"
+  }
+}
