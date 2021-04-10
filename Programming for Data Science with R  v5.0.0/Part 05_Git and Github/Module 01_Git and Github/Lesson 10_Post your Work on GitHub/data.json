@@ -1,0 +1,359 @@
+{
+  "data": {
+    "lesson": {
+      "id": 681959,
+      "key": "e9652698-f014-4e98-b9dc-c89a868d9860",
+      "title": "Post your Work on GitHub",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Use your local git repository and your GitHub repository. Fork a repository, work on files, stage files and commit them to GitHub. You will also demonstrate how to hide files using .gitignore files.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/e9652698-f014-4e98-b9dc-c89a868d9860/681959/1544291166621/Post+your+Work+on+GitHub+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/e9652698-f014-4e98-b9dc-c89a868d9860/681959/1544291164612/Post+your+Work+on+GitHub+Subtitles.zip"
+          },
+          {
+            "name": "Git Commands Documentation",
+            "uri": "https://video.udacity-data.com/topher/2020/May/5ecea6d3_git-commands-documentation/git-commands-documentation.pdf"
+          },
+          {
+            "name": "Bikeshare-2",
+            "uri": "https://video.udacity-data.com/topher/2018/August/5b7b7aca_bikeshare-2/bikeshare-2.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": {
+        "key": "2cfc3d8d-6e77-4805-ad11-4959de76b15c",
+        "version": "1.0.0",
+        "locale": "en-us",
+        "duration": 34560,
+        "semantic_type": "Project",
+        "title": "Post your Work on GitHub",
+        "description": "# Project Submission\nIn this project, you will create a GitHub repository and your local repository. You will work on a repo for your BikeShare project, making multiple branches, making edits to files on those branches (e.g., a readme file and your Python code), and then you will commit the changes to your remote repository. \n\n## Before You Submit\n** Check the Rubric **\nYour project will be evaluated by a Udacity reviewer according to this [Project Rubric](https://review.udacity.com/#!/rubrics/2118/view). Be sure to review it thoroughly before you submit. Your project \"meets specifications\" only if it meets specifications in all the criteria. If you see room for improvement in any category in which you do not meet specifications, be sure to take some time to revise your work until you feel it is up to expectations. \n\n** Gather Submission Materials **<br>\nAll you need to submit for this project is the ** Git Commands Documentation**.\n\n## Submitting the Project\nWhen you're ready, click on the \"Submit Project\" button to go to the project submission page. You can submit your file as a PDF file or a zipped file. In your GitHub repository, note that your submission will be a snapshot of the linked repository at the time of submission. It is recommended that you keep each of your projects in a separate repository to avoid any potential confusion: if a reviewer gets multiple folders representing multiple projects, there might be confusion regarding what project is to be evaluated.\n\nIt can take us up to a week to grade the project, but in most cases, it is much faster. You will get an email once your submission has been reviewed. In the meantime, you should feel free to proceed with your learning journey by continuing on to the next module in the program.",
+        "is_public": true,
+        "summary": null,
+        "forum_path": "",
+        "rubric_id": "2118",
+        "terminal_project_id": null,
+        "resources": null,
+        "image": null
+      },
+      "lab": null,
+      "concepts": [
+        {
+          "id": 681960,
+          "key": "850c4edb-4c03-4885-9a49-d0b907a90a9b",
+          "title": "Project Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "850c4edb-4c03-4885-9a49-d0b907a90a9b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 690796,
+              "key": "410373ab-5657-45b8-bf36-bdffa5b953d5",
+              "title": "Richard Kalehoff",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "jCs1gdnwEFc",
+                "china_cdn_id": "jCs1gdnwEFc.mp4"
+              }
+            },
+            {
+              "id": 682509,
+              "key": "a5f98858-a03d-48f4-a1fd-42acea253663",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Project Overview\n\nIt's time to put what you've learned about version control and GitHub into practice! In this project, you'll be simulating a realistic workflow to refactor your previous BikeShare project using Git. Here's an overview of your tasks for this project.\n\n## Set Up Your Repository\n\nFirst, you'll fork a repository to get your own copy of a template for this project, and then clone it to your local computer. Your first task will then be to add your `bikeshare.py` file, data file, and a `.gitignore` file to exclude your data file from version control tracking. This is a common practice to avoid sharing your data publicly, to avoid tracking unnecessarily huge files on GitHub, and because changes in data don't often affect our code.\n\n## Improve Documentation\n\nNext, you'll practice creating branches using Git to make some changes to your project. In the real world, it's common to use different branches to manage the development of separate features or changes to a project. The first branch you'll work on is `documentation`. In this branch, you'll add project documentation in a README file, and make improvements to your docstrings for your `bikeshare.py` file. Then you'll push your commits back up to the remote repository.\n\n## Refactor Code\n\nThe next branch you'll be working on will be `refactoring`. Here, you can modify your `bikeshare.py` file to make improvements to the efficiency or readability of your __code__. You'll practice committing your code as you work on it, with at least three commits on this branch with meaningful messages. Notice that this branch touches the code in your `bikeshare.py` file, while the `documentation` branch touches the docstrings in your file. This means you can work on these branches simultaneously without any conflicts! This is a common practice in the real world.\n\n## Merge Branches\n\nFinally, once you are finished with your work, you can merge both branches to the `master` branch, and push it back up to the remote repository.\n\n## Submission\n\nTo complete this project, you will provide all the Git commands you used throughout this course in this [template](https://docs.google.com/document/d/1DoNBEQJyGHi0qAWpMpQM9lU9_VKh8ubdOY2BmKdvZcc/copy) along with a link to your repository on GitHub.\n\n## For students in the Programming for Data Science with R ND:\nYou can use the R-module file instead of the bikeshare.py file",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 681961,
+          "key": "e106795b-8c6f-413a-b654-415c19434381",
+          "title": "Project Details",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e106795b-8c6f-413a-b654-415c19434381",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 682704,
+              "key": "7c735b02-cb0f-4dbf-9019-e9351ecd502d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "##  Project Instructions\n1. Create a GitHub profile if you have not already done so. You can visit [https://github.com/](https://github.com/) to do this.\n- Download the document template: [Git Commands Documentation](https://docs.google.com/document/d/1DoNBEQJyGHi0qAWpMpQM9lU9_VKh8ubdOY2BmKdvZcc/copy). Make a copy of this document on your Google drive. This is the only file you'll need to submit for this project. More details on how to use this template are provided below.\n- Download [Atom](https://atom.io/) or another text editor that allows you to preview markdown files. If you are unfamiliar with Markdown, more details on this are provided in the __Tasks: Documentation__ page.\n- See the next few pages for detailed instructions on the tasks you need to set up and edit your repository. Remember, as you complete these tasks, you should be copying and pasting the git commands you use into the submission template.\n\n## Submission Template: [Git Commands Documentation](https://docs.google.com/document/d/1DoNBEQJyGHi0qAWpMpQM9lU9_VKh8ubdOY2BmKdvZcc/copy)\n\nThere are five sections in this document template. Each section includes a table with the instructions for you to complete in your local and remote repository and space to copy and paste the git commands. Once you complete each task, you will be required to include or copy and paste the git command in that corresponding table row.\n\nOnce you have completed entering the required responses within the tables in all four sections in this document, download this document as a PDF file. ** Please submit the PDF file of the Git Commands Documentation on the Project Submission page within the Udacity Classroom. ** There is also a place to add the url for your public GitHub repository in the first box.  Add this link to the PDF, as your project will also be reviewed.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 682589,
+          "key": "f7ab906b-d9e1-4444-806d-3e8d90324598",
+          "title": "Tasks: Set Up Your Repository",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f7ab906b-d9e1-4444-806d-3e8d90324598",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 682706,
+              "key": "77a172c8-8493-4c97-bd4e-781670179c8d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The project task instructions are provided as checklists for your benefit.  We have also provided additional resources and links.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 682707,
+              "key": "b625425f-b655-475a-b6ca-dd44ae87835a",
+              "title": "SECTION I: Set Up Your Repository",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "b625425f-b655-475a-b6ca-dd44ae87835a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "**Fork** the following GitHub repository <https://github.com/udacity/pdsnd_github> to your Github  account.",
+                "After forking, you will have a **remote** repository in your Github account. Clone the remote repository to your local machine.",
+                "Move your `bikeshare.py` and data files into your local repository.",
+                "Create a .gitignore file containing your `.csv` file(s).  We do not want to push our data to GitHub, as they are large files.",
+                "Remember to push changes __ONLY to your own remote repository__ in your Github account. Do not push the changes to the Udacity's repository. <br>You can verify the remote using `git remote -v` command.",
+                "Check the status of your files to make sure that your data files are not being tracked.",
+                "Stage your changes.",
+                "Commit your changes with a descriptive commit message. We encourage you to refer to the [Udacity Git Commit Message Style Guide](https://udacity.github.io/git-styleguide/).",
+                "Push your commit to your remote repository.",
+                "Go to GitHub.  Ensure that the files you wanted to push to your remote repository match your local, and that the files you did not want to add are not available."
+              ],
+              "positive_feedback": "Nice work! You are all set up now.",
+              "video_feedback": null,
+              "description": "** The following are the steps you will take to work on the README markdown file, your BikeShare python file (project completed in the previous Python Lesson), and post the files to your GitHub profile. **\n\nStep 1. Create a GitHub profile (if you don’t already have one).<br>\nStep 2. Complete the tasks outlined below and add in the Required Responses in the Git Commands Documentation."
+            }
+          ]
+        },
+        {
+          "id": 682810,
+          "key": "7529e6b3-5dc2-4f11-90f0-05cad3ed5653",
+          "title": "Tasks: Improve Documentation",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7529e6b3-5dc2-4f11-90f0-05cad3ed5653",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 682823,
+              "key": "c88d093e-151c-4fee-a5d2-55708a48023f",
+              "title": "SECTION II: Improve Documentation",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c88d093e-151c-4fee-a5d2-55708a48023f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Create a branch named * documentation* on your local repository.",
+                "Switch to the * documentation*  branch.",
+                "Update the README.md file to be consistent with the work you did in the Bikeshare project.",
+                "Stage your changes.",
+                "Commit your work with a descriptive message of the changes made.",
+                "Push your commits to the remote repository branch. [Here](https://stackoverflow.com/questions/10565217/do-you-push-every-single-commit) is a link about how often you should push your commits that may be helpful when determining how often to push.",
+                "Switch back to the * master* branch.",
+                "Go to GitHub.  Notice that you now have two branches available for your project, and when you change branches the README changes."
+              ],
+              "positive_feedback": "Great! Now you are off to a great start with setting up your documentation.",
+              "video_feedback": null,
+              "description": "In this section, you will be improving the documentation associated with your project.\n\nFor this part, you will want to be a little familiar with markdown.  For the most part, you can use regular text within a markdown file, but there are some easy ways to make the file more aesthetically appealing (bold, italic, headers, lists).  There are resources at the bottom of this page if you need some assistance.\n\nFollow the tasks here to update your project documentation."
+            },
+            {
+              "id": 682962,
+              "key": "239a1d34-48cf-454f-a5c3-27523373dfa8",
+              "title": "SECTION III: Additional Changes to Documentation",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "239a1d34-48cf-454f-a5c3-27523373dfa8",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Switch to the * documentation*  branch on your local repository.",
+                "Make at least 2 additional changes to the documentation - this might be additional changes to the README or changes to the document strings and line comments of the bikeshare file.",
+                "After each change, stage and commit your changes __to YOUR OWN repo__ in your own Github account. When you commit your work, you should use a descriptive message of the changes made.  Your changes should be small and aligned with your commit message.",
+                "Push your changes to the remote repository branch __in your OWN repo.__",
+                "Switch back to the * master* branch __in your own repo.__",
+                "Check the local repository log to see how all the branches have changed.",
+                "Go to GitHub.  Notice how many commits exist on the master branch and how many exist on the documentation branch."
+              ],
+              "positive_feedback": "Nice, you are done with the changes related to documentation!",
+              "video_feedback": null,
+              "description": "In a real world situation, you or other members of your team would likely be making other changes to documentation on the documentation branch.  To simulate this follow the tasks below."
+            },
+            {
+              "id": 682824,
+              "key": "73657f69-c835-44c1-bf12-5ea769d3c0a3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "If you are not familiar with Markdown, there are several online resources available to work in Markdown files. On Atom, you can use `ctrl + shift + m` to [preview your markdown](https://github.com/atom/markdown-preview) as you work on it. Here are some useful websites to quickly get up to speed for how to use Markdown.\n- [Markdown Guide from GitHub](https://guides.github.com/features/mastering-markdown/)\n- [Markdown Quick Reference](https://en.support.wordpress.com/markdown-quick-reference/)\n- [Markdown CheatSheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)\n\nThere is no one way to write a README file, however there are some general conventions for what it should include.\n1.  General description of the project or content of the repository.\n2.  List of what software, firmware and hardware you may require.\n3.  Installation instructions for the software and firmware.\n4.  List of files included in the project.\n5.  Copyright and licensing information.\n6.  Acknowledgements and credits for any resources or blogs that helped you create the project.\n7.  Known bugs\n8.  Log of updates and revisions.\n\nYou can see some useful documentation on README files on this GitHub resource located [here](https://help.github.com/articles/about-readmes/).\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 682809,
+          "key": "9e6e9dc0-9c10-4df7-b540-55994e527053",
+          "title": "Tasks: Refactor Code",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9e6e9dc0-9c10-4df7-b540-55994e527053",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 682832,
+              "key": "dc5c8ab3-82ef-4713-b541-1050c3fc3015",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Before you begin this next set of tasks, let's do a quick review of the concept: refactoring. \n\nRefactoring is the goal of cleaning the code to make it leaner and more efficient, and to overall improve the design of the code without impacting the external functionality of the code. \n\nThe following pages include some good examples of refactoring Python code:\n- [Pybit](https://pybit.es/refactoring.html)\n- [VisualStudio from Microsoft](https://docs.microsoft.com/en-us/visualstudio/python/refactoring-python-code)\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 682825,
+              "key": "7d7b0e44-cbcb-4d10-9c97-440ea595873b",
+              "title": "SECTION IV: Refactor Code",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7d7b0e44-cbcb-4d10-9c97-440ea595873b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Create a branch named * refactoring* on your local repository.",
+                "Switch to the* refactoring*  branch.",
+                "Similar to the process you used in  making the documentation changes, make 2 or more changes in refactoring your code.",
+                "_For each change_, stage and commit your work with a descriptive message of the changes made.",
+                "Push your commits to your remote repository branch.",
+                "Switch back to the * master* branch.",
+                "Go to GitHub.  Notice that you now have 3 branches.  Notice how the files change as you move through the branches."
+              ],
+              "positive_feedback": "Good work! You have worked on the * refactoring* branch!",
+              "video_feedback": null,
+              "description": "Follow the directions below to make changes to your code related to improving either the code speed or readability - this could be using built ins that will allow your code to run faster to changing the variable names used.  **The actual changes made don't matter for this project.**  The importance is in understanding workflow."
+            }
+          ]
+        },
+        {
+          "id": 682826,
+          "key": "296b5fa0-4e99-492e-83ca-12c7c1a32019",
+          "title": "Tasks: Merging Branches",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "296b5fa0-4e99-492e-83ca-12c7c1a32019",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Download Google template in PDF",
+                "uri": "https://video.udacity-data.com/topher/2020/March/5e7cf0be_git-commands-documentation/git-commands-documentation.pdf"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 682827,
+              "key": "344b203d-4e22-4c41-8b4a-94b1dd49a726",
+              "title": "SECTION V:  Merging Branches",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "344b203d-4e22-4c41-8b4a-94b1dd49a726",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Switch to the * master* branch, if you haven't already.",
+                "Pull the changes you and your coworkers might have made in the passing days (in this case, you won't have any updates, but pulling changes is often the first thing you do each day).",
+                "Since your changes are all ready to go, merge all the branches into the master. Address any merge conflicts. If you split up your work among your branches correctly, you should have no merge conflicts.",
+                "You should see a message that shows the changes to the files, insertions, and deletions.",
+                "Push the repository to your remote repository.",
+                "Go to GitHub.  Notice that your master branch has all of the changes.",
+                "Answer all of the questions in the [template](https://docs.google.com/document/d/1DoNBEQJyGHi0qAWpMpQM9lU9_VKh8ubdOY2BmKdvZcc/copy) and submit a pdf to be reviewed!"
+              ],
+              "positive_feedback": "Great work! You completed all the tasks. Get the ** Git Commands Documentation** file ready for submission and you can proceed to the submission page.",
+              "video_feedback": null,
+              "description": "Now that you have completed your work, your coworkers have meticulously reviewed the work on your branches, and you are ready to move forward with the changes, we have a few steps to take!"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
