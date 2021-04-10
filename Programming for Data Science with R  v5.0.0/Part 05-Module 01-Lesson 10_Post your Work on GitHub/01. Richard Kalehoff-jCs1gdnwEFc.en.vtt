@@ -1,0 +1,46 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.134
+Now that you've learned to use Git to control the version
+
+00:00:03.134 --> 00:00:05.835
+of both your local and remote repositories,
+
+00:00:05.835 --> 00:00:08.064
+it's time to put your skills to work.
+
+00:00:08.064 --> 00:00:11.039
+In this project, you will simulate the workflow used in
+
+00:00:11.039 --> 00:00:14.894
+industry on the bike share code you completed for the previous project.
+
+00:00:14.894 --> 00:00:18.324
+Now, there will be four main parts to this project.
+
+00:00:18.324 --> 00:00:23.500
+First, you'll set up your repository on both your local machine and then up on GitHub.
+
+00:00:23.500 --> 00:00:28.390
+Then, you'll improve the documentation on a documentation branch.
+
+00:00:28.390 --> 00:00:32.234
+Third, you'll refactor your code on a refactoring branch.
+
+00:00:32.234 --> 00:00:36.965
+The actual part of your code that you choose to refactor for this doesn't really matter.
+
+00:00:36.965 --> 00:00:39.830
+Finally, you'll need to merge all of your branches
+
+00:00:39.829 --> 00:00:43.375
+together and add the changes to the remote repository.
+
+00:00:43.375 --> 00:00:47.030
+The following pages will lead you through this process and inform
+
+00:00:47.030 --> 00:00:51.200
+you about what the guidelines are for submission. Good luck.
+
