@@ -1,0 +1,91 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:08.060 --> 00:00:11.835
+Welcome to the Programming For Data Science Nanodegree.
+
+00:00:11.835 --> 00:00:16.950
+We're so excited that we are part of your journey towards a career in data science.
+
+00:00:16.949 --> 00:00:20.184
+If you haven't done programming before, you may ask,
+
+00:00:20.184 --> 00:00:24.254
+why do you need programming for analysis? Good question.
+
+00:00:24.254 --> 00:00:26.179
+Broadly speaking, two of
+
+00:00:26.179 --> 00:00:31.905
+the most important foundational skills for analyzing data are statistics and programming.
+
+00:00:31.905 --> 00:00:36.520
+The two main purposes for programming and data analysis.
+
+00:00:36.520 --> 00:00:41.330
+The first is that programming allows you to work with much larger datasets than is
+
+00:00:41.329 --> 00:00:46.210
+possible with spreadsheet applications like Excel or Google Sheets.
+
+00:00:46.210 --> 00:00:51.045
+Google now processes 40 thousand queries per second,
+
+00:00:51.045 --> 00:00:55.325
+which is 1.2 trillion queries every year.
+
+00:00:55.325 --> 00:01:01.755
+Similarly, 200 billion tweets are completed on Twitter every year.
+
+00:01:01.755 --> 00:01:07.825
+Amazon processes 1.1 billion transactions each year.
+
+00:01:07.825 --> 00:01:12.560
+Processing this much data will not be possible without programming.
+
+00:01:12.560 --> 00:01:18.004
+The second thing programming allows is the ability to automate processes
+
+00:01:18.004 --> 00:01:23.969
+that previously might've had to be completed manually and will take much more time.
+
+00:01:23.969 --> 00:01:26.750
+In this program, you will learn how you can use
+
+00:01:26.750 --> 00:01:30.030
+programming to perform data analysis tasks.
+
+00:01:30.030 --> 00:01:32.969
+We will start with introduction to SQL.
+
+00:01:32.969 --> 00:01:38.629
+This will be followed by an introduction to Command Line interface and Shell.
+
+00:01:38.629 --> 00:01:42.219
+Next, we move on to introduction to Python.
+
+00:01:42.219 --> 00:01:45.754
+Here, you will learn Python programming and be introduced
+
+00:01:45.754 --> 00:01:49.489
+to Python libraries, NumPy and pandas.
+
+00:01:49.489 --> 00:01:55.034
+This will set you up nicely for the tools you need for the data analyst nanodegree,
+
+00:01:55.034 --> 00:01:58.004
+which is the next course in the sequence.
+
+00:01:58.004 --> 00:02:02.795
+Finally, we will introduce you to Version Control and GitHub.
+
+00:02:02.795 --> 00:02:07.939
+This will be an exciting journey and you will not only gain valuable programming skills,
+
+00:02:07.939 --> 00:02:11.645
+but also gain a clear insight to all you can to accomplish.
+
+00:02:11.645 --> 00:02:13.159
+So, let's get started.
+

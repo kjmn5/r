@@ -1,0 +1,235 @@
+{
+  "data": {
+    "lesson": {
+      "id": 827020,
+      "key": "6679d10b-a00d-4732-8ac3-ce4f786f9c60",
+      "title": "The Life of the Data Scientist",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "In this lesson, you'll hear from a few data analysts and data scientists about what it's like to work in data analytics. ",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/6679d10b-a00d-4732-8ac3-ce4f786f9c60/827020/1553124553747/The+Life+of+the+Data+Scientist+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/6679d10b-a00d-4732-8ac3-ce4f786f9c60/827020/1553124551198/The+Life+of+the+Data+Scientist+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 692014,
+          "key": "1c9d161a-2eaa-4c7c-91e5-876fdd5122fe",
+          "title": "Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1c9d161a-2eaa-4c7c-91e5-876fdd5122fe",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 692015,
+              "key": "2ac8c240-b574-4844-b57b-c89aabb44d9b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Introduction to Industry Interviews\nSince this program is designed to help you begin or advance a career in data science, it's important to have a clear picture of what data analysts and data scientists do. In the next sections, you'll see a series of interviews with people in the industry talking about what they do and their careers. We have provided stories from people in several different industries to give you a range of perspectives.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 691625,
+          "key": "2d3b8cf1-9a4a-4c26-989d-7f98f43e2b81",
+          "title": "Caroline Zimmerman at BMG",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2d3b8cf1-9a4a-4c26-989d-7f98f43e2b81",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 691631,
+              "key": "e00d7478-338a-400b-991b-81fb895f2c90",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Caroline Zimmerman, Senior Director Data Insights & Analytics at BMG\nIn the following video, Caroline shares her  journey into data science. She describes her background was in English Literature and how she pursued an MBA and took online courses to pursue her fascinating journey into data science. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 692575,
+              "key": "38fa445e-cfc0-4dc8-a137-d89efbbd821e",
+              "title": "BMG Generic",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "JR1W531QK5c",
+                "china_cdn_id": "JR1W531QK5c.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 355117,
+          "key": "8d1f75c7-f3c1-4563-af90-fd6a15573e52",
+          "title": "Sinthuja Nagalingam at Summit Schools",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8d1f75c7-f3c1-4563-af90-fd6a15573e52",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 394981,
+              "key": "1623eb3b-8302-4ed1-96ca-d58a6ca657ad",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Sinthuja Nagalingam, Manager of Data Analytics at Summit Public Schools\n\nTake a look at the video below of Sinthuja explaining why she loves data analysis.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 394992,
+              "key": "4e397d49-f8ce-451d-b74a-ea2df8c31919",
+              "title": "Industry Interview Sinthuja",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "R5XBQ7dSz7w",
+                "china_cdn_id": "R5XBQ7dSz7w.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 692402,
+          "key": "38dd6325-5d92-471e-b79d-2124beb03663",
+          "title": "Mitchell Yerxa in Precision Farming",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "38dd6325-5d92-471e-b79d-2124beb03663",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 692413,
+              "key": "d0822618-88b6-4c76-b995-d2b2d2b10022",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Mitchell Yerxa, Farmer\nMitchell oversees his farm, and has been using data science tools to do precision farming. He describes how data informs not just his farming practices, but also the process chain and the various stakeholders, from the  front-end retailers to consumers. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 692406,
+              "key": "569d9934-2a4c-43e1-812f-a83bcb950ab5",
+              "title": "المزارع ميتش",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "liGQ2LknBmY",
+                "china_cdn_id": "liGQ2LknBmY.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 692016,
+          "key": "f2af7677-7929-4d88-b59e-a5cdf176726c",
+          "title": "Emily Peters at Uncommon Bold",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f2af7677-7929-4d88-b59e-a5cdf176726c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 692018,
+              "key": "80ea1fb6-9e4c-445b-88ee-cc1e35aca149",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Emily Peters, Brand Strategist and Founder at Uncommon Bold\nEmily is an entrepreneur with a communications background. She uses data analysis tools to help start-ups  craft a brand story. As she describes, data science can be about finding a simple idea to help companies succeed.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 692017,
+              "key": "351a16bd-5611-41bd-b8e6-79c5ba50e453",
+              "title": "Uncommon Bold",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "4Yen3Tj6J1c",
+                "china_cdn_id": "4Yen3Tj6J1c.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 691632,
+          "key": "3a2032d6-6445-452d-84af-750caf58dfc2",
+          "title": "Let's get YOU started!",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3a2032d6-6445-452d-84af-750caf58dfc2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 691633,
+              "key": "2f4392c6-0440-4340-8337-b7df071d8bbb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Let's get YOU started!!\n\nHopefully the stories shared by these data analysts and data scientists have motivated you as you begin on your own journey into the fields of data analysis and data science. As these individuals recount, anyone from any background, be it literature, education, and even communication can pursue and succeed in a career of data analysis and data science. The work that data analysts do also impacts humans in the real-world: across schools, non-profit organizations and industry, farming communities, consumers, and online communities of people.\n\nWe hope you feel motivated and excited about what you will be learning and what you will be able to do after completing this Nanodegree program. As you embark on this journey, feel free to revisit and listen to these stories again. If these people have made it, SO CAN YOU! \n\nLet's get started!!\n",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

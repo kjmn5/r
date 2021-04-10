@@ -1,0 +1,99 @@
+{
+  "data": {
+    "lesson": {
+      "id": 229391,
+      "key": "ccb09563-6c1d-4670-a904-a2e4aaea271b",
+      "title": "Nanodegree Career Services",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "The Careers team at Udacity is here to help you move forward in your career - whether it's finding a new job, exploring a new career path, or applying new skills to your current job.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/ccb09563-6c1d-4670-a904-a2e4aaea271b/229391/1581173317510/Nanodegree+Career+Services+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/ccb09563-6c1d-4670-a904-a2e4aaea271b/229391/1581173314690/Nanodegree+Career+Services+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 229392,
+          "key": "792f0fd7-68f7-4843-aefd-abf5cc43490d",
+          "title": "Meet the Careers Team",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "792f0fd7-68f7-4843-aefd-abf5cc43490d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 442242,
+              "key": "a48839d1-f8d5-4fb5-8076-88d24c716e33",
+              "title": "Meet the Careers Team",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "#### Resources\n\n* Explore [Your Career Portal](https://classroom.udacity.com/career/)\n* Find Your [Career Services](https://www.udacity.com/career-services)",
+              "video": {
+                "youtube_id": "cuKecPpZ7PM",
+                "china_cdn_id": "cuKecPpZ7PM.mp4"
+              }
+            },
+            {
+              "id": 728556,
+              "key": "993520a7-40e1-4534-bbf6-62e0fa8113d0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Career Service: No Resubmission Required\n\nIn this Nanodegree program, you can get personalized feedback on your LinkedIn and GitHub profiles. **Unlike other Nanodegree projects, you submit to a Career Service once to get feedback and do not need to meet specifications to continue on in your program.** \n\nThe value of Career Service reviews is not in meeting specifications on subjective rubric items, but in getting honest, personalized guidance from a Career Mentor. Learning from this guidance is what will guide you on the path to truly improving your job search materials. \n\n We highly encourage you to take advantage of this guidance. Most Alumni who report jobs and other opportunities (such as collaboration) attribute their success to networking.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 831981,
+          "key": "99232e4b-299c-40f5-a985-3162da96288e",
+          "title": "Career Services",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "99232e4b-299c-40f5-a985-3162da96288e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 831984,
+              "key": "56b803ea-52ec-4803-99d5-41aa3fef76c4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "You’re probably in this Nanodegree program to advance your career - whether looking for a new job, learning new skills for your current job, or just exploring.\n\nIf you want career support during your program, career coaches provide personalized feedback on your LinkedIn profile and GitHub as optional projects. \n\nIf you are actively looking for a new role, you can also submit your resume and cover letter in the sidebar under Help > Career Services.\n\nYou'll get honest, concise feedback from career coaches, including industry professionals.\n\nThe Udacity Careers team is here to help you figure out what you're looking for, plan for it, and work with you to move forward in your career. You can always contact us at <a href=\"mailto:career-support@udacity.com\" target=\"_blank\">career-support@udacity.com</a>.",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
